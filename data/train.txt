@@ -33,7 +33,6 @@
 ./data/garbage/251.17-Things-Garbage-Collectors-Want-You-to-Know_577341256-Y-Photo-Studio-760x506.jpg 0
 ./data/garbage/102.The-Great-Pacific-Garbage-Patch-is-now-twice-as-big-as-Texas-850x500-Earth.com_.jpg 0
 ./data/garbage/131.PIC_Auto_Garbage_stock_black_with_Curb_It_logo_340x240.jpg 0
-./data/garbage/10.67607685.jpg 0
 ./data/garbage/293.Waste_disposer.JPG 0
 ./data/garbage/211.bear_dead_garbage_can.jpg 0
 ./data/garbage/173.man-tgs-side-loading-garbage-truck--13680_1.jpg 0
@@ -48,7 +47,6 @@
 ./data/garbage/191.GARBAGE%20on%20road.jpg 0
 ./data/garbage/10.rock-waste-dump-landfill-348762-pxhere.com_.jpg 0
 ./data/garbage/163.trashing-trash.jpg 0
-./data/garbage/325.garbage-disposal.png 0
 ./data/garbage/335.garbage-photo.jpg 0
 ./data/garbage/169.SRX_Paper_Recycling_3_t1200.jpg 0
 ./data/garbage/164.home-slider.jpg 0
@@ -62,7 +60,6 @@
 ./data/garbage/156.636088649790091386-CO-Garbage-090716-B-Feat.jpg 0
 ./data/garbage/199.Thunder-Bay_city-services_interior_0024_Garbage-and-recycling-.jpg 0
 ./data/garbage/228.20180104-garbage-slime-inline.jpg 0
-./data/garbage/141.garbage-collection.png 0
 ./data/garbage/62.636088649749063123-CO-Garbage-090716-C-Feat.jpg 0
 ./data/garbage/27.12d7bfb9cc4824073090c6f58a648a61.jpeg 0
 ./data/garbage/83.2-Things-Garbage-Collectors-Want-You-to-Know_146632817-Dmitry-Kalinovsky.jpg 0
@@ -172,7 +169,6 @@
 ./data/garbage/195.garbage-in-honduras-students-cleaning-up.jpg 0
 ./data/garbage/39.lebanon-garbage-crisis.jpg 0
 ./data/garbage/105.131108101716-garbage-620xa2.jpg 0
-./data/garbage/261.garbage%20disposaljpg.jpg 0
 ./data/garbage/214.Ocean-Garbage-6.jpg 0
 ./data/garbage/80.11_7%20Days%20of%20Garbage_Ha%239C3688.jpg 0
 ./data/garbage/129.p37-garbage.jpg 0
@@ -191,7 +187,6 @@
 ./data/garbage/146.garbage-pickup.jpg.png 0
 ./data/garbage/59.RR_GarbageBin.jpg 0
 ./data/garbage/254.MV5BMjI0NTczMzkzMF5BMl5BanBnXkFtZTgwNTQ1Nzg3MTE@._V1_CR0,60,640,360_AL_UX477_CR0,0,477,268_AL_.jpg 0
-./data/garbage/291.image.jpg 0
 ./data/garbage/47.garbage-9178.jpg 0
 ./data/garbage/223.garbage.jpg 0
 ./data/garbage/41.recyclables-in-bags.jpg 0
@@ -214,7 +209,6 @@
 ./data/garbage/48.woman_-_beach_clean_up.jpg 0
 ./data/garbage/366.plastic-fragments.png 0
 ./data/garbage/275.garbage_containers.jpg 0
-./data/garbage/200.stoon-garbage-bins.bmp 0
 ./data/garbage/203.Garbage-Man-Alan-Miller-01.jpg 0
 ./data/garbage/295.garbage_pellets.jpg 0
 ./data/garbage/9.Garbage-Full_70908365_800.jpg 0
@@ -267,7 +261,6 @@
 ./data/garbage/104.lead_720_405.jpg 0
 ./data/garbage/262.theoceangarb.jpg 0
 ./data/garbage/20.pile-garbage-transfer-station.jpg 0
-./data/garbage/36.garbage%20waste.jpg 0
 ./data/garbage/133.garbage-in-honduras-more-roadside-trash.jpg 0
 ./data/garbage/2.shutterstock-712781533.jpg 0
 ./data/garbage/371.reusable-plastic-bottle-garbage-1068x600.jpg 0
@@ -435,7 +428,6 @@
 ./data/famine/193.famine3-box.jpg 1
 ./data/famine/219.0318-na-famine-aid.jpg 1
 ./data/famine/64.1518811150.jpeg 1
-./data/famine/95.South_Sudan_Facing_Famine_44698-5b3a6-0241.jpg 1
 ./data/famine/368.171208-kim-jong-un-0535_2732d0cbe8d537435c1d7b947ebd70a3.fit-760w.jpg 1
 ./data/famine/138.featured-skull.jpg 1
 ./data/famine/55.220px-Soviet_famine_children.jpg 1
@@ -483,7 +475,6 @@
 ./data/famine/30.Famine_Refugees_Hunger_Representational_Image_Pixabay_3x2.jpg 1
 ./data/famine/274.yourstory-famine-conflict-africa.jpg 1
 ./data/famine/252.3500.jpg 1
-./data/famine/160.famine-sculptures-on-custom-house-260nw-1145602676.jpg 1
 ./data/famine/279.boygathersgrass.jpg 1
 ./data/famine/315.once-famine-stricken-ethiopia-has-many-lessons-for-a-country-like-india.jpg 1
 ./data/famine/172.sheeran.jpg 1
@@ -491,7 +482,6 @@
 ./data/famine/26.bengalfamine-kTUH--621x414@LiveMint.jpg 1
 ./data/famine/296.irishfamine3.jpg 1
 ./data/famine/328.40-hour-famine-2018-backpacks.jpg 1
-./data/famine/188.south-sudan-spreading-famine.jpg 1
 ./data/famine/60.yourstory-Bengal-famine-featured.jpg 1
 ./data/famine/356.photo-famine-a-optimised.jpg 1
 ./data/famine/18.18HARI-jumbo.jpg 1
@@ -570,7 +560,6 @@
 ./data/famine/365.161130111312-sudan-internally-displaced-people-super-tease.jpg 1
 ./data/famine/301.image.jpg 1
 ./data/famine/360.famine23.jpg 1
-./data/famine/100.par6476306.jpg 1
 ./data/famine/20.170px-Famine_in_India_Natives_Waiting_for_Relief_in_Bangalore.jpg 1
 ./data/famine/282.32803581590_1aa3509dc4_o_opt.jpg 1
 ./data/famine/351.3136988_sq-83df7cdf8dc93ce1d396a5530a0bc319e6e1d77b-s800-c85.jpg 1
@@ -657,7 +646,6 @@
 ./data/famine/206.famine-bengal.jpg 1
 ./data/famine/40.Engraving-FamineRelief-China.gif 1
 ./data/cut_throat/161.wct-d--kenney-2.png 2
-./data/cut_throat/46.framsida.jpg 2
 ./data/cut_throat/108.straight-razor-terminology.jpg 2
 ./data/cut_throat/3.Cut_Throat__2_6_1024x1024.JPG 2
 ./data/cut_throat/170.CustomComfortWebsiteByCutThroatMarketing.jpg 2
@@ -674,7 +662,6 @@
 ./data/cut_throat/211.image.jpg 2
 ./data/cut_throat/309.logo_op_585x600.jpg 2
 ./data/cut_throat/329.brk-1.jpg 2
-./data/cut_throat/132.DSC_0904__00785.1522295038.JPG 2
 ./data/cut_throat/91.220px-Cutthroat_island_ver2.jpg 2
 ./data/cut_throat/208.maxresdefault.jpg 2
 ./data/cut_throat/204.Vintage-Cut-Throat-Straight-Razor-Solid-Wood-Stainless-Steel-Combo-Handle-Bristle-Shaving-Brush-Natural-Whetstone-and-Wooden-Box-Set-650x650.jpg 2
@@ -689,7 +676,6 @@
 ./data/cut_throat/80.Blade_blade-cut-throat-razor-shave-shavingsharp-barber-84.png 2
 ./data/cut_throat/310.cx-1.jpg 2
 ./data/cut_throat/311.812x1200_13.jpg 2
-./data/cut_throat/290.Skull1.jpg 2
 ./data/cut_throat/48.Yellowstone_Cutthroat_Trout.jpg 2
 ./data/cut_throat/61.fishing-native-species-New-Mexico-Rio-Grande-Cutthroat-Trout-Pecos-River-watershed.jpg 2
 ./data/cut_throat/116.swathi-murder.jpg 2
@@ -729,7 +715,6 @@
 ./data/cut_throat/268.20170323_105704.png 2
 ./data/cut_throat/94.male-cutthroat.jpg 2
 ./data/cut_throat/334.image.jpg 2
-./data/cut_throat/49.tenor.gif 2
 ./data/cut_throat/258.BCT-teeth.jpg 2
 ./data/cut_throat/89.greenback.gif 2
 ./data/cut_throat/6.EgyptJOtolaryngol_2014_30_3_268_138493_f8.jpg 2
@@ -807,12 +792,9 @@
 ./data/cut_throat/140.ModernCutthroats.jpg 2
 ./data/cut_throat/30.cut-throat-appliance-1.jpg 2
 ./data/cut_throat/90.hqdefault.jpg 2
-./data/cut_throat/278.DSC_1090__27735.1529123590.JPG 2
 ./data/cut_throat/337.CuttSlamLogo-official-grey.png 2
 ./data/cut_throat/79.cut-throat-finch.jpg 2
-./data/cut_throat/221.Ship2.jpg 2
 ./data/cut_throat/104.IMG_0157.JPG 2
-./data/cut_throat/138.tenor.gif 2
 ./data/cut_throat/277.cutthroat2.jpeg 2
 ./data/cut_throat/70.dovo-26810-bismarck2-800x800.jpg 2
 ./data/cut_throat/349.postcard-6.5inx8in-h-eddm-back.jpg 2
@@ -865,7 +847,6 @@
 ./data/cut_throat/239.KK+0615_086_10x300%5B2%5D%5B1%5D%5B1%5D.JPG 2
 ./data/cut_throat/212.il_570xN.1375651534_i9a4.jpg 2
 ./data/cut_throat/164.bear-lake-cutthroat-gg.jpg 2
-./data/cut_throat/86.tenor.gif 2
 ./data/cut_throat/336.campbell-river-cutthroat.JPG 2
 ./data/cut_throat/97.logo.png 2
 ./data/cut_throat/297.sand-creek.jpg 2
@@ -894,7 +875,6 @@
 ./data/cut_throat/105.cutthroat_yellowstone.jpg 2
 ./data/cut_throat/50.SUN_GIRLS_THORAT_THUMB_191117.jpg 2
 ./data/cut_throat/322.Cutthroat-Trout-Identification.jpg 2
-./data/cut_throat/107.Gm6pr7d.gif 2
 ./data/cut_throat/27.man-groom-shave.jpg 2
 ./data/cut_throat/184.ama-80-shaper-razor_t.jpg 2
 ./data/cut_throat/304.3eca9f_03b92f1ecacf42c49e9791a99abc5d80~mv2_d_3252_3252_s_4_2.jpg 2
@@ -948,7 +928,6 @@
 ./data/cut_throat/262.chriscut2onmf.JPG 2
 ./data/cut_throat/361.RainbowTroutHybrid_medium.jpg 2
 ./data/cut_throat/296.Shopify_GreenbackCutthroat_Print_grande.jpg 2
-./data/cut_throat/362.GOLDDJ__39029.1518494496.jpg 2
 ./data/cut_throat/14.hqdefault.jpg 2
 ./data/cut_throat/219.michael_hadley_4-11-2016_Colorado_River_cutthroat_trout.jpg 2
 ./data/cut_throat/126.Mayan1.jpg 2
@@ -996,10 +975,7 @@
 ./data/cut_throat/2.conservation-native-species-New-Mexico-distribution-Rio-Grande-Cutthroat-Trout.png 2
 ./data/cut_throat/299.1485524948746.jpeg 2
 ./data/cut_throat/344.Rainbow-Trout-Identification.jpg 2
-./data/cut_throat/210.s-l1600__21454.1517805484.jpg 2
 ./data/cut_throat/274.TWL_Coastal_Cutthroat_Sea_VI-2-672x372.jpg 2
-./data/cut_throat/166.DSC_1081__63410.1529123855.JPG 2
-./data/cut_throat/151.skeleton2a.jpg 2
 ./data/cut_throat/152.51YRcaMbTjL._AC_UL320_SR212,320_.jpg 2
 ./data/cut_throat/240.Historical-range-of-cutthroat-trout-and-sampling-localities-Sampling-locations-of.jpg 2
 ./data/cut_throat/160.All-Over-Clipper-Cut-with-Cut-Throat-Shave.jpg 2
@@ -1110,7 +1086,6 @@
 ./data/cut_wrist/270.chirophobia.jpg 3
 ./data/cut_wrist/201.cut-for-love-ar-wrist-hand-5.jpg 3
 ./data/cut_wrist/163.wrist-tattoo-1.jpg 3
-./data/cut_wrist/200.hand-full-blood-wrist-cut-260nw-785968804.jpg 3
 ./data/cut_wrist/123.346422_v2.jpg 3
 ./data/cut_wrist/290.suicide-in-bathtub_ejp35okn__F0000.png 3
 ./data/cut_wrist/91.0514c1824a130668954209c49f3c717ffd9786.jpg 3
@@ -1222,7 +1197,6 @@
 ./data/cut_wrist/169.justin-wrist-cut-fake-or-real-justin-bieber-27234031-962-691.jpg 3
 ./data/cut_wrist/31.wp-image-395614515.jpg 3
 ./data/cut_wrist/125.stock-photo-deep-laceration-cut-652492573.jpg 3
-./data/cut_wrist/199.main-qimg-a90738c4f202604730862a3b18684efd.webp 3
 ./data/cut_wrist/226.Cut-Laceration.jpg 3
 ./data/cut_wrist/180.Scissor-Cut-Tattoo-On-Wrist-For-Men.jpg 3
 ./data/cut_wrist/7.cut_wrist_by_fxjaguar-d71j84h.jpg 3
@@ -1245,7 +1219,6 @@
 ./data/garbage_everywhere/197.Wine%2BBottles%2Beverywhere.jpg 4
 ./data/garbage_everywhere/299.pbl.png 4
 ./data/garbage_everywhere/4.rubbish-dump-pile-of-domestic-garbage-background-large-heap-of-garbage-FE24M5.jpg 4
-./data/garbage_everywhere/75.maharashtra-times.jpg 4
 ./data/garbage_everywhere/323.garbage-everywhere.jpg 4
 ./data/garbage_everywhere/204.kids-recycling_tif.jpg 4
 ./data/garbage_everywhere/269.d87hmd1-e23262ab-3a19-4416-96be-aca68acf15b5.png 4
@@ -1256,7 +1229,6 @@
 ./data/garbage_everywhere/105.46489422_303.jpg 4
 ./data/garbage_everywhere/93.17792620_10208899192149309_1978192451_n.jpg 4
 ./data/garbage_everywhere/304.MDG--Sanitation-in-Haiti--008.jpg 4
-./data/garbage_everywhere/276.art10250.13318.t1.0.jpg 4
 ./data/garbage_everywhere/24.cow-plastics-polluted-area-walking-garbage-everywhere-trash-105874553.jpg 4
 ./data/garbage_everywhere/336.126354-3f10819ef76bd7f52599a65fcb8128c6.jpg 4
 ./data/garbage_everywhere/244.q44u5swxriv01.png 4
@@ -1270,7 +1242,6 @@
 ./data/garbage_everywhere/92.afptempdumpsite.jpg 4
 ./data/garbage_everywhere/305.garbagecooker-200x200.jpg 4
 ./data/garbage_everywhere/302.buys_trash.png 4
-./data/garbage_everywhere/100.Germ_City.jpg 4
 ./data/garbage_everywhere/23.garbage_3.jpg 4
 ./data/garbage_everywhere/268.240_F_240131750_I3MelBOiHSlSuusO6oJn58XoYsJXR9ha.jpg 4
 ./data/garbage_everywhere/145.img_2327-1.jpg 4
@@ -1280,7 +1251,6 @@
 ./data/garbage_everywhere/182.img_2327-1.jpg 4
 ./data/garbage_everywhere/283.garbage.jpg 4
 ./data/garbage_everywhere/151.screen_shot_2016-04-04_at_3.03.35_pm_p3116412.jpg 4
-./data/garbage_everywhere/144.292-2920539_travel-royalty-free-vector-clip-art-illustration-people-throwing-garbage-everywhere-cartoon.png 4
 ./data/garbage_everywhere/103.pic_article_six.jpg 4
 ./data/garbage_everywhere/205.hqdefault.jpg 4
 ./data/garbage_everywhere/254.throwing-garbage-in-the-river-clipart-black-and-white-3.jpg 4
@@ -1290,7 +1260,6 @@
 ./data/garbage_everywhere/228.640px-sunset_at_godavri_news_featured.jpg 4
 ./data/garbage_everywhere/123.Garbage-25-e1324835775177.jpg 4
 ./data/garbage_everywhere/48.22519449-mmmain.jpg 4
-./data/garbage_everywhere/189.photo.jpg 4
 ./data/garbage_everywhere/211.DSC_0002.jpg 4
 ./data/garbage_everywhere/337.IMG_7159.jpg 4
 ./data/garbage_everywhere/297.03-8951-1555243069-1555262691-4124-1555262739_1200x0.png 4
@@ -1299,14 +1268,12 @@
 ./data/garbage_everywhere/94.dump3.jpg 4
 ./data/garbage_everywhere/39.17793027_10208899190469267_1699221523_n.jpg 4
 ./data/garbage_everywhere/270.10bruni1web-articleLarge.jpg 4
-./data/garbage_everywhere/124.66032618.jpg 4
 ./data/garbage_everywhere/64.garbage_everywhere_by_juliegrissom_d96rx2n-250t.jpg 4
 ./data/garbage_everywhere/63.cfc84a0853d6c28fdca3bc836c0a77d2f77353ff7be70c06c59efde927b81beb.jpg 4
 ./data/garbage_everywhere/294.bon-jus-2-000-ll-001-12-1-5-281021-001121-81021-7187142.png 4
 ./data/garbage_everywhere/261.2076104_orig.jpg 4
 ./data/garbage_everywhere/35.Cholera.jpg 4
 ./data/garbage_everywhere/214.cf2b930a-dad5-4a53-9801-69e232fa3cc3-medium16x9_A_bear_in_the_neighbor_s_garbage_656708297990926.jpg 4
-./data/garbage_everywhere/178.trash.gif 4
 ./data/garbage_everywhere/245.24-Ghantay-Garbage-Everywhere-in-Karachi-10-September-2018-Express-News-780x405.jpg 4
 ./data/garbage_everywhere/258.garbage-everywhere-dumaguete-20160507.jpg 4
 ./data/garbage_everywhere/171.old.jpg 4
@@ -1320,7 +1287,6 @@
 ./data/garbage_everywhere/148.IMG_1316.jpg 4
 ./data/garbage_everywhere/332.litter_can1.jpg 4
 ./data/garbage_everywhere/199.garbage-dump-manila-phillipines.jpg 4
-./data/garbage_everywhere/125.inlaid-garbage-everywhere-46581066.png 4
 ./data/garbage_everywhere/306.CMy7KrBXAAAEl2q.jpg 4
 ./data/garbage_everywhere/128.87514.ngsversion.1465407024514.adapt.1900.1.jpg 4
 ./data/garbage_everywhere/130.a2684067937_10.jpg 4
@@ -1334,7 +1300,6 @@
 ./data/garbage_everywhere/343.01.JPG 4
 ./data/garbage_everywhere/229.IMG_7303-s-min.jpg 4
 ./data/garbage_everywhere/58.garbage-everywhere.jpg 4
-./data/garbage_everywhere/36.Garbage-garbage-everywhere.jpg 4
 ./data/garbage_everywhere/209.167379-garbage-everywhere.jpg 4
 ./data/garbage_everywhere/33.file71fr2y76b869cv4jeya1534193.jpg 4
 ./data/garbage_everywhere/172.B4F0D36E-2EFA-4886-9376-5336BA7CA2B5-1024x768.jpeg 4
@@ -1349,7 +1314,6 @@
 ./data/garbage_everywhere/110.Angola-Has-Garbage-Everywhere-Yet-they-Do-have-Garbage-Truck-1-1030x772.jpg 4
 ./data/garbage_everywhere/84.C_8W2UnVYAAnF_W.jpg 4
 ./data/garbage_everywhere/265.DSCN3016.jpg 4
-./data/garbage_everywhere/43.2111f9de-c79c-4dea-a728-2f92e1f11101_a2a25bf3-1b9c-41db-8eeb-894acb0c6c41.png 4
 ./data/garbage_everywhere/277.bali%2Btrash.jpg 4
 ./data/garbage_everywhere/116.3K_rubble_in_front_of_home_medium.jpg 4
 ./data/garbage_everywhere/309.cam_house_garbage_1173x798.jpg 4
@@ -1372,7 +1336,6 @@
 ./data/garbage_everywhere/96.Waste_Bhopal_0.jpg 4
 ./data/garbage_everywhere/326.GARBAGE_EVERYWHERE_(SHE_TOR19JSK_tnb_4.jpg 4
 ./data/garbage_everywhere/78.thumb_wide_300.jpg 4
-./data/garbage_everywhere/98.vNkZPcv.gif 4
 ./data/garbage_everywhere/201.165944-5a332da015cb6_yuck.jpg 4
 ./data/garbage_everywhere/206.Rajasthan-2013.10.18-Amber-43.jpg 4
 ./data/garbage_everywhere/17.1HT10-8.jpg 4
@@ -1383,7 +1346,6 @@
 ./data/garbage_everywhere/11.Its_garbag.jpg 4
 ./data/garbage_everywhere/191.bags.jpg 4
 ./data/garbage_everywhere/81.05-13-20141.jpg 4
-./data/garbage_everywhere/285.The-smell-of-garbage-everywhere-You-can-have-the-perfect-apartment-walk-outside-and-just-be-hit-with-the-most-nauseating-smell-Carrieanne-Reichardt-25.jpg 4
 ./data/garbage_everywhere/55.51.-Garbage-everywhere.jpg 4
 ./data/garbage_everywhere/290.PS_MetalStraw_1.jpg 4
 ./data/garbage_everywhere/239.Garbage-Clinical-Insurance3-750x422.jpg 4
@@ -1410,9 +1372,7 @@
 ./data/garbage_everywhere/65.poor-buildings-in-front-of-modern-shanghai-garbage-everywhere-on-the-DG5XPG.jpg 4
 ./data/garbage_everywhere/322.50C0C69100000578-6217157-When_she_arrived_at_the_home_Ms_Zhao_found_the_2_2million_proper-a-4_1538106673183.jpg 4
 ./data/garbage_everywhere/271.garbage-everywhere-dumaguete-20160507.jpg 4
-./data/garbage_everywhere/117.photo.jpg 4
 ./data/garbage_everywhere/90.20100706_baghdadchildrentrash.jpg 4
-./data/garbage_everywhere/252.x9g98743.jpg 4
 ./data/garbage_everywhere/3.Umuahia-captain-road-702x336.jpg 4
 ./data/garbage_everywhere/115.BUZZ-5-3-2018.jpg 4
 ./data/garbage_everywhere/7.170229-nizmpet.jpg 4
@@ -1423,7 +1383,6 @@
 ./data/garbage_everywhere/66.Garbage-land%20filling.jpg 4
 ./data/garbage_everywhere/69.48569_thump.jpg 4
 ./data/garbage_everywhere/222.bharari-garbage-2.jpg 4
-./data/garbage_everywhere/223.main-qimg-f4a5f0e71ac52efde6357e7113bd0515.webp 4
 ./data/garbage_everywhere/257.d87hmd1-e23262ab-3a19-4416-96be-aca68acf15b5.png 4
 ./data/garbage_everywhere/331.qNCMdey.png 4
 ./data/garbage_everywhere/237.Garbage-from-Window_o-1024x590.jpg 4
@@ -1443,7 +1402,6 @@
 ./data/garbage_everywhere/13.2015_07_02_16_43_13.jpg 4
 ./data/garbage_everywhere/5.06x-ysp1_0.jpg 4
 ./data/garbage_everywhere/15.garbage-mountains-in-beirut-e1437543501696.jpg 4
-./data/garbage_everywhere/91.41ESXZK8HCL._SX258_BO1,204,203,200_.jpg 4
 ./data/garbage_everywhere/181.IMG_0193-225x300.jpg 4
 ./data/garbage_everywhere/264.x9g98743.jpg 4
 ./data/garbage_everywhere/296.mqdefault.jpg 4
@@ -1452,7 +1410,6 @@
 ./data/garbage_everywhere/40.maxresdefault.jpg 4
 ./data/garbage_everywhere/60.garbageondoy3.jpg 4
 ./data/garbage_everywhere/317.1306.jpg 4
-./data/garbage_everywhere/113.beach-garbage-2.jpg 4
 ./data/garbage_everywhere/95.275491093_6188903da2_z.jpg 4
 ./data/garbage_everywhere/324.IMG_0875.jpg 4
 ./data/garbage_everywhere/62.throwing-garbage-everywhere-clipart-5.jpg 4
@@ -1482,12 +1439,10 @@
 ./data/garbage_everywhere/187.635539134117729804-AP-Ocean-Junk.jpg 4
 ./data/garbage_everywhere/221.tonsai-6598.jpg 4
 ./data/garbage_everywhere/301.g25.jpg 4
-./data/garbage_everywhere/334.source.gif 4
 ./data/garbage_everywhere/256.240_F_240131750_I3MelBOiHSlSuusO6oJn58XoYsJXR9ha.jpg 4
 ./data/garbage_everywhere/288.6f5469f7-67d4-4a6f-8344-bd13f844108e_ORIGINAL.jpg 4
 ./data/garbage_everywhere/152.8ec58acf-b372-49aa-9f31-11d425d2b156_ORIGINAL.jpg 4
 ./data/garbage_everywhere/207.garbage-garbage-everywhere.jpg 4
-./data/garbage_everywhere/217.poem-on-garbage-1-728.jpg 4
 ./data/garbage_everywhere/73.z_p13-Uncleared.jpg 4
 ./data/garbage_everywhere/312.53123440_315008825870400_1906395611764627489_n.jpg 4
 ./data/garbage_everywhere/25.63604926.jpg 4
@@ -1498,7 +1453,6 @@
 ./data/garbage_everywhere/188.392212_19884709-l.jpg 4
 ./data/garbage_everywhere/216.caption_9633833.jpg 4
 ./data/garbage_everywhere/176.trash_0.jpg 4
-./data/garbage_everywhere/99.litterinthebin.jpg 4
 ./data/garbage_everywhere/342.32905BEB00000578-0-image-a-36_1458958154163.jpg 4
 ./data/garbage_everywhere/227.garbage-everywhere-in.jpg 4
 ./data/garbage_everywhere/263.Opinion.png 4
@@ -1506,7 +1460,6 @@
 ./data/garbage_everywhere/179.trash_0.jpg 4
 ./data/garbage_everywhere/1.garbage1.jpg 4
 ./data/garbage_everywhere/70.the-second-law-1191825-638x427.jpg 4
-./data/garbage_everywhere/135.d8b72677-566a-493e-ac81-ce06dfbae686.jpeg 4
 ./data/garbage_everywhere/134.depositphotos_36020607-stock-photo-garbage-everywhere.jpg 4
 ./data/garbage_everywhere/72.3t4usoenfrt21.jpg 4
 ./data/garbage_everywhere/29.garbage-everywhere-shenzhen-baoan-xixiang-china-47063555.jpg 4
@@ -1520,10 +1473,7 @@
 ./data/garbage_everywhere/198.08f1a97f240485824145122dfca03eea.jpg 4
 ./data/garbage_everywhere/318.fullsizerender-92.jpg 4
 ./data/garbage_everywhere/50.img-20180210-wa0005-_021018034128.png 4
-./data/garbage_everywhere/314.garbage-everywhere-green-grass-260nw-1281691582.jpg 4
 ./data/garbage_everywhere/42.4CE457E100000578-5802189-image-a-63_1528118999676.jpg 4
-./data/garbage_everywhere/97.007333375_1-0fff5d77b60ef3a4b367f850595c264b.png 4
-./data/garbage_everywhere/328.main-qimg-36d10eef47af50112424a3c5e2a11c6e.webp 4
 ./data/garbage_everywhere/57.garbage-garbage-everywhere-e1440840564600.jpeg 4
 ./data/garbage_everywhere/339.shadawehbetwitt.jpg 4
 ./data/garbage_everywhere/321.cow-trashy-anjuna.jpg 4
@@ -1533,9 +1483,7 @@
 ./data/garbage_everywhere/165.lake-okanagan-resort.jpg 4
 ./data/garbage_everywhere/184.taman-daya-rubbish-se06.jpg 4
 ./data/garbage_everywhere/273.e926osvlh7cosmebdr69.jpg 4
-./data/garbage_everywhere/175.trash.gif 4
 ./data/garbage_everywhere/146.o.jpg 4
-./data/garbage_everywhere/247.garbage-everywhere-green-grass-260nw-1281691582.jpg 4
 ./data/garbage_everywhere/272.IMG_4090-1024x768.jpg 4
 ./data/garbage_everywhere/289.o.jpg 4
 ./data/garbage_everywhere/77.bay.jpg 4
@@ -1543,7 +1491,6 @@
 ./data/garbage_everywhere/340.afp-20190516-plastic-cocos-islands.jpg 4
 ./data/garbage_everywhere/213.garbage-patch--model.png 4
 ./data/garbage_everywhere/250.1306.jpg 4
-./data/garbage_everywhere/153.photo.jpg 4
 ./data/garbage_everywhere/154.house-on-stilts-stock-photography__k33476090.jpg 4
 ./data/garbage_everywhere/53.garbage-disposal2-copy.jpg 4
 ./data/garbage_everywhere/30.It%E2%80%99s_garbage_everywhere.jpg 4

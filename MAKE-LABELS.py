@@ -25,6 +25,7 @@ class main():
     def makeLabels(self):
         with open(TRAIN_PATH,'w') as f:
             for i in range(len(self.data)):
+                print(len(self.data[i]))
                 for j in range(len(self.data[i])):
                     f.write(self.data[i][j] + ' ' + str(i) + '\n')
                     # f.write()

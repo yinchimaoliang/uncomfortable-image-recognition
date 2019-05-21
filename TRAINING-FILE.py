@@ -26,10 +26,12 @@ class MyDataset(Dataset):
             # print(self.label_lists)
     def __getitem__(self, index):
         img = Image.open(self.img_lists[index])
+        img = img.convert('RGB')
         img = img.resize((32,32))
         img = self.transforms(img)
         # img = img[np.newaxis,:,:]#add dimention
         label = torch.LongTensor([self.label_lists[index]])
+        # print(self.img_lists[index],img.shape)
         return img,label
 
     def __len__(self):
@@ -50,7 +52,7 @@ class MAIN():
         self.net = ResNet18(num_classes = 5).to(self.device)
         self.criterion = nn.CrossEntropyLoss()
         self.optimizer = optim.SGD(self.net.parameters(),lr = LR,momentum = 0.9,weight_decay = 5e-4)
-
+        print(len(self.train_loader))
 
     def train(self):
         for epoch in range(EPOCH):
@@ -58,22 +60,22 @@ class MAIN():
             sum_loss = 0.0
             correct = 0.0
             total = 0.0
-            for i, data in enumerate(self.train_loader, 0):
+            for i, data in enumerate(self.train_loader):
                 length = len(self.train_loader)
                 inputs, labels = data
                 inputs, labels = inputs.to(self.device), labels.to(self.device)
                 self.optimizer.zero_grad()
                 outputs = self.net(inputs)
-                print(outputs.shape)
-                loss = self.criterion(outputs, labels)
+                # print(outputs.shape)
+                loss = self.criterion(outputs, torch.max(labels, 1)[1])
                 loss.backward()
                 self.optimizer.step()
                 sum_loss += loss.item()
                 _, predicted = torch.max(outputs.data, 1)
                 total += labels.size(0)
                 correct += predicted.eq(labels.data).cpu().sum()
-            print('[epoch:%d, iter:%d] Loss: %.03f | Acc: %.3f%% ' % (
-            epoch + 1, (i + 1 + epoch * length), sum_loss / (i + 1), 100. * correct / total))
+                print('[epoch:%d, iter:%d] Loss: %.03f | Acc: %.3f%% ' % (
+                epoch + 1, (i + 1 + epoch * length), sum_loss / (i + 1), 100. * correct / total))
 
 
     def mainFunc(self):
