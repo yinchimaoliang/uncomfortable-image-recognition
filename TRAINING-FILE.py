@@ -48,11 +48,12 @@ class MAIN():
             transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
         ])
         self.train_set = MyDataset(train_path,transforms = self.transform_train)
-        self.train_loader = torch.utils.data.DataLoader(self.train_set,batch_size = BATCH_SIZE)
+        self.train_loader = torch.utils.data.DataLoader(self.train_set,batch_size = BATCH_SIZE,shuffle = True)
         self.net = ResNet18(num_classes = 5).to(self.device)
         self.criterion = nn.CrossEntropyLoss()
         self.optimizer = optim.SGD(self.net.parameters(),lr = LR,momentum = 0.9,weight_decay = 5e-4)
         print(len(self.train_loader))
+
 
     def train(self):
         for epoch in range(EPOCH):
@@ -66,14 +67,22 @@ class MAIN():
                 inputs, labels = inputs.to(self.device), labels.to(self.device)
                 self.optimizer.zero_grad()
                 outputs = self.net(inputs)
+                # print(outputs)
                 # print(outputs.shape)
-                loss = self.criterion(outputs, torch.max(labels, 1)[1])
+                loss = self.criterion(outputs, labels.flatten())
+                # print(labels.flatten())
+                # print(torch.max(labels, 1)[1])
                 loss.backward()
                 self.optimizer.step()
                 sum_loss += loss.item()
                 _, predicted = torch.max(outputs.data, 1)
+                print(predicted)
+                print(labels)
                 total += labels.size(0)
+                # print(labels)
                 correct += predicted.eq(labels.data).cpu().sum()
+                # print(correct.shape)
+                # print("correct:" + str(correct))
                 print('[epoch:%d, iter:%d] Loss: %.03f | Acc: %.3f%% ' % (
                 epoch + 1, (i + 1 + epoch * length), sum_loss / (i + 1), 100. * correct / total))
 

@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aefb6f5-4148-464a-bb17-cacc434cfb57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MAKE-LABELS.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAKE-LABELS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TRAINING-FILE.py" beforeDir="false" afterPath="$PROJECT_DIR$/TRAINING-FILE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/107.Gm6pr7d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/132.DSC_0904__00785.1522295038.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/138.tenor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/151.skeleton2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/166.DSC_1081__63410.1529123855.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/210.s-l1600__21454.1517805484.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/221.Ship2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/278.DSC_1090__27735.1529123590.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/290.Skull1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/362.GOLDDJ__39029.1518494496.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/46.framsida.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/49.tenor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_throat/86.tenor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/199.main-qimg-a90738c4f202604730862a3b18684efd.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/200.hand-full-blood-wrist-cut-260nw-785968804.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/famine/100.par6476306.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/famine/160.famine-sculptures-on-custom-house-260nw-1145602676.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/famine/188.south-sudan-spreading-famine.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/famine/95.South_Sudan_Facing_Famine_44698-5b3a6-0241.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/10.67607685.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/141.garbage-collection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/200.stoon-garbage-bins.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/261.garbage%20disposaljpg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/291.image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/325.garbage-disposal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/36.garbage%20waste.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/100.Germ_City.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/113.beach-garbage-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/117.photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/124.66032618.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/125.inlaid-garbage-everywhere-46581066.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/135.d8b72677-566a-493e-ac81-ce06dfbae686.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/144.292-2920539_travel-royalty-free-vector-clip-art-illustration-people-throwing-garbage-everywhere-cartoon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/153.photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/175.trash.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/178.trash.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/189.photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/217.poem-on-garbage-1-728.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/223.main-qimg-f4a5f0e71ac52efde6357e7113bd0515.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/247.garbage-everywhere-green-grass-260nw-1281691582.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/252.x9g98743.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/276.art10250.13318.t1.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/285.The-smell-of-garbage-everywhere-You-can-have-the-perfect-apartment-walk-outside-and-just-be-hit-with-the-most-nauseating-smell-Carrieanne-Reichardt-25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/314.garbage-everywhere-green-grass-260nw-1281691582.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/328.main-qimg-36d10eef47af50112424a3c5e2a11c6e.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/334.source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/36.Garbage-garbage-everywhere.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/43.2111f9de-c79c-4dea-a728-2f92e1f11101_a2a25bf3-1b9c-41db-8eeb-894acb0c6c41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/75.maharashtra-times.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/91.41ESXZK8HCL._SX258_BO1,204,203,200_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/97.007333375_1-0fff5d77b60ef3a4b367f850595c264b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/98.vNkZPcv.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage_everywhere/99.litterinthebin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,20 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="346">
+              <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -90,10 +25,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/cut_throat/1.ff_piratehelp_negotiate.gif">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/cut_throat/2.conservation-native-species-New-Mexico-distribution-Rio-Grande-Cutthroat-Trout.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MYRESNET.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state relative-caret-position="105">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding>
                 <element signature="e#85#97#0" expanded="true" />
               </folding>
@@ -144,11 +89,6 @@
             <path>
               <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,7 +182,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -284,27 +223,51 @@
     <entry file="file://$PROJECT_DIR$/data/garbage/325.garbage-disposal.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MYRESNET.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="105">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="e#85#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/data/cut_throat/1.ff_piratehelp_negotiate.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cut_wrist/1.cut_wrist_prosthetic__68650.1361370904.1280.1280.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cut_wrist/3.83938332-hand-full-of-blood-and-wrist-cut-on-white-fabric-represent-feeling-hurt-bad-relationship-concept-.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cut_throat/7.type_body_4_web2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cut_throat/6.EgyptJOtolaryngol_2014_30_3_268_138493_f8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cut_throat/5.Cut_Throat__1_2__640x427_7a817f59-e4b5-4129-bd3c-c40665b22d99_large.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cut_throat/3.Cut_Throat__2_6_1024x1024.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cut_throat/2.conservation-native-species-New-Mexico-distribution-Rio-Grande-Cutthroat-Trout.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="346">
+          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
