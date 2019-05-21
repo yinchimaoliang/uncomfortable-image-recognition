@@ -20,7 +20,7 @@ class main():
         for fold_name in self.folds:
             path = DATASET_PATH + '/' + fold_name
             print(path)
-            self.data.append(['.' + path[6:] + '/' + i for i in os.listdir(path)])
+            self.data.append([DATASET_PATH + path[6:] + '/' + i for i in os.listdir(path)])
 
     def makeLabels(self):
         with open(TRAIN_PATH,'w') as f:

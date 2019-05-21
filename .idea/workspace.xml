@@ -2,9 +2,902 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aefb6f5-4148-464a-bb17-cacc434cfb57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MYRESNET.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TRAINING-FILE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MAKE-LABELS.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAKE-LABELS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/1.ff_piratehelp_negotiate.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/1.ff_piratehelp_negotiate.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/10.CUTTHROAT_Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/10.CUTTHROAT_Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/100.chum-bodys-baby-sea-run-cutthroat-fly_1024x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/100.chum-bodys-baby-sea-run-cutthroat-fly_1024x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/101.cutthroat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/101.cutthroat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/102.CTC-Barbers-fp-1168x647.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/102.CTC-Barbers-fp-1168x647.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/103.Cutthroat-107-290x180.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/103.Cutthroat-107-290x180.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/104.IMG_0157.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/104.IMG_0157.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/105.cutthroat_yellowstone.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/105.cutthroat_yellowstone.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/106.BLAC-5_2048x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/106.BLAC-5_2048x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/107.Gm6pr7d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/107.Gm6pr7d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/108.straight-razor-terminology.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/108.straight-razor-terminology.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/109.1377612940704.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/109.1377612940704.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/11.cut-throat-razor1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/11.cut-throat-razor1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/110.902-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/110.902-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/111.Cut-throat-vs-Shavette.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/111.Cut-throat-vs-Shavette.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/112.20140708_1433211-1300x731.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/112.20140708_1433211-1300x731.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/113.cutthroat_SnakeRiver.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/113.cutthroat_SnakeRiver.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/114.IMG_1496.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/114.IMG_1496.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/115.BCT-drawing3.0-400x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/115.BCT-drawing3.0-400x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/116.swathi-murder.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/116.swathi-murder.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/117.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/117.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/118.cut-throat-razor-isolated-on-white-background-vintage-straight-razor-for-shaving-barbers-equipment-salon-tools-PJ1158.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/118.cut-throat-razor-isolated-on-white-background-vintage-straight-razor-for-shaving-barbers-equipment-salon-tools-PJ1158.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/119.throat-drawing-63.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/119.throat-drawing-63.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/12.cut-throat-2-flat-mould-[2]-1603-p.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/12.cut-throat-2-flat-mould-[2]-1603-p.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/120.VEAAAH2XRRDFDKLVANX5HSLRLU.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/120.VEAAAH2XRRDFDKLVANX5HSLRLU.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/121.dovo_7pcrazorcase.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/121.dovo_7pcrazorcase.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/122.37802782_2184744165125388_3375881381698600960_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/122.37802782_2184744165125388_3375881381698600960_o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/123.Cut-Throat-2019-791x1024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/123.Cut-Throat-2019-791x1024.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/124.dovo-of-solingen-astrale-5-8-german-cut-throat-straight-razor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/124.dovo-of-solingen-astrale-5-8-german-cut-throat-straight-razor.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/125.file.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/125.file.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/126.Mayan1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/126.Mayan1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/127.9780982510292.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/127.9780982510292.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/128.nasty-gal-none-cut-throat-stretch-bootie-heel-red-none-product-2-841191974-normal.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/128.nasty-gal-none-cut-throat-stretch-bootie-heel-red-none-product-2-841191974-normal.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/129.4-11-2016_Bear_River_cutthroat_trout.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/129.4-11-2016_Bear_River_cutthroat_trout.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/13.EgyptJOtolaryngol_2014_30_3_268_138493_f6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/13.EgyptJOtolaryngol_2014_30_3_268_138493_f6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/130.sq-bear-lake-cutthroat-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/130.sq-bear-lake-cutthroat-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/131.Mini-Cutthroat-300x300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/131.Mini-Cutthroat-300x300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/132.DSC_0904__00785.1522295038.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/132.DSC_0904__00785.1522295038.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/133.Anatomy_of_a_Straight_Razor_large_9aafddd4-3bbf-4c61-b11f-eca231144a57_1024x1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/133.Anatomy_of_a_Straight_Razor_large_9aafddd4-3bbf-4c61-b11f-eca231144a57_1024x1024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/134.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/134.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/135.cut-throat-razor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/135.cut-throat-razor.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/136.coastal-ct-421-james-losee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/136.coastal-ct-421-james-losee.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/137.Cataract-Oars-Cutthroat-Blade.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/137.Cataract-Oars-Cutthroat-Blade.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/138.tenor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/138.tenor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/139.WhitehallCarpetCleanersWebsiteByCutThroatMarketing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/139.WhitehallCarpetCleanersWebsiteByCutThroatMarketing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/14.hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/14.hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/140.ModernCutthroats.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/140.ModernCutthroats.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/141.bannerfull.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/141.bannerfull.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/142.executive_shaving_company_cut_throat_shaving_starter_kit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/142.executive_shaving_company_cut_throat_shaving_starter_kit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/143.logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/143.logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/144.frp-cutthroat-flume-36x2-field-775x500.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/144.frp-cutthroat-flume-36x2-field-775x500.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/145.JOLL-1-XL_2048x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/145.JOLL-1-XL_2048x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/146.EastCoastTurfProsWebsiteByCutThroatMarketing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/146.EastCoastTurfProsWebsiteByCutThroatMarketing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/147.Cutthroat-28-290x180.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/147.Cutthroat-28-290x180.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/148.t-2914-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/148.t-2914-02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/149.4-11-2016_Bonneville_cutthroat_trout.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/149.4-11-2016_Bonneville_cutthroat_trout.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/15.1holdingsabatier3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/15.1holdingsabatier3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/150.AdobeStock_74301757.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/150.AdobeStock_74301757.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/151.skeleton2a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/151.skeleton2a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/152.51YRcaMbTjL._AC_UL320_SR212,320_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/152.51YRcaMbTjL._AC_UL320_SR212,320_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/153.dovo_shavette_-_cut_throat_razor_1000x1000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/153.dovo_shavette_-_cut_throat_razor_1000x1000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/154.cut-throat-13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/154.cut-throat-13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/155.cropped-Indeed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/155.cropped-Indeed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/156.IMG_1505.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/156.IMG_1505.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/157.hen-cutthroat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/157.hen-cutthroat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/158.008777.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/158.008777.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/159.Screen%20Shot%202018-09-21%20at%2011.25.07%20AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/159.Screen%20Shot%202018-09-21%20at%2011.25.07%20AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/16.TB-BLACKSR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/16.TB-BLACKSR.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/160.All-Over-Clipper-Cut-with-Cut-Throat-Shave.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/160.All-Over-Clipper-Cut-with-Cut-Throat-Shave.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/161.wct-d--kenney-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/161.wct-d--kenney-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/162.TF_POTP_CUTTHROAT_900x.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/162.TF_POTP_CUTTHROAT_900x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/163.extremely-annoyed-senior-male-executive-isolated-over-white-cut-throat-CR0BNR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/163.extremely-annoyed-senior-male-executive-isolated-over-white-cut-throat-CR0BNR.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/164.bear-lake-cutthroat-gg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/164.bear-lake-cutthroat-gg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/165.file.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/165.file.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/166.DSC_1081__63410.1529123855.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/166.DSC_1081__63410.1529123855.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/167.thumb_large_IMG_7884.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/167.thumb_large_IMG_7884.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/168.cutthroat_Coastal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/168.cutthroat_Coastal.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/169.fish-in-wyoming-snake-river-cutthroat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/169.fish-in-wyoming-snake-river-cutthroat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/17.evil-zombie-girl-with-black-tears-and-cut-throat-hangs-on-chain_qy-9czk9___F0000.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/17.evil-zombie-girl-with-black-tears-and-cut-throat-hangs-on-chain_qy-9czk9___F0000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/170.CustomComfortWebsiteByCutThroatMarketing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/170.CustomComfortWebsiteByCutThroatMarketing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/171.100_0013-444x314.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/171.100_0013-444x314.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/172.post-shave-balm-bluebeards-revenge-370x260.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/172.post-shave-balm-bluebeards-revenge-370x260.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/173.BLAC-6_2048x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/173.BLAC-6_2048x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/174.s-l225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/174.s-l225.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/175.Cutthroat-71.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/175.Cutthroat-71.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/176.4-11-2016_Yellowstone_cutthroat_trout_Raft_River_Mountains.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/176.4-11-2016_Yellowstone_cutthroat_trout_Raft_River_Mountains.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/177.Cu-Throat-Shave.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/177.Cu-Throat-Shave.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/178.westslopecutthroat21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/178.westslopecutthroat21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/179.how-to-set-up-rack-for-cutthroat-pool.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/179.how-to-set-up-rack-for-cutthroat-pool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/18.MV5BYTg4OTRhMzYtZWMwNS00NTliLWJiNmEtZDFmYzI0OTUzYTVhXkEyXkFqcGdeQXRodW1ibmFpbC1pbml0aWFsaXplcg@@._V1_UX477_CR0,0,477,268_AL_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/18.MV5BYTg4OTRhMzYtZWMwNS00NTliLWJiNmEtZDFmYzI0OTUzYTVhXkEyXkFqcGdeQXRodW1ibmFpbC1pbml0aWFsaXplcg@@._V1_UX477_CR0,0,477,268_AL_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/180.el_Zorro__96552.1523810874.1280.1280.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/180.el_Zorro__96552.1523810874.1280.1280.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/181.Tiger01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/181.Tiger01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/182.cutthroat-stilling-well-320x185.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/182.cutthroat-stilling-well-320x185.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/183.fishing-native-species-New-Mexico-Rio-Grande-Cutthroat-Trout-Rio-Grande-watershed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/183.fishing-native-species-New-Mexico-Rio-Grande-Cutthroat-Trout-Rio-Grande-watershed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/184.ama-80-shaper-razor_t.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/184.ama-80-shaper-razor_t.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/185.Cut-throat-shave-resized.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/185.Cut-throat-shave-resized.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/186.c-144-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/186.c-144-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/187.beard1Feb2019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/187.beard1Feb2019.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/188.Salsa-Cutthroat-1-of-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/188.Salsa-Cutthroat-1-of-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/189.flies_sea-run-cutthroat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/189.flies_sea-run-cutthroat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/19.671891-cut-throat-murder-victim-found-cutthroat2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/19.671891-cut-throat-murder-victim-found-cutthroat2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/190.ct-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/190.ct-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/191.fish-in-wyoming-colorado-cutthroat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/191.fish-in-wyoming-colorado-cutthroat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/192.img_flume.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/192.img_flume.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/193.IMG_2566.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/193.IMG_2566.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/194.2feec04c-08c5-46da-93f1-4cb5a1d9053d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/194.2feec04c-08c5-46da-93f1-4cb5a1d9053d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/195.51i-s%2BImlmL._SL160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/195.51i-s%2BImlmL._SL160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/196.cutthroat-trout-salmon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/196.cutthroat-trout-salmon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/197.rio-grande-ct-tail-by-erik-myhre-.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/197.rio-grande-ct-tail-by-erik-myhre-.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/198.IMG_4027-467x350.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/198.IMG_4027-467x350.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/199.cut-throat-finch-amadina-fasciata-and-african-silverbill-euodice-cantans-EG7109.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/199.cut-throat-finch-amadina-fasciata-and-african-silverbill-euodice-cantans-EG7109.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/2.conservation-native-species-New-Mexico-distribution-Rio-Grande-Cutthroat-Trout.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/2.conservation-native-species-New-Mexico-distribution-Rio-Grande-Cutthroat-Trout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/20.TCTRgreybackground2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/20.TCTRgreybackground2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/200.Alton%20brown%20cutthroat%20kitchen%20usable.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/200.Alton%20brown%20cutthroat%20kitchen%20usable.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/201.larkincutt02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/201.larkincutt02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/202.IMG_2555.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/202.IMG_2555.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/203.JOLL-1-V2_2048x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/203.JOLL-1-V2_2048x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/204.Vintage-Cut-Throat-Straight-Razor-Solid-Wood-Stainless-Steel-Combo-Handle-Bristle-Shaving-Brush-Natural-Whetstone-and-Wooden-Box-Set-650x650.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/204.Vintage-Cut-Throat-Straight-Razor-Solid-Wood-Stainless-Steel-Combo-Handle-Bristle-Shaving-Brush-Natural-Whetstone-and-Wooden-Box-Set-650x650.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/205.searuncutt2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/205.searuncutt2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/206.812x1200_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/206.812x1200_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/207.3eca9f_e9d9e91feaa34b97b9cfd781d6d2a182.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/207.3eca9f_e9d9e91feaa34b97b9cfd781d6d2a182.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/208.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/208.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/209.100_0628_12-500x313.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/209.100_0628_12-500x313.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/21.cut_throat_business_ii_by_noizkrew-d4wcxob.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/21.cut_throat_business_ii_by_noizkrew-d4wcxob.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/210.s-l1600__21454.1517805484.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/210.s-l1600__21454.1517805484.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/211.image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/211.image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/212.il_570xN.1375651534_i9a4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/212.il_570xN.1375651534_i9a4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/213.fishing-native-species-New-Mexico-Rio-Grande-Cuttthroat-Trout-scenic-beauty.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/213.fishing-native-species-New-Mexico-Rio-Grande-Cuttthroat-Trout-scenic-beauty.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/214.white_river_cutthroat_trout.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/214.white_river_cutthroat_trout.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/215.cut_throat_real-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/215.cut_throat_real-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/216.stainless-trapezoidal-cutthroat-flume-450-775x500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/216.stainless-trapezoidal-cutthroat-flume-450-775x500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/217.promo6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/217.promo6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/218.Cutthroat-Trout-Cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/218.Cutthroat-Trout-Cover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/219.michael_hadley_4-11-2016_Colorado_River_cutthroat_trout.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/219.michael_hadley_4-11-2016_Colorado_River_cutthroat_trout.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/22.cut-throat-2-w1400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/22.cut-throat-2-w1400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/220.46edc20b-dc2d-4003-92ec-705074c4ce70.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/220.46edc20b-dc2d-4003-92ec-705074c4ce70.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/221.Ship2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/221.Ship2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/222.s-l225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/222.s-l225.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/223.cutthroat_Lohantan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/223.cutthroat_Lohantan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/224.CRCT-in-net.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/224.CRCT-in-net.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/225.Birds-071.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/225.Birds-071.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/226.cutty.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/226.cutty.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/227.Poetry.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/227.Poetry.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/228.51xxm0RzR7L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingFOURANDHALF%2CBottomLeft%2C360%2C-6_SR600%2C315_SCLZZZZZZZ_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/228.51xxm0RzR7L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingFOURANDHALF%2CBottomLeft%2C360%2C-6_SR600%2C315_SCLZZZZZZZ_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/229.straight-razor-demo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/229.straight-razor-demo2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/23.deep_cut_throat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/23.deep_cut_throat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/230.6783443_orig.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/230.6783443_orig.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/231.1500049995565.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/231.1500049995565.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/232.cutthroat-buccaneer-300x429.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/232.cutthroat-buccaneer-300x429.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/233.coastalcutthroat.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/233.coastalcutthroat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/234.comprehensive_cut_throat_straight_razor_shaving_kit_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/234.comprehensive_cut_throat_straight_razor_shaving_kit_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/235.ff_piratehelp_attack.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/235.ff_piratehelp_attack.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/236.Shampoo-Cut-with-Cut-Throat-Shave.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/236.Shampoo-Cut-with-Cut-Throat-Shave.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/237.M21-website-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/237.M21-website-banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/238.straight-razor-with-pearl-scales-on-a-black-background-cut-throat-razor-barber-equipment-for-mens-grooming-PJ1174.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/238.straight-razor-with-pearl-scales-on-a-black-background-cut-throat-razor-barber-equipment-for-mens-grooming-PJ1174.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/239.KK+0615_086_10x300%5B2%5D%5B1%5D%5B1%5D.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/239.KK+0615_086_10x300%5B2%5D%5B1%5D%5B1%5D.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/24.8fqbcc_S_400x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/24.8fqbcc_S_400x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/240.Historical-range-of-cutthroat-trout-and-sampling-localities-Sampling-locations-of.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/240.Historical-range-of-cutthroat-trout-and-sampling-localities-Sampling-locations-of.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/241.IMG_5559.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/241.IMG_5559.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/242.cutslam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/242.cutslam.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/243.artworks-000481985742-z4f79t-t500x500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/243.artworks-000481985742-z4f79t-t500x500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/244.Cutthroatpete-Tee-Barber-Store-Back-2_750-300x300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/244.Cutthroatpete-Tee-Barber-Store-Back-2_750-300x300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/245.class2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/245.class2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/246.DSC_0314_preview-e1513977508168.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/246.DSC_0314_preview-e1513977508168.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/247.TWL_Coastal_Cutthroat_Sea_VII-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/247.TWL_Coastal_Cutthroat_Sea_VII-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/248.GREN-1-3_3a247266-80cd-4dc1-bf1a-b97861998a24_2048x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/248.GREN-1-3_3a247266-80cd-4dc1-bf1a-b97861998a24_2048x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/249.long1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/249.long1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/25.Sweeney-todd_3235569b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/25.Sweeney-todd_3235569b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/250.cutthroat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/250.cutthroat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/251.head-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/251.head-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/252.shbbrct-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/252.shbbrct-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/253.9780982510292.IN05_grande.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/253.9780982510292.IN05_grande.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/254.How-to-identify-a-cutbow-1300x569.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/254.How-to-identify-a-cutbow-1300x569.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/255.15284841_10154715646983389_8533481248042023498_n-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/255.15284841_10154715646983389_8533481248042023498_n-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/256.hi-res-2-with-credit.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/256.hi-res-2-with-credit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/257.GF_Cutt_Slam_Sm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/257.GF_Cutt_Slam_Sm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/258.BCT-teeth.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/258.BCT-teeth.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/259.E1131AS00-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/259.E1131AS00-01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/26.Infected-suicidal-cut-throat-injury-at-presentation-A-pharyngo-cutaneous-fistula-must-be.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/26.Infected-suicidal-cut-throat-injury-at-presentation-A-pharyngo-cutaneous-fistula-must-be.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/260.Cutthroat-71-290x180.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/260.Cutthroat-71-290x180.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/261.250px-Lahontan_pyramid.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/261.250px-Lahontan_pyramid.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/262.chriscut2onmf.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/262.chriscut2onmf.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/263.razor-blade-change-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/263.razor-blade-change-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/264.IMG_3194.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/264.IMG_3194.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/265.IMG_1503.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/265.IMG_1503.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/266.17425955_10155107912843389_8752553039529692277_n-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/266.17425955_10155107912843389_8752553039529692277_n-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/267.April_8_2005_Dream_Stream_0052-600x239.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/267.April_8_2005_Dream_Stream_0052-600x239.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/268.20170323_105704.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/268.20170323_105704.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/269.ff_pirates_title.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/269.ff_pirates_title.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/27.man-groom-shave.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/27.man-groom-shave.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/270.extremely-annoyed-senior-male-executive-isolated-over-white-cut-throat-gesture-X43XP1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/270.extremely-annoyed-senior-male-executive-isolated-over-white-cut-throat-gesture-X43XP1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/271.cx-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/271.cx-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/272.shave-350-opt1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/272.shave-350-opt1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/273.bella-donna-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/273.bella-donna-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/274.TWL_Coastal_Cutthroat_Sea_VI-2-672x372.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/274.TWL_Coastal_Cutthroat_Sea_VI-2-672x372.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/275.cut-throat-shave.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/275.cut-throat-shave.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/276.Lahontan_Cutthroat_Trout_Michael_Carl_375w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/276.Lahontan_Cutthroat_Trout_Michael_Carl_375w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/277.cutthroat2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/277.cutthroat2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/278.DSC_1090__27735.1529123590.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/278.DSC_1090__27735.1529123590.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/279.IMG_1562.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/279.IMG_1562.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/28.Fig-187-Exposing-the-oesophagus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/28.Fig-187-Exposing-the-oesophagus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/280.about-male-cut-throat-shave-v1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/280.about-male-cut-throat-shave-v1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/281.f5a84868-7ef3-4d85-b399-2e4a6178286e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/281.f5a84868-7ef3-4d85-b399-2e4a6178286e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/282.cut-throat-trout-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/282.cut-throat-trout-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/283.IMGP1326.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/283.IMGP1326.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/284.IMG_4026.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/284.IMG_4026.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/285.Tattoo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/285.Tattoo1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/286.LCT1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/286.LCT1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/287.ps_roncuttrlsbst.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/287.ps_roncuttrlsbst.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/288.Shoulder_bis_large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/288.Shoulder_bis_large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/289.greenback-cutthroat-trout-spawning-06132017-ac_ac38062x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/289.greenback-cutthroat-trout-spawning-06132017-ac_ac38062x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/29.163912d1273450515-cut-throat-suicide-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/29.163912d1273450515-cut-throat-suicide-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/290.Skull1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/290.Skull1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/291.image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/291.image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/292.page-cutthroat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/292.page-cutthroat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/293.How-to-identify-a-cutbow-size-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/293.How-to-identify-a-cutbow-size-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/294.Rio%20Grande%20Cutthroat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/294.Rio%20Grande%20Cutthroat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/295.cut-throat-bunny-hot-head-code-k133.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/295.cut-throat-bunny-hot-head-code-k133.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/296.Shopify_GreenbackCutthroat_Print_grande.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/296.Shopify_GreenbackCutthroat_Print_grande.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/297.sand-creek.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/297.sand-creek.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/298.5c549a43b1449.image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/298.5c549a43b1449.image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/299.1485524948746.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/299.1485524948746.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/3.Cut_Throat__2_6_1024x1024.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/3.Cut_Throat__2_6_1024x1024.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/30.cut-throat-appliance-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/30.cut-throat-appliance-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/300.Aislinn+Clarke+image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/300.Aislinn+Clarke+image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/301.cutthroat_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/301.cutthroat_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/302.full+logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/302.full+logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/303.Cuttroat_fisheyeguy_200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/303.Cuttroat_fisheyeguy_200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/304.3eca9f_03b92f1ecacf42c49e9791a99abc5d80~mv2_d_3252_3252_s_4_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/304.3eca9f_03b92f1ecacf42c49e9791a99abc5d80~mv2_d_3252_3252_s_4_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/305.Pilot_Peak_Strain_Lahontan_Cutthroat_Trout_375w_text.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/305.Pilot_Peak_Strain_Lahontan_Cutthroat_Trout_375w_text.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/306.finches-cutthroat-lrg-22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/306.finches-cutthroat-lrg-22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/307.artworks-000373025568-qopc34-t500x500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/307.artworks-000373025568-qopc34-t500x500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/308.cut-throat-prosthetic-deep-300x420.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/308.cut-throat-prosthetic-deep-300x420.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/309.logo_op_585x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/309.logo_op_585x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/31.a-vintage-krosskeys-cut-throat-razor-on-a-white-background-DNC48E.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/31.a-vintage-krosskeys-cut-throat-razor-on-a-white-background-DNC48E.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/310.cx-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/310.cx-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/311.812x1200_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/311.812x1200_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/312.s-l225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/312.s-l225.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/313.greenbackcutthroat2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/313.greenbackcutthroat2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/314.IMG_1499.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/314.IMG_1499.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/315.s36325.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/315.s36325.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/316.straight-razor-strop2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/316.straight-razor-strop2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/317.250px-Thies_Issard_Fox_and_Rooster_closed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/317.250px-Thies_Issard_Fox_and_Rooster_closed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/318.Restyle-with-Cut-Throat-Shave.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/318.Restyle-with-Cut-Throat-Shave.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/319.3-D-cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/319.3-D-cross.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/32.BB004.1524226994.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/32.BB004.1524226994.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/320.cutthroat-cutthroat-screw-in.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/320.cutthroat-cutthroat-screw-in.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/321.cut29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/321.cut29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/322.Cutthroat-Trout-Identification.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/322.Cutthroat-Trout-Identification.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/323.625_searun-cutthroat-sol-duc-river.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/323.625_searun-cutthroat-sol-duc-river.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/324.mid-adult-man-shaving-with-cut-throat-razor-PH24G8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/324.mid-adult-man-shaving-with-cut-throat-razor-PH24G8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/325.Cut-Throat-Journal-Cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/325.Cut-Throat-Journal-Cover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/326.cut-throat-2-flat-mould-1603-p[ekm]440x293[ekm].jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/326.cut-throat-2-flat-mould-1603-p[ekm]440x293[ekm].jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/327.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/327.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/328.JOLL-2-XL_2048x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/328.JOLL-2-XL_2048x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/329.brk-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/329.brk-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/33.hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/33.hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/330.PolishedSatin_large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/330.PolishedSatin_large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/331.Empire-barber-shop-photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/331.Empire-barber-shop-photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/332.about-cut-throat-shave-DSC00354-v1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/332.about-cut-throat-shave-DSC00354-v1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/333.cutthroat-cutthroat-glue-on.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/333.cutthroat-cutthroat-glue-on.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/334.image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/334.image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/335.Cutt-2018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/335.Cutt-2018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/336.campbell-river-cutthroat.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/336.campbell-river-cutthroat.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/337.CuttSlamLogo-official-grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/337.CuttSlamLogo-official-grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/338.vikings-war-of-clans-cutthroat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/338.vikings-war-of-clans-cutthroat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/339.cataract_cutthroat_blade_category.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/339.cataract_cutthroat_blade_category.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/34.gob_blade_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/34.gob_blade_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/340.cuttm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/340.cuttm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/341.Cutthroat-finch-440x264.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/341.Cutthroat-finch-440x264.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/342.71AY3cZfIEL._SX466_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/342.71AY3cZfIEL._SX466_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/343.exec-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/343.exec-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/344.Rainbow-Trout-Identification.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/344.Rainbow-Trout-Identification.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/345.40231921_1331996840269094_5365573364377190400_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/345.40231921_1331996840269094_5365573364377190400_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/346.methow-river-cut-1-with-photo-credit.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/346.methow-river-cut-1-with-photo-credit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/347.CS-Cutthroat-Logo-Blue-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/347.CS-Cutthroat-Logo-Blue-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/348.ps_alexcutteyeabovewtr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/348.ps_alexcutteyeabovewtr.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/349.postcard-6.5inx8in-h-eddm-back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/349.postcard-6.5inx8in-h-eddm-back.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/35.d5rzdo8-bd9fc5e8-8b4d-4803-b123-5968bbf7af7e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/35.d5rzdo8-bd9fc5e8-8b4d-4803-b123-5968bbf7af7e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/350.GreenbackLifecycleGame-27Feb2016-1024x576.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/350.GreenbackLifecycleGame-27Feb2016-1024x576.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/351.DSCN4485__67628.1308802578.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/351.DSCN4485__67628.1308802578.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/352.IMGP1261.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/352.IMGP1261.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/353.939-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/353.939-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/354.thiers-issard-burl-elm-display-box-second.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/354.thiers-issard-burl-elm-display-box-second.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/355.Skin-Fade-with-Cut-Throat-Shave.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/355.Skin-Fade-with-Cut-Throat-Shave.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/356.fishingmapBanner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/356.fishingmapBanner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/357.IMG_5250.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/357.IMG_5250.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/358.250px-Thiers_Issard_Fox_and_Rooster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/358.250px-Thiers_Issard_Fox_and_Rooster.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/359.how-to-play-cutthroat-pool-300x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/359.how-to-play-cutthroat-pool-300x200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/36.Glamtech-Cut-Throat-Razor-1000x1000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/36.Glamtech-Cut-Throat-Razor-1000x1000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/360.100_0428-451x314.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/360.100_0428-451x314.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/361.RainbowTroutHybrid_medium.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/361.RainbowTroutHybrid_medium.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/362.GOLDDJ__39029.1518494496.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/362.GOLDDJ__39029.1518494496.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/363.bou.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/363.bou.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/364.cutthroat-flume-installation-775x500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/364.cutthroat-flume-installation-775x500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/365.file.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/365.file.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/37.812x1200-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/37.812x1200-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/38.71iWyK60TmL._SY355_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/38.71iWyK60TmL._SY355_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/39.s-l300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/39.s-l300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/4.Gold-Dollar-66-Barber-Straight-Razor-Wet-Shaving-Men-Shaver-Cut-Throat-Folding-Kinfe-Free-Razor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/4.Gold-Dollar-66-Barber-Straight-Razor-Wet-Shaving-Men-Shaver-Cut-Throat-Folding-Kinfe-Free-Razor.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/40.parker-cut-throat-razor-walnut-str8wn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/40.parker-cut-throat-razor-walnut-str8wn.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/41.953681.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/41.953681.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/42.cut-throat-razor-with-bone-handle-B1F200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/42.cut-throat-razor-with-bone-handle-B1F200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/43.straight-razor-demo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/43.straight-razor-demo1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/44.make-fake-cut-throat-with-special-effect-make-up.1280x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/44.make-fake-cut-throat-with-special-effect-make-up.1280x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/45.TB-CUTTHBlonde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/45.TB-CUTTHBlonde.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/46.framsida.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/46.framsida.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/47.99431d1256182347-several-different-pictures-people-cut-throat-patho8d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/47.99431d1256182347-several-different-pictures-people-cut-throat-patho8d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/48.Yellowstone_Cutthroat_Trout.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/48.Yellowstone_Cutthroat_Trout.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/49.tenor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/49.tenor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/5.Cut_Throat__1_2__640x427_7a817f59-e4b5-4129-bd3c-c40665b22d99_large.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/5.Cut_Throat__1_2__640x427_7a817f59-e4b5-4129-bd3c-c40665b22d99_large.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/50.SUN_GIRLS_THORAT_THUMB_191117.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/50.SUN_GIRLS_THORAT_THUMB_191117.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/51.DSC_0209__88193.1517374391.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/51.DSC_0209__88193.1517374391.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/52.915cfd76-145d-4fe9-8987-4041edb58219_1.4ccb1f4e39cb14d85cb3508226d4d1e2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/52.915cfd76-145d-4fe9-8987-4041edb58219_1.4ccb1f4e39cb14d85cb3508226d4d1e2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/53.best-burgers-in-amsterdam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/53.best-burgers-in-amsterdam.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/54.yct_teton-river-photos-credit-is-friends-of-the-teton-river.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/54.yct_teton-river-photos-credit-is-friends-of-the-teton-river.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/55.cut-throat-razor-silhouette-GN1CEK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/55.cut-throat-razor-silhouette-GN1CEK.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/56.USen_DT_ALP_HDR_Straight-or-Safety.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/56.USen_DT_ALP_HDR_Straight-or-Safety.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/57.straight-razor-demo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/57.straight-razor-demo3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/58.muhle-african-blackwood-cut.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/58.muhle-african-blackwood-cut.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/59.Lahontan_cutthroat_trout_image_USFWS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/59.Lahontan_cutthroat_trout_image_USFWS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/6.EgyptJOtolaryngol_2014_30_3_268_138493_f8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/6.EgyptJOtolaryngol_2014_30_3_268_138493_f8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/60.20150919_170008-1300x731.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/60.20150919_170008-1300x731.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/61.fishing-native-species-New-Mexico-Rio-Grande-Cutthroat-Trout-Pecos-River-watershed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/61.fishing-native-species-New-Mexico-Rio-Grande-Cutthroat-Trout-Pecos-River-watershed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/62.Grenado-1_2048x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/62.Grenado-1_2048x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/63.Cutthroat-98-290x180.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/63.Cutthroat-98-290x180.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/64.digitally-manipulated-image-showing-cut-throat-razor-S0G2C2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/64.digitally-manipulated-image-showing-cut-throat-razor-S0G2C2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/65.cut-throat-razor-shave.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/65.cut-throat-razor-shave.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/66.straight-razor-holding.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/66.straight-razor-holding.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/67.methow-river-westslope-cutthroat-trout-up-close-with-photo-credit.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/67.methow-river-westslope-cutthroat-trout-up-close-with-photo-credit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/68.12-cutthroat-kitchen.w700.h700.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/68.12-cutthroat-kitchen.w700.h700.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/69.fiberglass-cutthroat-flume-wing-walls-775x500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/69.fiberglass-cutthroat-flume-wing-walls-775x500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/7.type_body_4_web2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/7.type_body_4_web2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/70.dovo-26810-bismarck2-800x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/70.dovo-26810-bismarck2-800x800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/71.BLAC-4_2048x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/71.BLAC-4_2048x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/72.10301708-3x4-340x453.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/72.10301708-3x4-340x453.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/73.DNCTgloss750.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/73.DNCTgloss750.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/74.RIDGEWAYS-Barbers-logo-300x151.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/74.RIDGEWAYS-Barbers-logo-300x151.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/75.CTF_9m9a5934-edit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/75.CTF_9m9a5934-edit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/76.Stainless-Steel-Sliding-Style-Razor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/76.Stainless-Steel-Sliding-Style-Razor.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/77.aluminum-cutthroat-flume-775x500.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/77.aluminum-cutthroat-flume-775x500.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/78.TB-CUTTHCASE_open.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/78.TB-CUTTHCASE_open.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/79.cut-throat-finch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/79.cut-throat-finch.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/8.homicial%20cut%20throat%20injury.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/8.homicial%20cut%20throat%20injury.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/80.Blade_blade-cut-throat-razor-shave-shavingsharp-barber-84.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/80.Blade_blade-cut-throat-razor-shave-shavingsharp-barber-84.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/81.BARBER-SALON-STRAIGHT-CUT-THROAT-SHAVING-RAZOR-SHAVETTE-_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/81.BARBER-SALON-STRAIGHT-CUT-THROAT-SHAVING-RAZOR-SHAVETTE-_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/82.Cut-throat_Finch_RWD7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/82.Cut-throat_Finch_RWD7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/83.3eca9f_6af0d062afd54ab2b97a8e000d8566e2~mv2_d_3252_3252_s_4_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/83.3eca9f_6af0d062afd54ab2b97a8e000d8566e2~mv2_d_3252_3252_s_4_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/84.cutthroat-logo-new.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/84.cutthroat-logo-new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/85.thumb_large_IMG_8083.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/85.thumb_large_IMG_8083.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/86.tenor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/86.tenor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/87.SHHAWK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/87.SHHAWK.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/88.logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/88.logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/89.greenback.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/89.greenback.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/9.tenor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/9.tenor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/90.hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/90.hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/91.220px-Cutthroat_island_ver2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/91.220px-Cutthroat_island_ver2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/92.CT_Favicon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/92.CT_Favicon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/93.Cut-Throat-Fixed-Blade-Survival-Outdoors-Karambit-Knife.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/93.Cut-Throat-Fixed-Blade-Survival-Outdoors-Karambit-Knife.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/94.male-cutthroat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/94.male-cutthroat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/95.1340x754-1_50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/95.1340x754-1_50.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/96.cut-throat-razor-B8CG6R.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/96.cut-throat-razor-B8CG6R.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/97.logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/97.logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/98.2cut_throat_injury.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/98.2cut_throat_injury.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut throat/99.9781407104263.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_throat/99.9781407104263.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/1.cut_wrist_prosthetic__68650.1361370904.1280.1280.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/1.cut_wrist_prosthetic__68650.1361370904.1280.1280.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/10.54a099541c4843ebd9ae89d50c6d8564.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/10.54a099541c4843ebd9ae89d50c6d8564.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/100.3bc36cd46c214d6de8b19df472e7dc73.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/100.3bc36cd46c214d6de8b19df472e7dc73.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/101.240_F_195271579_gQKteiZTisgFD1xGe10aJ9130IxEtRpP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/101.240_F_195271579_gQKteiZTisgFD1xGe10aJ9130IxEtRpP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/103.chirophobia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/103.chirophobia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/104.05021fec718083656451fd5df2e97afdd20e00-wm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/104.05021fec718083656451fd5df2e97afdd20e00-wm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/105.teenage-girl-cutting-wrist-with-razor-blade-B5JT6G.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/105.teenage-girl-cutting-wrist-with-razor-blade-B5JT6G.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/106.teen_cutting.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/106.teen_cutting.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/107.6699e9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/107.6699e9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/110.550px-nowatermark-Make-Fake-Cuts-Step-4-Version-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/110.550px-nowatermark-Make-Fake-Cuts-Step-4-Version-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/114.500_F_195270948_gN3xpbE5Xu1cAXchWlDdOkdblkH6jgUF.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/114.500_F_195270948_gN3xpbE5Xu1cAXchWlDdOkdblkH6jgUF.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/115.suicide-attempt-of-a-hand-cutting-a-wrist-with-a-razor-blade-BBK3XX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/115.suicide-attempt-of-a-hand-cutting-a-wrist-with-a-razor-blade-BBK3XX.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/12.13cd04fee44234c3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/12.13cd04fee44234c3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/121.bloody-knife-cut-wrist-isolated-450w-14385577.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/121.bloody-knife-cut-wrist-isolated-450w-14385577.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/122.nerve1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/122.nerve1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/123.346422_v2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/123.346422_v2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/124.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/124.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/125.stock-photo-deep-laceration-cut-652492573.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/125.stock-photo-deep-laceration-cut-652492573.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/126.3DC4A25800000578-0-image-a-44_1488214361055.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/126.3DC4A25800000578-0-image-a-44_1488214361055.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/127.180px-PleaseCutRevised.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/127.180px-PleaseCutRevised.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/128.female-self-harming-with-a-kitchen-knife-using-it-to-cut-her-wrist-B0PJ3R.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/128.female-self-harming-with-a-kitchen-knife-using-it-to-cut-her-wrist-B0PJ3R.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/129.wrist-cut-facebook-indian-teens.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/129.wrist-cut-facebook-indian-teens.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/13.Wrist91.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/13.Wrist91.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/130.2a_finding_wrist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/130.2a_finding_wrist.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/131.397E0A1200000578-3848468-Parody_Many_users_parodied_the_hashtag_and_those_who_claimed_to_-a-21_1476811343217.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/131.397E0A1200000578-3848468-Parody_Many_users_parodied_the_hashtag_and_those_who_claimed_to_-a-21_1476811343217.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/132.slide_24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/132.slide_24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/135.OOvGROg43fTpmsVRqLzN5s5iJe1GOUA8zhZAlFvLDlM.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/135.OOvGROg43fTpmsVRqLzN5s5iJe1GOUA8zhZAlFvLDlM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/136.Clinical-photographs-at-8months-follow-up-showing-a-extension-with-ape-thumb-b_Q320.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/136.Clinical-photographs-at-8months-follow-up-showing-a-extension-with-ape-thumb-b_Q320.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/137.5c1f52ff33da6ee6f373f9c30c47e0fc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/137.5c1f52ff33da6ee6f373f9c30c47e0fc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/138.hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/138.hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/139.7403-skin_infection_from_wound-1296x728-slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/139.7403-skin_infection_from_wound-1296x728-slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/14.3387787729_de26b5af41_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/14.3387787729_de26b5af41_b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/140.slit%202.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/140.slit%202.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/141.Finger_straight_DSCN1754.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/141.Finger_straight_DSCN1754.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/142.ulxnG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/142.ulxnG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/143.4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/143.4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/144.aid1703677-v4-728px-Determine-if-a-Cut-Needs-Stitches-Step-1-Version-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/144.aid1703677-v4-728px-Determine-if-a-Cut-Needs-Stitches-Step-1-Version-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/145.teenage-girl-cutting-wrist-with-razor-blade-B5JT6X.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/145.teenage-girl-cutting-wrist-with-razor-blade-B5JT6X.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/146.suicide-attempt-of-a-hand-cutting-a-stock-images_csp38237551.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/146.suicide-attempt-of-a-hand-cutting-a-stock-images_csp38237551.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/147.14e25d83ac9a9e99a692b2716d0b1832.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/147.14e25d83ac9a9e99a692b2716d0b1832.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/148.cut-wrist-1-1024x855.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/148.cut-wrist-1-1024x855.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/149.cutting-hand-with-blade-wallpaper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/149.cutting-hand-with-blade-wallpaper.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/15.Clinical-photographs-19-years-old-male-cut-right-wrist-due-to-assault-sword-cutshowing_Q320.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/15.Clinical-photographs-19-years-old-male-cut-right-wrist-due-to-assault-sword-cutshowing_Q320.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/151.step-2-to-measuring-your-wrist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/151.step-2-to-measuring-your-wrist.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/153.Figure0425_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/153.Figure0425_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/155.teen-talk-depresssion-emo-cutting.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/155.teen-talk-depresssion-emo-cutting.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/156.moisturize-a-cut-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/156.moisturize-a-cut-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/157.tumblr_mq03ncTByA1riy5kgo1_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/157.tumblr_mq03ncTByA1riy5kgo1_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/16.hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/16.hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/160.600-06452130en_Masterfile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/160.600-06452130en_Masterfile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/162.SkinCancer_Fig2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/162.SkinCancer_Fig2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/163.wrist-tattoo-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/163.wrist-tattoo-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/165.il_794xN.1224327852_sv0k.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/165.il_794xN.1224327852_sv0k.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/166.hand-model-Hand_1_cut_out_by_Samphire_stock.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/166.hand-model-Hand_1_cut_out_by_Samphire_stock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/167.lightbox_1345060316675.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/167.lightbox_1345060316675.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/168.scaphoid_fracture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/168.scaphoid_fracture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/169.justin-wrist-cut-fake-or-real-justin-bieber-27234031-962-691.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/169.justin-wrist-cut-fake-or-real-justin-bieber-27234031-962-691.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/17.DSCF0987.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/17.DSCF0987.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/170.449046_hand-cut-blood-wallpapers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/170.449046_hand-cut-blood-wallpapers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/171.hand-injury-300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/171.hand-injury-300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/172.WFike.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/172.WFike.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/175.enhanced-buzz-15834-1357590737-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/175.enhanced-buzz-15834-1357590737-11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/176.suicide-attempt-picture_csp5236497.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/176.suicide-attempt-picture_csp5236497.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/178.162KV_5-lg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/178.162KV_5-lg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/18.Beyonc%C3%A9s-Haunted-Demonic-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/18.Beyonc%C3%A9s-Haunted-Demonic-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/180.Scissor-Cut-Tattoo-On-Wrist-For-Men.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/180.Scissor-Cut-Tattoo-On-Wrist-For-Men.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/181.cuts_by_sirmadamwaffles-d2ylg5m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/181.cuts_by_sirmadamwaffles-d2ylg5m.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/182.nerve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/182.nerve2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/183.attempt-suicide-9183333.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/183.attempt-suicide-9183333.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/184.FOQ2XIBFM2KBUXN.LARGE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/184.FOQ2XIBFM2KBUXN.LARGE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/185.bleeding-wrist-red-blood.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/185.bleeding-wrist-red-blood.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/186.male-with-tattoos-cutting-wrist-DW5E4X.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/186.male-with-tattoos-cutting-wrist-DW5E4X.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/187.071414_deniece.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/187.071414_deniece.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/188.HandInfection_Fig4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/188.HandInfection_Fig4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/189.cutlon-400-web-2048p-srgb-0666.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/189.cutlon-400-web-2048p-srgb-0666.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/19.800px_COLOURBOX29491866.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/19.800px_COLOURBOX29491866.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/191.wrist-tattoo-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/191.wrist-tattoo-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/193.a-bleeding-finger-wrapped-in-a-bandage-80567618-5bfc826246e0fb00512b7ae1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/193.a-bleeding-finger-wrapped-in-a-bandage-80567618-5bfc826246e0fb00512b7ae1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/195.tattoos11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/195.tattoos11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/196.scoop-frozen-ice-cream-without-breaking-your-wrist.w1456.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/196.scoop-frozen-ice-cream-without-breaking-your-wrist.w1456.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/197.2b22c88883bd55641723a41746d69248.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/197.2b22c88883bd55641723a41746d69248.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/198.self-harm-quotes-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/198.self-harm-quotes-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/199.main-qimg-a90738c4f202604730862a3b18684efd.webp" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/199.main-qimg-a90738c4f202604730862a3b18684efd.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/200.hand-full-blood-wrist-cut-260nw-785968804.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/200.hand-full-blood-wrist-cut-260nw-785968804.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/200.protection2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/200.protection2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/201.cut-for-love-ar-wrist-hand-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/201.cut-for-love-ar-wrist-hand-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/202.cuts-and-infections-prepper-first-aid.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/202.cuts-and-infections-prepper-first-aid.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/203.cut-wrist-glass-941x1024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/203.cut-wrist-glass-941x1024.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/204.White3_338x338_crop_center.progressive.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/204.White3_338x338_crop_center.progressive.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/205.taping-wrist-kinesio-tape-1-400x267.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/205.taping-wrist-kinesio-tape-1-400x267.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/207.Finger_Tape_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/207.Finger_Tape_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/208.sock36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/208.sock36.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/209.enhanced-buzz-19774-1357590736-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/209.enhanced-buzz-19774-1357590736-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/21.SelfHarm2017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/21.SelfHarm2017.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/210.finger_wrap_2_large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/210.finger_wrap_2_large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/211.BN-JO458_0727TE_H_20150727103725.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/211.BN-JO458_0727TE_H_20150727103725.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/212.rBVaJFlZ9eqAcVwfAANLXNEd2VY823.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/212.rBVaJFlZ9eqAcVwfAANLXNEd2VY823.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/214.Toddler-Baby-Kids-Safety-Harness-Cut-Continuously-Child-Leash-Anti-Lost-Wrist-Link-Traction-Rope-Locktraction.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/214.Toddler-Baby-Kids-Safety-Harness-Cut-Continuously-Child-Leash-Anti-Lost-Wrist-Link-Traction-Rope-Locktraction.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/217.OOvGROg43fTpmsVRqLzN5s5iJe1GOUA8zhZAlFvLDlM.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/217.OOvGROg43fTpmsVRqLzN5s5iJe1GOUA8zhZAlFvLDlM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/218.Mex1099Cut05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/218.Mex1099Cut05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/219.bands-556303.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/219.bands-556303.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/22.depositphotos_180448480-stock-photo-hand-full-of-blood-and.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/22.depositphotos_180448480-stock-photo-hand-full-of-blood-and.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/220.suicide-attempt-of-a-hand-cutting-a-wrist-with-a-razor-blade-BDBFRD.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/220.suicide-attempt-of-a-hand-cutting-a-wrist-with-a-razor-blade-BDBFRD.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/222.plasticsurgery-laceration-383x250.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/222.plasticsurgery-laceration-383x250.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/223.Step-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/223.Step-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/225.cut-hand1-400x300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/225.cut-hand1-400x300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/226.Cut-Laceration.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/226.Cut-Laceration.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/227.55f48f134996c65e867959df_57d5b944b7210e3e0e5504e6_320.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/227.55f48f134996c65e867959df_57d5b944b7210e3e0e5504e6_320.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/228.201186652.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/228.201186652.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/229.Wrist_Tape_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/229.Wrist_Tape_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/23.6-Figure1-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/23.6-Figure1-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/230.1454564209250.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/230.1454564209250.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/237.7b132ad8bb5e08e931908df4040132da.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/237.7b132ad8bb5e08e931908df4040132da.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/238.Mex1099Cut02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/238.Mex1099Cut02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/241.c_fit,fl_progressive,q_80,w_470.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/241.c_fit,fl_progressive,q_80,w_470.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/244.9a545194b8f8b3cce9800248b1852193.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/244.9a545194b8f8b3cce9800248b1852193.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/247.d1jl56-0e39ec4f-a363-4f24-bf66-6171866c76ea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/247.d1jl56-0e39ec4f-a363-4f24-bf66-6171866c76ea.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/25.wristcut.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/25.wristcut.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/250.bone-spur-of-the-wrist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/250.bone-spur-of-the-wrist.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/252.tumblr_mq03ncTByA1riy5kgo1_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/252.tumblr_mq03ncTByA1riy5kgo1_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/255.suicide-attempt-picture_csp5236497.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/255.suicide-attempt-picture_csp5236497.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/26.tumblr_mkuztdXBoV1qad6e1o1_400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/26.tumblr_mkuztdXBoV1qad6e1o1_400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/263.l9sObJ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/263.l9sObJ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/264.500_F_195269639_zWY43FTlyzgGRrC3eHJL4b1WTfUjdYXS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/264.500_F_195269639_zWY43FTlyzgGRrC3eHJL4b1WTfUjdYXS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/265.Knife-Forearm-Injury1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/265.Knife-Forearm-Injury1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/268.KNTL-MAR-18-02_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/268.KNTL-MAR-18-02_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/27.ACutAbove.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/27.ACutAbove.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/270.chirophobia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/270.chirophobia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/271.01-dementia-Cut-Your-Risk-of-Dementia-by-35-Percent-With-These-9-Things_209352958-Ocskay-Mark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/271.01-dementia-Cut-Your-Risk-of-Dementia-by-35-Percent-With-These-9-Things_209352958-Ocskay-Mark.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/273.Clinical-photographs-at-8months-follow-up-showing-a-extension-with-ape-thumb-b_Q320.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/273.Clinical-photographs-at-8months-follow-up-showing-a-extension-with-ape-thumb-b_Q320.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/274.hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/274.hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/275.cutting-on-social-media.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/275.cutting-on-social-media.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/278.cut-wrist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/278.cut-wrist.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/28.a-young-man-cutting-his-wrist-with-a-saftey-razor-blade-CRK6FW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/28.a-young-man-cutting-his-wrist-with-a-saftey-razor-blade-CRK6FW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/280.OKKDDKE2VEI6RKGYTNGBGKDNNM.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/280.OKKDDKE2VEI6RKGYTNGBGKDNNM.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/289.GettyImages-948664688.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/289.GettyImages-948664688.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/290.suicide-in-bathtub_ejp35okn__F0000.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/290.suicide-in-bathtub_ejp35okn__F0000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/295.3743FF4500000578-3741910-image-a-85_1471296273325.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/295.3743FF4500000578-3741910-image-a-85_1471296273325.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/3.83938332-hand-full-of-blood-and-wrist-cut-on-white-fabric-represent-feeling-hurt-bad-relationship-concept-.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/3.83938332-hand-full-of-blood-and-wrist-cut-on-white-fabric-represent-feeling-hurt-bad-relationship-concept-.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/30.vertical_wrist_cut_by_sirmadamwaffles_d58z33b-pre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/30.vertical_wrist_cut_by_sirmadamwaffles_d58z33b-pre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/306.scoop-frozen-ice-cream-without-breaking-your-wrist.w1456.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/306.scoop-frozen-ice-cream-without-breaking-your-wrist.w1456.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/31.wp-image-395614515.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/31.wp-image-395614515.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/310.3bc36cd46c214d6de8b19df472e7dc73.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/310.3bc36cd46c214d6de8b19df472e7dc73.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/311.WFike.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/311.WFike.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/32.m2o2bt7ec7601.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/32.m2o2bt7ec7601.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/324.drawn-depression-cutting-528773-7570938.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/324.drawn-depression-cutting-528773-7570938.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/33.img_0737.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/33.img_0737.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/334.ROLYAN-PRE-CUT-WRIST-AND-THUMB-SPICA-SPLINT-POLYFORM-3.2MM-M-WHITE-PK-3-(ROLA67832).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/334.ROLYAN-PRE-CUT-WRIST-AND-THUMB-SPICA-SPLINT-POLYFORM-3.2MM-M-WHITE-PK-3-(ROLA67832).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/338.DIY-Wrist-Corsage-Step-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/338.DIY-Wrist-Corsage-Step-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/339.1427382411230.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/339.1427382411230.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/34.3.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/34.3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/340.Step-21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/340.Step-21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/35.a45e36_90dec17bc8e84f48ba883ac33bbcfa29~mv2_d_3264_2448_s_4_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/35.a45e36_90dec17bc8e84f48ba883ac33bbcfa29~mv2_d_3264_2448_s_4_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/36.cut-my-friends-wrist...-using-pens-P-322936.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/36.cut-my-friends-wrist...-using-pens-P-322936.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/360.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/360.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/37.Wrist2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/37.Wrist2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/38.2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/38.2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/39.d7a7b8d6b3f97a8bb75ff57b0a35007a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/39.d7a7b8d6b3f97a8bb75ff57b0a35007a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/4.54f453bfe5de5144cb3a21538be7e1bf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/4.54f453bfe5de5144cb3a21538be7e1bf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/40.cutting.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/40.cutting.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/41.a-young-man-cutting-his-wrist-with-a-safety-razor-blade-CRK6EJ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/41.a-young-man-cutting-his-wrist-with-a-safety-razor-blade-CRK6EJ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/43.wrist-cut-598441_960_720.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/43.wrist-cut-598441_960_720.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/44.DSC00038.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/44.DSC00038.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/46.apyc4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/46.apyc4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/48.15873-suicide-attempt-cut-wrist-and-bloody-knife-on-table-zoom_90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/48.15873-suicide-attempt-cut-wrist-and-bloody-knife-on-table-zoom_90.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/5.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/5.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/50.397E195900000578-3848468-Imitation_Some_fans_posted_images_of_cut_wrists_claiming_it_was_-a-15_1476811343015.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/50.397E195900000578-3848468-Imitation_Some_fans_posted_images_of_cut_wrists_claiming_it_was_-a-15_1476811343015.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/51.5054064117_17b64c7998_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/51.5054064117_17b64c7998_o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/53.791536.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/53.791536.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/54.1-s2.0-S2090536X15000805-gr1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/54.1-s2.0-S2090536X15000805-gr1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/58.a-reconstruction-of-a-dead-body-with-a-razor-blade-and-severe-cut-CRK6G0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/58.a-reconstruction-of-a-dead-body-with-a-razor-blade-and-severe-cut-CRK6G0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/59.cut.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/59.cut.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/6.wrist-cut-644x362.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/6.wrist-cut-644x362.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/60.slit%205.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/60.slit%205.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/61.80e3c2836e8537763feb10d1ec158685---year-ago-blood.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/61.80e3c2836e8537763feb10d1ec158685---year-ago-blood.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/62.dpmrcg-65685260-f1f3-40f6-b7ab-1e72b01acc1d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/62.dpmrcg-65685260-f1f3-40f6-b7ab-1e72b01acc1d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/63.hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/63.hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/65.Vampire-cut-wrist-zombie-wound-practical-joke-Tattoo-stickers-shapeshift-scratches-halloween-waterproof-tattoo-stickers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/65.Vampire-cut-wrist-zombie-wound-practical-joke-Tattoo-stickers-shapeshift-scratches-halloween-waterproof-tattoo-stickers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/66.27ef7d2af7594fd36e70a9d0feef259d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/66.27ef7d2af7594fd36e70a9d0feef259d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/67.100_21952.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/67.100_21952.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/68.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/68.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/69.bloody-knife-a-bloody-knife-and-a-cut-wrist-isolated-on-white-this-image-has-innumerous-uses-like-stock-photo_csp1650702.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/69.bloody-knife-a-bloody-knife-and-a-cut-wrist-isolated-on-white-this-image-has-innumerous-uses-like-stock-photo_csp1650702.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/7.cut_wrist_by_fxjaguar-d71j84h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/7.cut_wrist_by_fxjaguar-d71j84h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/70.30-hair-tie-infection.w710.h473.2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/70.30-hair-tie-infection.w710.h473.2x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/71.Clinical-photographs-of-31-yrs-old-male-assault-with-Axe-showing-a-cut-FPL-FDS-FDP-of_Q320.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/71.Clinical-photographs-of-31-yrs-old-male-assault-with-Axe-showing-a-cut-FPL-FDS-FDP-of_Q320.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/72.businessman-trying-to-cut-his-wrist-with-a-razor-blade-DRP1XY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/72.businessman-trying-to-cut-his-wrist-with-a-razor-blade-DRP1XY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/73.25332126-352-k83831.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/73.25332126-352-k83831.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/75.Cut_Wrist_Prosth_4f13e464c8cc4-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/75.Cut_Wrist_Prosth_4f13e464c8cc4-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/76.Woman-found-wit3762.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/76.Woman-found-wit3762.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/77.slice%202.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/77.slice%202.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/78.6-Figure2-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/78.6-Figure2-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/79.1e7d5cc43a8f0ea7139a0476375750ffffabcead_hq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/79.1e7d5cc43a8f0ea7139a0476375750ffffabcead_hq.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/8.81Nduh5y1tL._SS500_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/8.81Nduh5y1tL._SS500_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/80.tumblr_m4rvrl35r11qencldo1_400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/80.tumblr_m4rvrl35r11qencldo1_400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/82.suicide-attempt-of-a-hand-cutting-a-wrist-with-a-razor-blade-BDBFRD.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/82.suicide-attempt-of-a-hand-cutting-a-wrist-with-a-razor-blade-BDBFRD.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/84.800px_COLOURBOX1040021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/84.800px_COLOURBOX1040021.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/85.7b132ad8bb5e08e931908df4040132da.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/85.7b132ad8bb5e08e931908df4040132da.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/86.1-s2.0-S2090536X15000805-gr2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/86.1-s2.0-S2090536X15000805-gr2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/88.Young_boy_livestreams.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/88.Young_boy_livestreams.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/89.670px-User-Completed-Image-Make-Fake-Cuts-2016.01.31-02.40.11.0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/89.670px-User-Completed-Image-Make-Fake-Cuts-2016.01.31-02.40.11.0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/90.HandStitches-650x450.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/90.HandStitches-650x450.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/91.0514c1824a130668954209c49f3c717ffd9786.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/91.0514c1824a130668954209c49f3c717ffd9786.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/92.cut-for-love-ar-wrist-hand-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/92.cut-for-love-ar-wrist-hand-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/93.791537_400w_1000h.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/93.791537_400w_1000h.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/94.Wrist1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/94.Wrist1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/95.s-l300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/95.s-l300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cut wrist/99.1442526987643.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/cut_wrist/99.1442526987643.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/1.garbage1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/1.garbage1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/10.garbage-everywhere-shenzhen-baoan-xixiang-china-47063468.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/10.garbage-everywhere-shenzhen-baoan-xixiang-china-47063468.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/100.Germ_City.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/100.Germ_City.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/101.9309646-288-k529102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/101.9309646-288-k529102.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/102.BML-Strike0007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/102.BML-Strike0007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/103.pic_article_six.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/103.pic_article_six.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/104.gabarage-clipart-everywhere-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/104.gabarage-clipart-everywhere-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/105.46489422_303.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/105.46489422_303.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/106.03AMAR%20OUTSIDE%20TEMPLE%20IN%20%20KHAIRATABAD.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/106.03AMAR%20OUTSIDE%20TEMPLE%20IN%20%20KHAIRATABAD.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/107.DSC_1766.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/107.DSC_1766.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/108.third-grade-clipart-1-292x200.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/108.third-grade-clipart-1-292x200.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/109.denis-lowe.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/109.denis-lowe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/11.Its_garbag.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/11.Its_garbag.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/110.Angola-Has-Garbage-Everywhere-Yet-they-Do-have-Garbage-Truck-1-1030x772.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/110.Angola-Has-Garbage-Everywhere-Yet-they-Do-have-Garbage-Truck-1-1030x772.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/111.garbage-everywhere-shenzhen-baoan-xixiang-china-47063523.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/111.garbage-everywhere-shenzhen-baoan-xixiang-china-47063523.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/112.DSC_0003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/112.DSC_0003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/113.beach-garbage-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/113.beach-garbage-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/114.l_piles-of-garbage-everywhere-is-engaged-1477546923_280x183.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/114.l_piles-of-garbage-everywhere-is-engaged-1477546923_280x183.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/115.BUZZ-5-3-2018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/115.BUZZ-5-3-2018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/116.3K_rubble_in_front_of_home_medium.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/116.3K_rubble_in_front_of_home_medium.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/117.photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/117.photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/118.C_8W2UnVYAAnF_W.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/118.C_8W2UnVYAAnF_W.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/119.beach-trash-350x210.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/119.beach-trash-350x210.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/12.garbage-everywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/12.garbage-everywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/120.EVGW_080514_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/120.EVGW_080514_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/121.scott-andreas-garbage-garbage-everywhere-gc-strategies-for-event-processing-systems-on-the-jvm-boundary-tech-talks-111711-6-728.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/121.scott-andreas-garbage-garbage-everywhere-gc-strategies-for-event-processing-systems-on-the-jvm-boundary-tech-talks-111711-6-728.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/122.garbage-everywhere-around.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/122.garbage-everywhere-around.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/123.Garbage-25-e1324835775177.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/123.Garbage-25-e1324835775177.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/124.66032618.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/124.66032618.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/125.inlaid-garbage-everywhere-46581066.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/125.inlaid-garbage-everywhere-46581066.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/126.PDP_Trash-F.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/126.PDP_Trash-F.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/128.87514.ngsversion.1465407024514.adapt.1900.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/128.87514.ngsversion.1465407024514.adapt.1900.1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/129.920x920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/129.920x920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/13.2015_07_02_16_43_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/13.2015_07_02_16_43_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/130.a2684067937_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/130.a2684067937_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/131.garbages_everywhere_in_naples_640_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/131.garbages_everywhere_in_naples_640_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/132.hoboken-trash-garbage-sidewalks-qotd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/132.hoboken-trash-garbage-sidewalks-qotd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/134.depositphotos_36020607-stock-photo-garbage-everywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/134.depositphotos_36020607-stock-photo-garbage-everywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/135.d8b72677-566a-493e-ac81-ce06dfbae686.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/135.d8b72677-566a-493e-ac81-ce06dfbae686.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/136.raw%20cell%20phone%20vid%20-%20bicycles%20on%20road%20for%20mp%20myrt%20price%20LAKE-BICYCLIST%20V%20DRIVERS_frame_2348_1552421402541.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/136.raw%20cell%20phone%20vid%20-%20bicycles%20on%20road%20for%20mp%20myrt%20price%20LAKE-BICYCLIST%20V%20DRIVERS_frame_2348_1552421402541.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/137.i285697114399111104.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/137.i285697114399111104.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/138.GOREL-jornada..jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/138.GOREL-jornada..jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/139.art10218.13257.t1.0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/139.art10218.13257.t1.0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/14.landfill.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/14.landfill.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/140.1550081161_maxresdefault-1024x576.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/140.1550081161_maxresdefault-1024x576.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/141.4944515834_8fc5105267_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/141.4944515834_8fc5105267_b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/142.portada.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/142.portada.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/143.01531340173.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/143.01531340173.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/144.292-2920539_travel-royalty-free-vector-clip-art-illustration-people-throwing-garbage-everywhere-cartoon.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/144.292-2920539_travel-royalty-free-vector-clip-art-illustration-people-throwing-garbage-everywhere-cartoon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/145.img_2327-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/145.img_2327-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/146.o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/146.o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/147.eek-drynuary.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/147.eek-drynuary.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/148.IMG_1316.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/148.IMG_1316.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/149.24-ghantay-garbage-everywhere-in.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/149.24-ghantay-garbage-everywhere-in.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/15.garbage-mountains-in-beirut-e1437543501696.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/15.garbage-mountains-in-beirut-e1437543501696.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/150.hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/150.hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/151.screen_shot_2016-04-04_at_3.03.35_pm_p3116412.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/151.screen_shot_2016-04-04_at_3.03.35_pm_p3116412.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/152.8ec58acf-b372-49aa-9f31-11d425d2b156_ORIGINAL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/152.8ec58acf-b372-49aa-9f31-11d425d2b156_ORIGINAL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/153.photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/153.photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/154.house-on-stilts-stock-photography__k33476090.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/154.house-on-stilts-stock-photography__k33476090.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/156.waste-300x453.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/156.waste-300x453.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/157.08f1a97f240485824145122dfca03eea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/157.08f1a97f240485824145122dfca03eea.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/158.garbage-everywhere-shenzhen-baoan-xixiang-china-47063520.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/158.garbage-everywhere-shenzhen-baoan-xixiang-china-47063520.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/159.IMG_2437.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/159.IMG_2437.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/16.garbage-593x315.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/16.garbage-593x315.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/160.garbage_garbage_everywhere_by_cowboycrocket_d5s55uh-pre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/160.garbage_garbage_everywhere_by_cowboycrocket_d5s55uh-pre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/165.lake-okanagan-resort.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/165.lake-okanagan-resort.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/167.CUSi-hnU8AA40Vr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/167.CUSi-hnU8AA40Vr.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/169.plastic-kent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/169.plastic-kent.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/17.1HT10-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/17.1HT10-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/170.dont-litter-sign-litter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/170.dont-litter-sign-litter.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/171.old.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/171.old.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/172.B4F0D36E-2EFA-4886-9376-5336BA7CA2B5-1024x768.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/172.B4F0D36E-2EFA-4886-9376-5336BA7CA2B5-1024x768.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/173.video11640.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/173.video11640.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/175.trash.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/175.trash.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/176.trash_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/176.trash_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/178.trash.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/178.trash.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/179.trash_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/179.trash_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/18.plastic-ocean-garbage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/18.plastic-ocean-garbage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/181.IMG_0193-225x300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/181.IMG_0193-225x300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/182.img_2327-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/182.img_2327-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/184.taman-daya-rubbish-se06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/184.taman-daya-rubbish-se06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/187.635539134117729804-AP-Ocean-Junk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/187.635539134117729804-AP-Ocean-Junk.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/188.392212_19884709-l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/188.392212_19884709-l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/189.photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/189.photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/19.58352741.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/19.58352741.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/190.081818-slug-bug-ranch-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/190.081818-slug-bug-ranch-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/191.bags.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/191.bags.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/192.house-on-stilts-stock-photograph__k43407216.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/192.house-on-stilts-stock-photograph__k43407216.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/194.pensiunea-gruia-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/194.pensiunea-gruia-10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/195.20160613_garbage2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/195.20160613_garbage2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/196.img_0718.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/196.img_0718.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/197.Wine%2BBottles%2Beverywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/197.Wine%2BBottles%2Beverywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/198.08f1a97f240485824145122dfca03eea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/198.08f1a97f240485824145122dfca03eea.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/199.garbage-dump-manila-phillipines.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/199.garbage-dump-manila-phillipines.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/2.img_3492.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/2.img_3492.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/20.india_trash_2013_6_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/20.india_trash_2013_6_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/200.Throwing-garbage-anywhere-clipart-clipartfest.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/200.Throwing-garbage-anywhere-clipart-clipartfest.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/201.165944-5a332da015cb6_yuck.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/201.165944-5a332da015cb6_yuck.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/203.versova-wide-garbage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/203.versova-wide-garbage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/204.kids-recycling_tif.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/204.kids-recycling_tif.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/205.hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/205.hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/206.Rajasthan-2013.10.18-Amber-43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/206.Rajasthan-2013.10.18-Amber-43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/207.garbage-garbage-everywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/207.garbage-garbage-everywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/208.01_Garbage%20everywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/208.01_Garbage%20everywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/209.167379-garbage-everywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/209.167379-garbage-everywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/21.42858832521_577b7efebd_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/21.42858832521_577b7efebd_b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/210.54512922_2127792364008313_8139692728599607172_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/210.54512922_2127792364008313_8139692728599607172_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/211.DSC_0002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/211.DSC_0002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/212.20180422-gn-39_2710635_835x547-m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/212.20180422-gn-39_2710635_835x547-m.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/213.garbage-patch--model.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/213.garbage-patch--model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/214.cf2b930a-dad5-4a53-9801-69e232fa3cc3-medium16x9_A_bear_in_the_neighbor_s_garbage_656708297990926.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/214.cf2b930a-dad5-4a53-9801-69e232fa3cc3-medium16x9_A_bear_in_the_neighbor_s_garbage_656708297990926.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/215.o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/215.o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/216.caption_9633833.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/216.caption_9633833.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/217.poem-on-garbage-1-728.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/217.poem-on-garbage-1-728.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/218.chitown-4-360x262.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/218.chitown-4-360x262.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/219.garbage-cathy-189.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/219.garbage-cathy-189.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/22.02f6a2a9f40aea26b18f27b9cbb16c22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/22.02f6a2a9f40aea26b18f27b9cbb16c22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/220.animals-raccoon-garbage_can-rubbish_bin-rubbish_can-rubbish-rsun627_low.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/220.animals-raccoon-garbage_can-rubbish_bin-rubbish_can-rubbish-rsun627_low.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/221.tonsai-6598.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/221.tonsai-6598.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/222.bharari-garbage-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/222.bharari-garbage-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/223.main-qimg-f4a5f0e71ac52efde6357e7113bd0515.webp" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/223.main-qimg-f4a5f0e71ac52efde6357e7113bd0515.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/224.jefferson_c_lankford_cover-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/224.jefferson_c_lankford_cover-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/226.IMG_8869.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/226.IMG_8869.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/227.garbage-everywhere-in.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/227.garbage-everywhere-in.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/228.640px-sunset_at_godavri_news_featured.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/228.640px-sunset_at_godavri_news_featured.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/229.IMG_7303-s-min.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/229.IMG_7303-s-min.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/23.garbage_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/23.garbage_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/231.Angola-People-Taking-a-Ferry.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/231.Angola-People-Taking-a-Ferry.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/232.129927-58d2a52977bf4_food-under-equipment.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/232.129927-58d2a52977bf4_food-under-equipment.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/235.000_nic6485581.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/235.000_nic6485581.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/236.336850_10100207395110332_1126345951_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/236.336850_10100207395110332_1126345951_o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/237.Garbage-from-Window_o-1024x590.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/237.Garbage-from-Window_o-1024x590.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/238.slide_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/238.slide_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/239.Garbage-Clinical-Insurance3-750x422.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/239.Garbage-Clinical-Insurance3-750x422.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/24.cow-plastics-polluted-area-walking-garbage-everywhere-trash-105874553.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/24.cow-plastics-polluted-area-walking-garbage-everywhere-trash-105874553.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/240.garbage-everywhere-litter-bags-other-city-street-32672091.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/240.garbage-everywhere-litter-bags-other-city-street-32672091.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/241.11e18b54-c927-4297-adef-9c972c1de32e-2060x1236.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/241.11e18b54-c927-4297-adef-9c972c1de32e-2060x1236.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/242.0002889915_100.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/242.0002889915_100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/243.16399__garbage-man-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/243.16399__garbage-man-01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/244.q44u5swxriv01.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/244.q44u5swxriv01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/245.24-Ghantay-Garbage-Everywhere-in-Karachi-10-September-2018-Express-News-780x405.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/245.24-Ghantay-Garbage-Everywhere-in-Karachi-10-September-2018-Express-News-780x405.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/246.78625.ngsversion.1422285259310.adapt.768.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/246.78625.ngsversion.1422285259310.adapt.768.1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/247.garbage-everywhere-green-grass-260nw-1281691582.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/247.garbage-everywhere-green-grass-260nw-1281691582.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/248.2076104_orig.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/248.2076104_orig.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/249.414b59c5452bb593b051607a29cc3db1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/249.414b59c5452bb593b051607a29cc3db1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/25.63604926.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/25.63604926.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/250.1306.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/250.1306.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/251.Opinion.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/251.Opinion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/252.x9g98743.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/252.x9g98743.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/253.DSCN3016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/253.DSCN3016.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/254.throwing-garbage-in-the-river-clipart-black-and-white-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/254.throwing-garbage-in-the-river-clipart-black-and-white-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/256.240_F_240131750_I3MelBOiHSlSuusO6oJn58XoYsJXR9ha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/256.240_F_240131750_I3MelBOiHSlSuusO6oJn58XoYsJXR9ha.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/257.d87hmd1-e23262ab-3a19-4416-96be-aca68acf15b5.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/257.d87hmd1-e23262ab-3a19-4416-96be-aca68acf15b5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/258.garbage-everywhere-dumaguete-20160507.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/258.garbage-everywhere-dumaguete-20160507.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/259.IMG_4090-1024x768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/259.IMG_4090-1024x768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/26.z_p01-Garbage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/26.z_p01-Garbage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/260.e926osvlh7cosmebdr69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/260.e926osvlh7cosmebdr69.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/261.2076104_orig.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/261.2076104_orig.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/262.414b59c5452bb593b051607a29cc3db1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/262.414b59c5452bb593b051607a29cc3db1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/263.Opinion.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/263.Opinion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/264.x9g98743.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/264.x9g98743.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/265.DSCN3016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/265.DSCN3016.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/267.throwing-garbage-in-the-river-clipart-black-and-white-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/267.throwing-garbage-in-the-river-clipart-black-and-white-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/268.240_F_240131750_I3MelBOiHSlSuusO6oJn58XoYsJXR9ha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/268.240_F_240131750_I3MelBOiHSlSuusO6oJn58XoYsJXR9ha.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/269.d87hmd1-e23262ab-3a19-4416-96be-aca68acf15b5.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/269.d87hmd1-e23262ab-3a19-4416-96be-aca68acf15b5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/27.02132019_beach-trashpic_114537-780x459.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/27.02132019_beach-trashpic_114537-780x459.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/270.10bruni1web-articleLarge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/270.10bruni1web-articleLarge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/271.garbage-everywhere-dumaguete-20160507.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/271.garbage-everywhere-dumaguete-20160507.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/272.IMG_4090-1024x768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/272.IMG_4090-1024x768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/273.e926osvlh7cosmebdr69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/273.e926osvlh7cosmebdr69.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/274.11360EDE-661C-4BE7-94FE-6C099033F75D-e1553233733237-1024x768.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/274.11360EDE-661C-4BE7-94FE-6C099033F75D-e1553233733237-1024x768.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/275.Plantation-Mumbai-Environmental-Organisation-Saurabh-Gupta-Volunteering-NGO.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/275.Plantation-Mumbai-Environmental-Organisation-Saurabh-Gupta-Volunteering-NGO.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/276.art10250.13318.t1.0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/276.art10250.13318.t1.0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/277.bali%2Btrash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/277.bali%2Btrash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/278.idep-media-poster-what-do-you-choose-for-your-future-en.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/278.idep-media-poster-what-do-you-choose-for-your-future-en.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/279.reunions-464x290.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/279.reunions-464x290.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/28.beirut-garbage-300x182.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/28.beirut-garbage-300x182.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/280.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/280.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/281.c_scale,fl_progressive,q_80,w_800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/281.c_scale,fl_progressive,q_80,w_800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/282.2019-01-23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/282.2019-01-23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/283.garbage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/283.garbage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/284.DSC_0009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/284.DSC_0009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/285.The-smell-of-garbage-everywhere-You-can-have-the-perfect-apartment-walk-outside-and-just-be-hit-with-the-most-nauseating-smell-Carrieanne-Reichardt-25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/285.The-smell-of-garbage-everywhere-You-can-have-the-perfect-apartment-walk-outside-and-just-be-hit-with-the-most-nauseating-smell-Carrieanne-Reichardt-25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/286.dumped-trash-on-patan-main-street-1_wide-3697fd200171eaaa6f9358e26da72295d246bdbf-s1100-c15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/286.dumped-trash-on-patan-main-street-1_wide-3697fd200171eaaa6f9358e26da72295d246bdbf-s1100-c15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/287.%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%B8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/287.%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%B8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/288.6f5469f7-67d4-4a6f-8344-bd13f844108e_ORIGINAL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/288.6f5469f7-67d4-4a6f-8344-bd13f844108e_ORIGINAL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/289.o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/289.o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/29.garbage-everywhere-shenzhen-baoan-xixiang-china-47063555.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/29.garbage-everywhere-shenzhen-baoan-xixiang-china-47063555.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/290.PS_MetalStraw_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/290.PS_MetalStraw_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/291.20181013_171403.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/291.20181013_171403.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/292.trash4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/292.trash4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/293.Ep036-Totally-Wasted.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/293.Ep036-Totally-Wasted.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/294.bon-jus-2-000-ll-001-12-1-5-281021-001121-81021-7187142.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/294.bon-jus-2-000-ll-001-12-1-5-281021-001121-81021-7187142.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/295.4qQr7225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/295.4qQr7225.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/296.mqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/296.mqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/297.03-8951-1555243069-1555262691-4124-1555262739_1200x0.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/297.03-8951-1555243069-1555262691-4124-1555262739_1200x0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/298.Garbage-spewed-in-random-places-in-Hoboken-NJ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/298.Garbage-spewed-in-random-places-in-Hoboken-NJ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/299.pbl.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/299.pbl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/3.Umuahia-captain-road-702x336.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/3.Umuahia-captain-road-702x336.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/30.It%E2%80%99s_garbage_everywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/30.It%E2%80%99s_garbage_everywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/300.poemongarbage-101009010852-phpapp01-thumbnail-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/300.poemongarbage-101009010852-phpapp01-thumbnail-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/301.g25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/301.g25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/302.buys_trash.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/302.buys_trash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/303.c19102fd9236b9f4166231003805d14f_unit-7-protect-the-earth-lily-unit-7-protect-the-_960-720.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/303.c19102fd9236b9f4166231003805d14f_unit-7-protect-the-earth-lily-unit-7-protect-the-_960-720.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/304.MDG--Sanitation-in-Haiti--008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/304.MDG--Sanitation-in-Haiti--008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/305.garbagecooker-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/305.garbagecooker-200x200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/306.CMy7KrBXAAAEl2q.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/306.CMy7KrBXAAAEl2q.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/307.chennai-rains-garbage-650_650x400_81449506134.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/307.chennai-rains-garbage-650_650x400_81449506134.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/308.strava_newYearsRide.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/308.strava_newYearsRide.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/309.cam_house_garbage_1173x798.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/309.cam_house_garbage_1173x798.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/31.1540921218.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/31.1540921218.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/310.q44u5swxriv01.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/310.q44u5swxriv01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/311.Malayatoor_bridge_Dhanya_650_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/311.Malayatoor_bridge_Dhanya_650_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/312.53123440_315008825870400_1906395611764627489_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/312.53123440_315008825870400_1906395611764627489_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/313.Built442A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/313.Built442A.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/314.garbage-everywhere-green-grass-260nw-1281691582.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/314.garbage-everywhere-green-grass-260nw-1281691582.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/315.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/315.1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/316.sweden-phu-quoc-with-love-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/316.sweden-phu-quoc-with-love-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/317.1306.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/317.1306.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/318.fullsizerender-92.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/318.fullsizerender-92.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/319.2b3a93e0bb0f935aa792550ac38601974ab277e760bef823feea0bb7757e53e4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/319.2b3a93e0bb0f935aa792550ac38601974ab277e760bef823feea0bb7757e53e4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/32.5705c9392a9dd.image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/32.5705c9392a9dd.image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/320.71TsErFZ5RL._SX268_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/320.71TsErFZ5RL._SX268_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/321.cow-trashy-anjuna.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/321.cow-trashy-anjuna.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/322.50C0C69100000578-6217157-When_she_arrived_at_the_home_Ms_Zhao_found_the_2_2million_proper-a-4_1538106673183.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/322.50C0C69100000578-6217157-When_she_arrived_at_the_home_Ms_Zhao_found_the_2_2million_proper-a-4_1538106673183.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/323.garbage-everywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/323.garbage-everywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/324.IMG_0875.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/324.IMG_0875.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/325.garbage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/325.garbage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/326.GARBAGE_EVERYWHERE_(SHE_TOR19JSK_tnb_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/326.GARBAGE_EVERYWHERE_(SHE_TOR19JSK_tnb_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/327.Save-Bellandur-240x300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/327.Save-Bellandur-240x300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/328.main-qimg-36d10eef47af50112424a3c5e2a11c6e.webp" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/328.main-qimg-36d10eef47af50112424a3c5e2a11c6e.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/329.garbage-clipart-everywhere-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/329.garbage-clipart-everywhere-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/33.file71fr2y76b869cv4jeya1534193.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/33.file71fr2y76b869cv4jeya1534193.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/331.qNCMdey.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/331.qNCMdey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/332.litter_can1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/332.litter_can1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/333.hqdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/333.hqdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/334.source.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/334.source.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/335.small-cover-enough-of-us.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/335.small-cover-enough-of-us.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/336.126354-3f10819ef76bd7f52599a65fcb8128c6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/336.126354-3f10819ef76bd7f52599a65fcb8128c6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/337.IMG_7159.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/337.IMG_7159.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/338.plastic-waste-620x350.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/338.plastic-waste-620x350.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/339.shadawehbetwitt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/339.shadawehbetwitt.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/34.trash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/34.trash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/340.afp-20190516-plastic-cocos-islands.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/340.afp-20190516-plastic-cocos-islands.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/341.IMG_4089-1-1024x768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/341.IMG_4089-1-1024x768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/342.32905BEB00000578-0-image-a-36_1458958154163.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/342.32905BEB00000578-0-image-a-36_1458958154163.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/343.01.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/343.01.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/35.Cholera.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/35.Cholera.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/36.Garbage-garbage-everywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/36.Garbage-garbage-everywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/37.93669031-zanzibar-tanzania-july-14-2016-trash-and-garbage-everywhere-in-zanzibar-tanzania-shacks-and-poverty-.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/37.93669031-zanzibar-tanzania-july-14-2016-trash-and-garbage-everywhere-in-zanzibar-tanzania-shacks-and-poverty-.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/38.Garbage-Garbage-Everywhere-e1549300230361.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/38.Garbage-Garbage-Everywhere-e1549300230361.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/39.17793027_10208899190469267_1699221523_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/39.17793027_10208899190469267_1699221523_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/4.rubbish-dump-pile-of-domestic-garbage-background-large-heap-of-garbage-FE24M5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/4.rubbish-dump-pile-of-domestic-garbage-background-large-heap-of-garbage-FE24M5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/40.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/40.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/41.61254001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/41.61254001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/42.4CE457E100000578-5802189-image-a-63_1528118999676.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/42.4CE457E100000578-5802189-image-a-63_1528118999676.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/43.2111f9de-c79c-4dea-a728-2f92e1f11101_a2a25bf3-1b9c-41db-8eeb-894acb0c6c41.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/43.2111f9de-c79c-4dea-a728-2f92e1f11101_a2a25bf3-1b9c-41db-8eeb-894acb0c6c41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/44.5973bcb3b86ac.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/44.5973bcb3b86ac.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/45.garbage-everywhere-shenzhen-baoan-xixiang-china-47063487.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/45.garbage-everywhere-shenzhen-baoan-xixiang-china-47063487.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/46.o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/46.o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/47.foul-bay-skip.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/47.foul-bay-skip.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/48.22519449-mmmain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/48.22519449-mmmain.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/49.Manila-bay-overflows_CNNPH.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/49.Manila-bay-overflows_CNNPH.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/5.06x-ysp1_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/5.06x-ysp1_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/50.img-20180210-wa0005-_021018034128.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/50.img-20180210-wa0005-_021018034128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/51.throwing-garbage-everywhere-clipart-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/51.throwing-garbage-everywhere-clipart-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/52.park-hotel-california.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/52.park-hotel-california.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/53.garbage-disposal2-copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/53.garbage-disposal2-copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/54.2115454687Kuppai.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/54.2115454687Kuppai.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/55.51.-Garbage-everywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/55.51.-Garbage-everywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/56.garbage-everywhere-stock-images_csp2211505.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/56.garbage-everywhere-stock-images_csp2211505.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/57.garbage-garbage-everywhere-e1440840564600.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/57.garbage-garbage-everywhere-e1440840564600.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/58.garbage-everywhere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/58.garbage-everywhere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/59.bRAx0XB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/59.bRAx0XB.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/6.e53acf73-03af-4676-9e0e-9d1557716097.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/6.e53acf73-03af-4676-9e0e-9d1557716097.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/60.garbageondoy3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/60.garbageondoy3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/61.DSC00583_FINAL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/61.DSC00583_FINAL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/62.throwing-garbage-everywhere-clipart-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/62.throwing-garbage-everywhere-clipart-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/63.cfc84a0853d6c28fdca3bc836c0a77d2f77353ff7be70c06c59efde927b81beb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/63.cfc84a0853d6c28fdca3bc836c0a77d2f77353ff7be70c06c59efde927b81beb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/64.garbage_everywhere_by_juliegrissom_d96rx2n-250t.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/64.garbage_everywhere_by_juliegrissom_d96rx2n-250t.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/65.poor-buildings-in-front-of-modern-shanghai-garbage-everywhere-on-the-DG5XPG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/65.poor-buildings-in-front-of-modern-shanghai-garbage-everywhere-on-the-DG5XPG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/66.Garbage-land%20filling.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/66.Garbage-land%20filling.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/67.1HT10-1-300x209.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/67.1HT10-1-300x209.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/68.eddie-s-tigress-ii.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/68.eddie-s-tigress-ii.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/69.48569_thump.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/69.48569_thump.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/7.170229-nizmpet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/7.170229-nizmpet.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/70.the-second-law-1191825-638x427.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/70.the-second-law-1191825-638x427.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/71.62407370.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/71.62407370.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/72.3t4usoenfrt21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/72.3t4usoenfrt21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/73.z_p13-Uncleared.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/73.z_p13-Uncleared.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/74.o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/74.o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/75.maharashtra-times.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/75.maharashtra-times.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/76.Angola-Garbage-is-Everywhere-1-1030x772.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/76.Angola-Garbage-is-Everywhere-1-1030x772.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/77.bay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/77.bay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/78.thumb_wide_300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/78.thumb_wide_300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/79.lake-erie-garbage-patch-lead.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/79.lake-erie-garbage-patch-lead.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/8.64501484.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/8.64501484.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/80.dscf6927.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/80.dscf6927.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/81.05-13-20141.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/81.05-13-20141.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/82.aa3516f804903de726430b576d47bbd6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/82.aa3516f804903de726430b576d47bbd6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/83.wastejapandamage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/83.wastejapandamage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/84.C_8W2UnVYAAnF_W.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/84.C_8W2UnVYAAnF_W.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/85.Fp8BfJt5Kld3wAL2ZDkLqV1FTGxH-Q9x4_wH9_9FmFw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/85.Fp8BfJt5Kld3wAL2ZDkLqV1FTGxH-Q9x4_wH9_9FmFw.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/86.garbage-everywhere-around.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/86.garbage-everywhere-around.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/87.shutterstock_755642032-554x350.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/87.shutterstock_755642032-554x350.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/88.20121208garbage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/88.20121208garbage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/89.lGeFaeJ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/89.lGeFaeJ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/9.garbages_everywhere_in_naples_640_03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/9.garbages_everywhere_in_naples_640_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/90.20100706_baghdadchildrentrash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/90.20100706_baghdadchildrentrash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/91.41ESXZK8HCL._SX258_BO1,204,203,200_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/91.41ESXZK8HCL._SX258_BO1,204,203,200_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/92.afptempdumpsite.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/92.afptempdumpsite.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/93.17792620_10208899192149309_1978192451_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/93.17792620_10208899192149309_1978192451_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/94.dump3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/94.dump3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/95.275491093_6188903da2_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/95.275491093_6188903da2_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/96.Waste_Bhopal_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/96.Waste_Bhopal_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/97.007333375_1-0fff5d77b60ef3a4b367f850595c264b.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/97.007333375_1-0fff5d77b60ef3a4b367f850595c264b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/98.vNkZPcv.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/98.vNkZPcv.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/garbage everywhere/99.litterinthebin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/garbage_everywhere/99.litterinthebin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/train.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +907,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="420">
+              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/train.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/MYRESNET.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+              <folding>
+                <element signature="e#85#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -44,6 +956,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MAKE-LABELS.py" />
+        <option value="$PROJECT_DIR$/MYRESNET.py" />
+        <option value="$PROJECT_DIR$/TRAINING-FILE.py" />
       </list>
     </option>
   </component>
@@ -97,7 +1011,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.TRAINING-FILE">
     <configuration name="MAKE-LABELS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="unsuitable-picture-recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,8 +1033,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TRAINING-FILE" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="unsuitable-picture-recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TRAINING-FILE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TRAINING-FILE" />
         <item itemvalue="Python.MAKE-LABELS" />
       </list>
     </recent_temporary>
@@ -161,14 +1097,45 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TRAINING-FILE.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/train.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="420">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYRESNET.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+          <folding>
+            <element signature="e#85#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
