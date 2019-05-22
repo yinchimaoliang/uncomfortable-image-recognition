@@ -11,6 +11,7 @@ import numpy as np
 from PIL import Image
 
 TRAIN_PATH = './data/train.txt'
+TEST_PATH = './data/test.txt'
 BATCH_SIZE = 40
 LR = 0.1
 EPOCH = 50
@@ -44,21 +45,38 @@ class MyDataset(Dataset):
 
 
 class MAIN():
-    def __init__(self,train_path):
+    def __init__(self,train_path,test_path):
         self.device = torch.device('cuda')
-        self.transform_train = transforms.Compose([
+        self.transform = transforms.Compose([
             transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
             transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
         ])
-        self.train_set = MyDataset(train_path,transforms = self.transform_train)
+        self.train_set = MyDataset(train_path,transforms = self.transform)
         self.train_loader = torch.utils.data.DataLoader(self.train_set,batch_size = BATCH_SIZE,shuffle = True)
+        self.test_set = MyDataset(test_path,transforms = self.transform)
+        self.test_loader = torch.utils.data.DataLoader(self.test_set,batch_size = BATCH_SIZE,shuffle = True)
         self.net = ResNet18(num_classes = CLASS_NUM).to(self.device)
         self.criterion = nn.CrossEntropyLoss()
         self.optimizer = optim.SGD(self.net.parameters(),lr = LR,momentum = 0.9,weight_decay = 5e-4)
         print(len(self.train_loader))
 
 
+
+    def test(self,epoch):
+        correct = 0.0
+        total = 0.0
+        for i, data in enumerate(self.test_loader):
+            inputs, labels = data
+            inputs, labels = inputs.to(self.device), labels.to(self.device)
+            outputs = self.net(inputs)
+            _, predicted = torch.max(outputs.data, 1)
+            predicted = predicted.cpu().numpy()
+            labels = labels.cpu().numpy().flatten()
+            total += labels.shape[0]
+            correct += np.sum(predicted == labels)
+            print('[epoch:%d, iter:%d] | Test acc: %.3f%% ' % (
+                epoch + 1, i, 100. * correct / total))
     def train(self):
         for epoch in range(EPOCH):
             self.net.train()
@@ -90,8 +108,10 @@ class MAIN():
                 # correct += predicted.eq(labels.data).cpu().sum()
                 # # print(correct.shape)
                 # # print("correct:" + str(correct))
-                print('[epoch:%d, iter:%d] Loss: %.03f | Acc: %.3f%% ' % (
+                print('[epoch:%d, iter:%d] Loss: %.03f | Train acc: %.3f%% ' % (
                 epoch + 1, (i + 1 + epoch * length), sum_loss / (i + 1), 100. * correct / total))
+
+            self.test(epoch)
 
 
     def mainFunc(self):
@@ -99,5 +119,5 @@ class MAIN():
 
 
 if __name__ == '__main__':
-    t = MAIN(TRAIN_PATH)
+    t = MAIN(TRAIN_PATH,TEST_PATH)
     t.mainFunc()

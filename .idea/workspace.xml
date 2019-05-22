@@ -3,25 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6aefb6f5-4148-464a-bb17-cacc434cfb57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAKE-LABELS.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAKE-LABELS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TRAINING-FILE.py" beforeDir="false" afterPath="$PROJECT_DIR$/TRAINING-FILE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/famine/125.Food_Security-infographicFINALOneOxfam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/famine/299.WP_20130918_020-e1548077524150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/115.BUZZ-5-3-2018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/121.2011-2013_IMG_0026_42782.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/297.10-shocking-facts-garbage2-fb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/308.strava_newYearsRide.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/313.dumpTruck.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/315.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/320.71TsErFZ5RL._SX268_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/327.Save-Bellandur-240x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/328.burning-garbage-main.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/35.Cholera.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/35.DSCF7775_interior_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/37.81rCEyo48BL._SX425_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/46.o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/59.RR_GarbageBin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/68.eddie-s-tigress-ii.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/garbage/70.the-second-law-1191825-638x427.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/train.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="89" column="58" lean-forward="true" selection-start-line="89" selection-start-column="58" selection-end-line="89" selection-end-column="58" />
+            <state relative-caret-position="436">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -47,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MYRESNET.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
+            <state>
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -58,8 +41,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="435">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/train.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4203">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -231,11 +231,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/TRAINING-FILE.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MYRESNET.py</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -243,9 +238,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/train.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/garbage/10.67607685.jpg" />
     <entry file="file://$PROJECT_DIR$/data/garbage/325.garbage-disposal.png" />
     <entry file="file://$PROJECT_DIR$/data/cut_wrist/1.cut_wrist_prosthetic__68650.1361370904.1280.1280.jpg">
@@ -260,26 +252,39 @@
     <entry file="file://$PROJECT_DIR$/data/cut_throat/3.Cut_Throat__2_6_1024x1024.JPG" />
     <entry file="file://$PROJECT_DIR$/data/cut_throat/1.ff_piratehelp_negotiate.gif" />
     <entry file="file://$PROJECT_DIR$/data/cut_throat/2.conservation-native-species-New-Mexico-distribution-Rio-Grande-Cutthroat-Trout.png" />
-    <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MYRESNET.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
+        <state>
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/train.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4203">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="89" column="58" lean-forward="true" selection-start-line="89" selection-start-column="58" selection-end-line="89" selection-end-column="58" />
+        <state relative-caret-position="436">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
