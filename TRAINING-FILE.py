@@ -10,6 +10,8 @@ import cv2
 import numpy as np
 from PIL import Image
 
+
+
 TRAIN_PATH = './data/train.txt'
 TEST_PATH = './data/test.txt'
 BATCH_SIZE = 40
@@ -77,6 +79,8 @@ class MAIN():
             correct += np.sum(predicted == labels)
             print('[epoch:%d, iter:%d] | Test acc: %.3f%% ' % (
                 epoch + 1, i, 100. * correct / total))
+
+
     def train(self):
         for epoch in range(EPOCH):
             self.net.train()
