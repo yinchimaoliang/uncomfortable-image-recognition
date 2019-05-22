@@ -2,348 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aefb6f5-4148-464a-bb17-cacc434cfb57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/INSTAGRAM-SPIDER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TRAINING-FILE.py" beforeDir="false" afterPath="$PROJECT_DIR$/TRAINING-FILE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/1.cut_wrist_prosthetic__68650.1361370904.1280.1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/10.54a099541c4843ebd9ae89d50c6d8564.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/100.3bc36cd46c214d6de8b19df472e7dc73.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/101.240_F_195271579_gQKteiZTisgFD1xGe10aJ9130IxEtRpP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/101.cutthroat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/102.CTC-Barbers-fp-1168x647.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/103.chirophobia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/104.05021fec718083656451fd5df2e97afdd20e00-wm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/106.teen_cutting.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/107.6699e9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/110.550px-nowatermark-Make-Fake-Cuts-Step-4-Version-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/112.20140708_1433211-1300x731.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/114.500_F_195270948_gN3xpbE5Xu1cAXchWlDdOkdblkH6jgUF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/115.suicide-attempt-of-a-hand-cutting-a-wrist-with-a-razor-blade-BBK3XX.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/116.swathi-murder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/117.maxresdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/119.throat-drawing-63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/12.13cd04fee44234c3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/12.cut-throat-2-flat-mould-[2]-1603-p.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/121.bloody-knife-cut-wrist-isolated-450w-14385577.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/122.nerve1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/123.346422_v2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/124.maxresdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/125.stock-photo-deep-laceration-cut-652492573.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/126.3DC4A25800000578-0-image-a-44_1488214361055.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/128.female-self-harming-with-a-kitchen-knife-using-it-to-cut-her-wrist-B0PJ3R.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/128.nasty-gal-none-cut-throat-stretch-bootie-heel-red-none-product-2-841191974-normal.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/129.4-11-2016_Bear_River_cutthroat_trout.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/13.EgyptJOtolaryngol_2014_30_3_268_138493_f6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/13.Wrist91.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/130.2a_finding_wrist.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/131.397E0A1200000578-3848468-Parody_Many_users_parodied_the_hashtag_and_those_who_claimed_to_-a-21_1476811343217.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/132.slide_24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/135.OOvGROg43fTpmsVRqLzN5s5iJe1GOUA8zhZAlFvLDlM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/136.coastal-ct-421-james-losee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/137.5c1f52ff33da6ee6f373f9c30c47e0fc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/137.Cataract-Oars-Cutthroat-Blade.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/138.hqdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/139.7403-skin_infection_from_wound-1296x728-slide3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/14.3387787729_de26b5af41_b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/14.hqdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/140.slit%202.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/141.Finger_straight_DSCN1754.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/142.ulxnG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/143.4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/143.logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/144.aid1703677-v4-728px-Determine-if-a-Cut-Needs-Stitches-Step-1-Version-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/144.frp-cutthroat-flume-36x2-field-775x500.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/145.JOLL-1-XL_2048x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/145.teenage-girl-cutting-wrist-with-razor-blade-B5JT6X.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/146.suicide-attempt-of-a-hand-cutting-a-stock-images_csp38237551.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/147.14e25d83ac9a9e99a692b2716d0b1832.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/148.cut-wrist-1-1024x855.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/148.t-2914-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/149.4-11-2016_Bonneville_cutthroat_trout.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/149.cutting-hand-with-blade-wallpaper.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/150.AdobeStock_74301757.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/151.step-2-to-measuring-your-wrist.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/154.cut-throat-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/155.teen-talk-depresssion-emo-cutting.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/156.moisturize-a-cut-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/157.tumblr_mq03ncTByA1riy5kgo1_500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/16.hqdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/160.600-06452130en_Masterfile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/160.All-Over-Clipper-Cut-with-Cut-Throat-Shave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/161.wct-d--kenney-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/162.SkinCancer_Fig2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/162.TF_POTP_CUTTHROAT_900x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/163.wrist-tattoo-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/164.bear-lake-cutthroat-gg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/167.lightbox_1345060316675.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/17.DSCF0987.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/17.evil-zombie-girl-with-black-tears-and-cut-throat-hangs-on-chain_qy-9czk9___F0000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/170.449046_hand-cut-blood-wallpapers.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/170.CustomComfortWebsiteByCutThroatMarketing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/171.100_0013-444x314.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/171.hand-injury-300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/172.WFike.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/172.post-shave-balm-bluebeards-revenge-370x260.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/173.BLAC-6_2048x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/175.Cutthroat-71.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/175.enhanced-buzz-15834-1357590737-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/176.suicide-attempt-picture_csp5236497.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/177.Cu-Throat-Shave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/178.162KV_5-lg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/18.Beyonc%C3%A9s-Haunted-Demonic-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/18.MV5BYTg4OTRhMzYtZWMwNS00NTliLWJiNmEtZDFmYzI0OTUzYTVhXkEyXkFqcGdeQXRodW1ibmFpbC1pbml0aWFsaXplcg@@._V1_UX477_CR0,0,477,268_AL_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/181.Tiger01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/181.cuts_by_sirmadamwaffles-d2ylg5m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/182.cutthroat-stilling-well-320x185.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/182.nerve2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/183.attempt-suicide-9183333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/185.Cut-throat-shave-resized.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/185.bleeding-wrist-red-blood.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/186.male-with-tattoos-cutting-wrist-DW5E4X.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/187.071414_deniece.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/188.HandInfection_Fig4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/188.Salsa-Cutthroat-1-of-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/189.cutlon-400-web-2048p-srgb-0666.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/189.flies_sea-run-cutthroat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/19.671891-cut-throat-murder-victim-found-cutthroat2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/19.800px_COLOURBOX29491866.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/190.ct-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/191.fish-in-wyoming-colorado-cutthroat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/191.wrist-tattoo-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/192.img_flume.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/193.IMG_2566.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/193.a-bleeding-finger-wrapped-in-a-bandage-80567618-5bfc826246e0fb00512b7ae1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/194.2feec04c-08c5-46da-93f1-4cb5a1d9053d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/195.tattoos11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/196.cutthroat-trout-salmon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/196.scoop-frozen-ice-cream-without-breaking-your-wrist.w1456.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/197.2b22c88883bd55641723a41746d69248.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/197.rio-grande-ct-tail-by-erik-myhre-.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/198.IMG_4027-467x350.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/198.self-harm-quotes-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/200.Alton%20brown%20cutthroat%20kitchen%20usable.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/200.protection2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/201.cut-for-love-ar-wrist-hand-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/201.larkincutt02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/202.IMG_2555.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/202.cuts-and-infections-prepper-first-aid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/203.JOLL-1-V2_2048x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/203.cut-wrist-glass-941x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/204.Vintage-Cut-Throat-Straight-Razor-Solid-Wood-Stainless-Steel-Combo-Handle-Bristle-Shaving-Brush-Natural-Whetstone-and-Wooden-Box-Set-650x650.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/205.searuncutt2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/205.taping-wrist-kinesio-tape-1-400x267.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/206.812x1200_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/207.3eca9f_e9d9e91feaa34b97b9cfd781d6d2a182.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/207.Finger_Tape_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/208.maxresdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/208.sock36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/209.100_0628_12-500x313.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/209.enhanced-buzz-19774-1357590736-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/21.SelfHarm2017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/211.BN-JO458_0727TE_H_20150727103725.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/212.rBVaJFlZ9eqAcVwfAANLXNEd2VY823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/213.fishing-native-species-New-Mexico-Rio-Grande-Cuttthroat-Trout-scenic-beauty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/214.Toddler-Baby-Kids-Safety-Harness-Cut-Continuously-Child-Leash-Anti-Lost-Wrist-Link-Traction-Rope-Locktraction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/214.white_river_cutthroat_trout.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/215.cut_throat_real-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/216.stainless-trapezoidal-cutthroat-flume-450-775x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/217.OOvGROg43fTpmsVRqLzN5s5iJe1GOUA8zhZAlFvLDlM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/217.promo6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/218.Cutthroat-Trout-Cover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/218.Mex1099Cut05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/219.bands-556303.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/219.michael_hadley_4-11-2016_Colorado_River_cutthroat_trout.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/22.depositphotos_180448480-stock-photo-hand-full-of-blood-and.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/220.46edc20b-dc2d-4003-92ec-705074c4ce70.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/220.suicide-attempt-of-a-hand-cutting-a-wrist-with-a-razor-blade-BDBFRD.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/222.plasticsurgery-laceration-383x250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/222.s-l225.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/223.Step-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/223.cutthroat_Lohantan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/224.CRCT-in-net.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/225.Birds-071.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/225.cut-hand1-400x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/226.Cut-Laceration.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/226.cutty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/227.55f48f134996c65e867959df_57d5b944b7210e3e0e5504e6_320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/227.Poetry.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/228.201186652.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/228.51xxm0RzR7L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingFOURANDHALF%2CBottomLeft%2C360%2C-6_SR600%2C315_SCLZZZZZZZ_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/229.Wrist_Tape_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/229.straight-razor-demo2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/23.6-Figure1-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/23.deep_cut_throat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/230.1454564209250.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/230.6783443_orig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/231.1500049995565.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/236.Shampoo-Cut-with-Cut-Throat-Shave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/237.7b132ad8bb5e08e931908df4040132da.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/238.Mex1099Cut02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/238.straight-razor-with-pearl-scales-on-a-black-background-cut-throat-razor-barber-equipment-for-mens-grooming-PJ1174.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/240.Historical-range-of-cutthroat-trout-and-sampling-localities-Sampling-locations-of.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/241.IMG_5559.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/241.c_fit,fl_progressive,q_80,w_470.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/243.artworks-000481985742-z4f79t-t500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/244.9a545194b8f8b3cce9800248b1852193.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/245.class2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/246.DSC_0314_preview-e1513977508168.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/247.d1jl56-0e39ec4f-a363-4f24-bf66-6171866c76ea.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/25.wristcut.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/252.tumblr_mq03ncTByA1riy5kgo1_500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/255.suicide-attempt-picture_csp5236497.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/258.BCT-teeth.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/26.Infected-suicidal-cut-throat-injury-at-presentation-A-pharyngo-cutaneous-fistula-must-be.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/260.Cutthroat-71-290x180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/261.250px-Lahontan_pyramid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/262.chriscut2onmf.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/263.l9sObJ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/263.razor-blade-change-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/264.500_F_195269639_zWY43FTlyzgGRrC3eHJL4b1WTfUjdYXS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/264.IMG_3194.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/265.Knife-Forearm-Injury1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/266.17425955_10155107912843389_8752553039529692277_n-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/267.April_8_2005_Dream_Stream_0052-600x239.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/268.20170323_105704.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/268.KNTL-MAR-18-02_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/27.ACutAbove.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/270.chirophobia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/271.01-dementia-Cut-Your-Risk-of-Dementia-by-35-Percent-With-These-9-Things_209352958-Ocskay-Mark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/272.shave-350-opt1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/273.Clinical-photographs-at-8months-follow-up-showing-a-extension-with-ape-thumb-b_Q320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/273.bella-donna-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/274.TWL_Coastal_Cutthroat_Sea_VI-2-672x372.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/275.cut-throat-shave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/275.cutting-on-social-media.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/276.Lahontan_Cutthroat_Trout_Michael_Carl_375w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/278.cut-wrist.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/279.IMG_1562.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/28.a-young-man-cutting-his-wrist-with-a-saftey-razor-blade-CRK6FW.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/280.OKKDDKE2VEI6RKGYTNGBGKDNNM.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/280.about-male-cut-throat-shave-v1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/281.f5a84868-7ef3-4d85-b399-2e4a6178286e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/282.cut-throat-trout-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/283.IMGP1326.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/286.LCT1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/287.ps_roncuttrlsbst.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/289.GettyImages-948664688.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/289.greenback-cutthroat-trout-spawning-06132017-ac_ac38062x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/29.163912d1273450515-cut-throat-suicide-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/290.suicide-in-bathtub_ejp35okn__F0000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/291.image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/292.page-cutthroat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/294.Rio%20Grande%20Cutthroat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/295.3743FF4500000578-3741910-image-a-85_1471296273325.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/297.sand-creek.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/298.5c549a43b1449.image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/299.1485524948746.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/3.83938332-hand-full-of-blood-and-wrist-cut-on-white-fabric-represent-feeling-hurt-bad-relationship-concept-.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/3.Cut_Throat__2_6_1024x1024.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/30.cut-throat-appliance-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/30.vertical_wrist_cut_by_sirmadamwaffles_d58z33b-pre.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/304.3eca9f_03b92f1ecacf42c49e9791a99abc5d80~mv2_d_3252_3252_s_4_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/305.Pilot_Peak_Strain_Lahontan_Cutthroat_Trout_375w_text.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/306.finches-cutthroat-lrg-22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/306.scoop-frozen-ice-cream-without-breaking-your-wrist.w1456.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/307.artworks-000373025568-qopc34-t500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/308.cut-throat-prosthetic-deep-300x420.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/31.wp-image-395614515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/310.3bc36cd46c214d6de8b19df472e7dc73.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/310.cx-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/311.812x1200_13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/311.WFike.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/312.s-l225.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/313.greenbackcutthroat2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/318.Restyle-with-Cut-Throat-Shave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/319.3-D-cross.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/32.m2o2bt7ec7601.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/320.cutthroat-cutthroat-screw-in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/321.cut29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/323.625_searun-cutthroat-sol-duc-river.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/324.drawn-depression-cutting-528773-7570938.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/33.img_0737.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/338.DIY-Wrist-Corsage-Step-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/339.1427382411230.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/34.3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/340.Step-21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/35.a45e36_90dec17bc8e84f48ba883ac33bbcfa29~mv2_d_3264_2448_s_4_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/35.d5rzdo8-bd9fc5e8-8b4d-4803-b123-5968bbf7af7e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/36.cut-my-friends-wrist...-using-pens-P-322936.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/363.bou.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/37.Wrist2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/38.2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/39.d7a7b8d6b3f97a8bb75ff57b0a35007a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/4.54f453bfe5de5144cb3a21538be7e1bf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/40.cutting.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/41.a-young-man-cutting-his-wrist-with-a-safety-razor-blade-CRK6EJ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/43.wrist-cut-598441_960_720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/44.DSC00038.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/44.make-fake-cut-throat-with-special-effect-make-up.1280x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/46.apyc4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/47.99431d1256182347-several-different-pictures-people-cut-throat-patho8d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/48.15873-suicide-attempt-cut-wrist-and-bloody-knife-on-table-zoom_90.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/5.Cut_Throat__1_2__640x427_7a817f59-e4b5-4129-bd3c-c40665b22d99_large.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/5.maxresdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/50.397E195900000578-3848468-Imitation_Some_fans_posted_images_of_cut_wrists_claiming_it_was_-a-15_1476811343015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/50.SUN_GIRLS_THORAT_THUMB_191117.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/51.5054064117_17b64c7998_o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/53.791536.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/53.best-burgers-in-amsterdam.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/54.1-s2.0-S2090536X15000805-gr1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/54.yct_teton-river-photos-credit-is-friends-of-the-teton-river.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/56.USen_DT_ALP_HDR_Straight-or-Safety.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/58.a-reconstruction-of-a-dead-body-with-a-razor-blade-and-severe-cut-CRK6G0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/59.cut.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/6.EgyptJOtolaryngol_2014_30_3_268_138493_f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/6.wrist-cut-644x362.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/60.20150919_170008-1300x731.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/60.slit%205.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/61.80e3c2836e8537763feb10d1ec158685---year-ago-blood.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/61.fishing-native-species-New-Mexico-Rio-Grande-Cutthroat-Trout-Pecos-River-watershed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/62.dpmrcg-65685260-f1f3-40f6-b7ab-1e72b01acc1d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/63.Cutthroat-98-290x180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/63.hqdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/65.Vampire-cut-wrist-zombie-wound-practical-joke-Tattoo-stickers-shapeshift-scratches-halloween-waterproof-tattoo-stickers.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/65.cut-throat-razor-shave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/66.27ef7d2af7594fd36e70a9d0feef259d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/67.100_21952.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/67.methow-river-westslope-cutthroat-trout-up-close-with-photo-credit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/68.12-cutthroat-kitchen.w700.h700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/68.maxresdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/69.bloody-knife-a-bloody-knife-and-a-cut-wrist-isolated-on-white-this-image-has-innumerous-uses-like-stock-photo_csp1650702.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/69.fiberglass-cutthroat-flume-wing-walls-775x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/7.cut_wrist_by_fxjaguar-d71j84h.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/70.30-hair-tie-infection.w710.h473.2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/71.Clinical-photographs-of-31-yrs-old-male-assault-with-Axe-showing-a-cut-FPL-FDS-FDP-of_Q320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/72.10301708-3x4-340x453.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/72.businessman-trying-to-cut-his-wrist-with-a-razor-blade-DRP1XY.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/73.25332126-352-k83831.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/75.Cut_Wrist_Prosth_4f13e464c8cc4-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/76.Woman-found-wit3762.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/77.aluminum-cutthroat-flume-775x500.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/77.slice%202.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/78.6-Figure2-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/79.1e7d5cc43a8f0ea7139a0476375750ffffabcead_hq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/8.homicial%20cut%20throat%20injury.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/80.tumblr_m4rvrl35r11qencldo1_400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/82.suicide-attempt-of-a-hand-cutting-a-wrist-with-a-razor-blade-BDBFRD.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/84.800px_COLOURBOX1040021.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/85.7b132ad8bb5e08e931908df4040132da.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/86.1-s2.0-S2090536X15000805-gr2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/88.Young_boy_livestreams.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/89.670px-User-Completed-Image-Make-Fake-Cuts-2016.01.31-02.40.11.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/90.HandStitches-650x450.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/90.hqdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/91.0514c1824a130668954209c49f3c717ffd9786.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/91.220px-Cutthroat_island_ver2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/92.cut-for-love-ar-wrist-hand-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/93.791537_400w_1000h.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/94.Wrist1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/94.male-cutthroat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/95.1340x754-1_50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/95.s-l300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/96.cut-throat-razor-B8CG6R.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/98.2cut_throat_injury.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cut_wrist/99.1442526987643.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -356,13 +15,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="525">
+              <caret line="122" column="33" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/test.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/train.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -377,25 +46,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="330">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/train.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4189">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -422,8 +77,8 @@
       <list>
         <option value="$PROJECT_DIR$/MYRESNET.py" />
         <option value="$PROJECT_DIR$/MAKE-LABELS.py" />
-        <option value="$PROJECT_DIR$/TRAINING-FILE.py" />
         <option value="$PROJECT_DIR$/INSTAGRAM-SPIDER.py" />
+        <option value="$PROJECT_DIR$/TRAINING-FILE.py" />
       </list>
     </option>
   </component>
@@ -447,6 +102,11 @@
               <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -455,6 +115,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -473,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MAKE-LABELS">
+  <component name="RunManager" selected="Python.TRAINING-FILE">
     <configuration name="MAKE-LABELS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="unsuitable-picture-recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -518,8 +179,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MAKE-LABELS" />
         <item itemvalue="Python.TRAINING-FILE" />
+        <item itemvalue="Python.MAKE-LABELS" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +198,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -550,7 +212,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3294979" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -583,10 +245,20 @@
     <entry file="file://$PROJECT_DIR$/data/train.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/INSTAGRAM-SPIDER.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -600,22 +272,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/train.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="525">
+          <caret line="122" column="33" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INSTAGRAM-SPIDER.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

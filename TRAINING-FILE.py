@@ -14,6 +14,8 @@ from PIL import Image
 
 TRAIN_PATH = './data/train.txt'
 TEST_PATH = './data/test.txt'
+TRAIN_LOG_PATH = './log/train.txt'
+TEST_LOG_PATH = './log/test.txt'
 BATCH_SIZE = 40
 LR = 0.1
 EPOCH = 50
@@ -80,6 +82,9 @@ class MAIN():
             print('[epoch:%d, iter:%d] | Test acc: %.3f%% ' % (
                 epoch + 1, i, 100. * correct / total))
 
+        with open(TEST_LOG_PATH,'a') as f:
+            f.write(str(epoch) + ':' + str(100. * correct / total) + '\n')
+
 
     def train(self):
         for epoch in range(EPOCH):
@@ -114,7 +119,8 @@ class MAIN():
                 # # print("correct:" + str(correct))
                 print('[epoch:%d, iter:%d] Loss: %.03f | Train acc: %.3f%% ' % (
                 epoch + 1, (i + 1 + epoch * length), sum_loss / (i + 1), 100. * correct / total))
-
+            with open(TRAIN_LOG_PATH,'a') as f:
+                f.write(str(epoch) + ':' + str(100. * correct / total) + '\n')
             self.test(epoch)
 
 
