@@ -11,7 +11,7 @@ import numpy as np
 from PIL import Image
 
 TRAIN_PATH = './data/train.txt'
-BATCH_SIZE = 20
+BATCH_SIZE = 40
 LR = 0.1
 EPOCH = 50
 CLASS_NUM = 4
@@ -86,8 +86,7 @@ class MAIN():
                 print(predicted)
                 print(labels.flatten())
                 total += labels.shape[0]
-                inters = np.intersect1d(predicted, labels)
-                correct += len(inters)
+                correct += np.sum(predicted == labels)
                 # correct += predicted.eq(labels.data).cpu().sum()
                 # # print(correct.shape)
                 # # print("correct:" + str(correct))
