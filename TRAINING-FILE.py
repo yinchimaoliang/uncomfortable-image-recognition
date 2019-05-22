@@ -14,6 +14,10 @@ TRAIN_PATH = './data/train.txt'
 BATCH_SIZE = 20
 LR = 0.1
 EPOCH = 50
+CLASS_NUM = 4
+
+
+
 class MyDataset(Dataset):
     def __init__(self,txt_path,transforms):
         self.transforms = transforms
@@ -49,7 +53,7 @@ class MAIN():
         ])
         self.train_set = MyDataset(train_path,transforms = self.transform_train)
         self.train_loader = torch.utils.data.DataLoader(self.train_set,batch_size = BATCH_SIZE,shuffle = True)
-        self.net = ResNet18(num_classes = 5).to(self.device)
+        self.net = ResNet18(num_classes = CLASS_NUM).to(self.device)
         self.criterion = nn.CrossEntropyLoss()
         self.optimizer = optim.SGD(self.net.parameters(),lr = LR,momentum = 0.9,weight_decay = 5e-4)
         print(len(self.train_loader))
@@ -76,13 +80,17 @@ class MAIN():
                 self.optimizer.step()
                 sum_loss += loss.item()
                 _, predicted = torch.max(outputs.data, 1)
+                # total += labels.size(0)
+                predicted = predicted.cpu().numpy()
+                labels = labels.cpu().numpy().flatten()
                 print(predicted)
-                print(labels)
-                total += labels.size(0)
-                # print(labels)
-                correct += predicted.eq(labels.data).cpu().sum()
-                # print(correct.shape)
-                # print("correct:" + str(correct))
+                print(labels.flatten())
+                total += labels.shape[0]
+                inters = np.intersect1d(predicted, labels)
+                correct += len(inters)
+                # correct += predicted.eq(labels.data).cpu().sum()
+                # # print(correct.shape)
+                # # print("correct:" + str(correct))
                 print('[epoch:%d, iter:%d] Loss: %.03f | Acc: %.3f%% ' % (
                 epoch + 1, (i + 1 + epoch * length), sum_loss / (i + 1), 100. * correct / total))
 
