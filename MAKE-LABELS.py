@@ -1,6 +1,7 @@
 import os
 import random
 
+
 DATASET_PATH = './data'
 TRAIN_PATH = './data/train.txt'
 TEST_PATH = './data/test.txt'

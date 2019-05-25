@@ -18,8 +18,9 @@ TRAIN_LOG_PATH = './log/train.txt'
 TEST_LOG_PATH = './log/test.txt'
 BATCH_SIZE = 40
 LR = 0.1
-EPOCH = 50
-CLASS_NUM = 4
+EPOCH = 5
+CLASS_NUM = 5
+IMAGE_SIZE = 32
 
 
 
@@ -36,7 +37,7 @@ class MyDataset(Dataset):
     def __getitem__(self, index):
         img = Image.open(self.img_lists[index])
         img = img.convert('RGB')
-        img = img.resize((32,32))
+        img = img.resize((IMAGE_SIZE,IMAGE_SIZE))
         img = self.transforms(img)
         # img = img[np.newaxis,:,:]#add dimention
         label = torch.LongTensor([self.label_lists[index]])
@@ -126,7 +127,7 @@ class MAIN():
 
     def mainFunc(self):
         self.train()
-
+        torch.save(self.net, "./net.tar")
 
 if __name__ == '__main__':
     t = MAIN(TRAIN_PATH,TEST_PATH)
