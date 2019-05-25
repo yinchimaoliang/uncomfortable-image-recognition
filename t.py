@@ -11,9 +11,10 @@ import numpy as np
 from PIL import Image
 
 
-IMG_PATH = './data/others/59315584_332882004061973_8733823118118270299_n.jpg'
+IMG_PATH = './data/blood/1.accident-arm-bleeding-blood-bloody-body-cut-gash-health-care-injured-D9ENMR.jpg'
 MODEL_PATH = './net.tar'
 BATCH_SIZE = 40
+TH = 0.001
 
 class MyDataset(Dataset):
     def __init__(self,img_path,transforms):
@@ -49,36 +50,52 @@ class main():
         ])
         self.train_set = MyDataset(IMG_PATH, transforms=self.transform)
         self.train_loader = torch.utils.data.DataLoader(self.train_set, batch_size=BATCH_SIZE, shuffle=True)
+        self.blur_points = []
         # print(self.img.shape)
     def predict(self):
         for i, data in enumerate(self.train_loader):
             data = data.to(self.device)
+            output = self.net(data)
+            _, predicted = torch.max(output.data, 1)
+            # total += labels.size(0)
+            predicted = predicted.cpu().numpy()
+        return predicted
+
+    def getSaliency(self):
+        for i, data in enumerate(self.train_loader):
+            data = data.to(self.device)
+            data.requires_grad_()
         # img = torch.tensor([self.img]).type('torch.FloatTensor').cuda()
             output = self.net(data)
             print(output)
             _, predicted = torch.max(output.data, 1)
             # total += labels.size(0)
             predicted = predicted.cpu().numpy()
-        return predicted
+            output = output.gather(1, torch.LongTensor(predicted).to(self.device).view(-1, 1)).squeeze()
+            output.backward(gradient = torch.Tensor([1.0]).to(self.device))
+            saliency = data.grad
 
-    def compute_saliency_maps(X, y, model):
-        scores = model(X)
-
-        scores = scores.gather(1, y.view(-1, 1)).squeeze()
-
-        scores.backward(torch.ones(scores.size()))
-
-        saliency = X.grad
-
-        saliency = saliency.abs()
-        saliency, _ = torch.max(saliency, dim=1)
-        return saliency
+            # Convert 3d to 1d
+            saliency = saliency.abs()
+            saliency, _ = torch.max(saliency, dim=1)
+            return saliency
 
 
-    def mainFunc(self):
-        print(self.img)
+    def getBlur(self):
+        saliency = self.getSaliency()
+        for row in range(len(saliency[0])):
+            for col in range(len(saliency[0][row])):
+                if saliency[0][row][col].data.cpu().numpy() > TH:
+                    self.blur_points.append([row,col])
+
+        print(self.blur_points)
+    # def get
+
+    # def mainFunc(self):
+    #     print(self.img)
 
 
 if __name__ == '__main__':
     t = main(IMG_PATH,MODEL_PATH)
     print(t.predict())
+    t.getBlur()

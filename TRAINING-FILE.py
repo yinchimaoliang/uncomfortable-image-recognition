@@ -20,7 +20,7 @@ BATCH_SIZE = 40
 LR = 0.1
 EPOCH = 5
 CLASS_NUM = 5
-IMAGE_SIZE = 32
+IMAGE_SIZE = 64
 
 
 
@@ -111,6 +111,7 @@ class MAIN():
                 # total += labels.size(0)
                 predicted = predicted.cpu().numpy()
                 labels = labels.cpu().numpy().flatten()
+                # print(inputs.grad)
                 print(predicted)
                 print(labels.flatten())
                 total += labels.shape[0]
