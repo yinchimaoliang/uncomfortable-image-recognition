@@ -2,38 +2,25 @@ import torch
 import torchvision.transforms as transforms
 from torch.utils.data import Dataset
 from PIL import Image
+import numpy as np
+import cv2 as cv
+
 
 
 IMG_PATH = './data/blood/1.accident-arm-bleeding-blood-bloody-body-cut-gash-health-care-injured-D9ENMR.jpg'
 MODEL_PATH = './net.tar'
-BATCH_SIZE = 40
-TH = 0.001
+SALIENCY_TH = 0.001
+RED_TH = 128
+BLUE_TH = 64
+GREEN_TH = 64
 IMAGE_SIZE = 32
-
-class MyDataset(Dataset):
-    def __init__(self,img_path,transforms):
-        self.transforms = transforms
-        self.img_path = img_path
-            # print(self.label_lists)
-    def __getitem__(self, index):
-        img = Image.open(self.img_path)
-        img = img.convert('RGB')
-        img = img.resize((IMAGE_SIZE,IMAGE_SIZE))
-        img = self.transforms(img)
-        return img
-
-    def __len__(self):
-        return 1
-
-
-
-
 
 
 class main():
     def __init__(self,img_path,model_path):
+        self.img_path = img_path
         self.img = Image.open(img_path)
-        self.img = self.img.resize((32,32))
+        self.img = self.img.resize((IMAGE_SIZE,IMAGE_SIZE))
         self.img = self.img.convert('RGB')
         self.net = torch.load(model_path)
         self.device = torch.device('cuda')
@@ -75,18 +62,39 @@ class main():
         # Convert 3d to 1d
         saliency = saliency.abs()
         saliency, _ = torch.max(saliency, dim=1)
-        return saliency
+        return torch.squeeze(saliency).cpu().numpy()
 
 
     def getBlur(self):
         saliency = self.getSaliency()
-        print(saliency.size())
-        for row in range(len(saliency[0])):
-            for col in range(len(saliency[0][row])):
-                if saliency[0][row][col].data.cpu().numpy() > TH:
-                    self.blur_points.append([row,col])
+        img = cv.imread(self.img_path)
+        h,w,_ = img.shape
+        print(h,w)
+        # print(img.shape)
+        b, g, r = cv.split(img)
+        grad_points = np.array(np.where(saliency > SALIENCY_TH))
+        # print(grad_points)
+        red_points = np.array(np.where(r > RED_TH)).T
+        blue_points = np.array(np.where(b < BLUE_TH)).T
+        green_points = np.array(np.where(b < GREEN_TH)).T
+        grad_points = grad_points.T
+        self.blur_points = []
+        filter = np.ones((IMAGE_SIZE, IMAGE_SIZE, 3),dtype = np.uint8)
+        for i in grad_points:
+            if i in red_points and i in blue_points and i in grad_points:
+                filter[i[0],i[1],:] = [0,0,0]
+                self.blur_points.append(i)
+        # print(red_points)
 
-        print(self.blur_points)
+        origin = cv.imread(self.img_path)
+        origin = cv.resize(origin, (500, 500))
+        filter = cv.resize(filter,(w,h))
+        # print(img.type)
+        img *= filter
+        img = cv.resize(img,(500,500))
+        cv.imshow("test",img)
+        cv.imshow("t",origin)
+        cv.waitKey()
 
 
 if __name__ == '__main__':

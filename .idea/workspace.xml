@@ -14,28 +14,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MAIN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="85" column="64" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
+            <state relative-caret-position="360">
+              <caret line="84" column="42" lean-forward="true" selection-end-line="103" />
               <folding>
-                <element signature="e#1#13#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/t.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/t.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/data/blood/6.300px-Bleeding_finger.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -58,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1424">
+            <state relative-caret-position="90">
               <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
@@ -67,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MYRESNET.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="570">
               <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -105,8 +110,8 @@
         <option value="$PROJECT_DIR$/MAKE-LABELS.py" />
         <option value="$PROJECT_DIR$/TRAINING-FILE.py" />
         <option value="$PROJECT_DIR$/MYRESNET.py" />
-        <option value="$PROJECT_DIR$/t.py" />
         <option value="$PROJECT_DIR$/MAIN.py" />
+        <option value="$PROJECT_DIR$/t.py" />
       </list>
     </option>
   </component>
@@ -129,6 +134,17 @@
             <path>
               <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="blood" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
@@ -165,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MAIN">
+  <component name="RunManager" selected="Python.t (1)">
     <configuration name="MAIN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="unsuitable-picture-recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,8 +289,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MAIN" />
         <item itemvalue="Python.t (1)" />
+        <item itemvalue="Python.MAIN" />
         <item itemvalue="Python.TRAINING-FILE" />
         <item itemvalue="Python.MYRESNET" />
         <item itemvalue="Python.MAKE-LABELS" />
@@ -318,10 +334,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/instagram/17493401_472726573058711_8030373475149414400_n.jpg" />
-    <entry file="file://$PROJECT_DIR$/data/instagram/17587061_1753554754974895_1917925505818951680_n.jpg" />
-    <entry file="file://$PROJECT_DIR$/data/instagram/17595927_579009352297650_7394642217110863872_n.jpg" />
-    <entry file="file://$PROJECT_DIR$/data/instagram/17662246_107164146496067_7988940406681239552_n.jpg" />
     <entry file="file://$PROJECT_DIR$/data/instagram/17661868_198252917342225_2803515412560478208_n.jpg" />
     <entry file="file://$PROJECT_DIR$/data/instagram/17596578_612701535581188_3147003562337239040_n.jpg" />
     <entry file="file://$PROJECT_DIR$/data/instagram/17596563_1868512240084888_3788162752799834112_n.jpg" />
@@ -446,19 +458,16 @@
     <entry file="file://$PROJECT_DIR$/data/blood/124.maxresdefault.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/blood/1.accident-arm-bleeding-blood-bloody-body-cut-gash-health-care-injured-D9ENMR.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1424">
+        <state relative-caret-position="90">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MYRESNET.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="570">
           <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -466,22 +475,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/t.py">
+    <entry file="file://$PROJECT_DIR$/data/blood/2.220-blood-girl_1001139f.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blood/1.accident-arm-bleeding-blood-bloody-body-cut-gash-health-care-injured-D9ENMR.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAIN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        <state relative-caret-position="360">
+          <caret line="84" column="42" lean-forward="true" selection-end-line="103" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN.py">
+    <entry file="file://$PROJECT_DIR$/data/blood/1.cut_wrist_prosthetic__68650.1361370904.1280.1280.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blood/3.Cut_Throat__2_6_1024x1024.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blood/7.arm-wound.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blood/6.300px-Bleeding_finger.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="85" column="64" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
+        <state relative-caret-position="1185">
+          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
           <folding>
-            <element signature="e#1#13#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
