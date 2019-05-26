@@ -18,8 +18,8 @@ TRAIN_LOG_PATH = './log/train.txt'
 TEST_LOG_PATH = './log/test.txt'
 BATCH_SIZE = 40
 LR = 0.1
-EPOCH = 5
-CLASS_NUM = 5
+EPOCH = 30
+CLASS_NUM = 3
 IMAGE_SIZE = 64
 
 

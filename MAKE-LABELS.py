@@ -17,7 +17,6 @@ class main():
 
     def readData(self):
         self.folds = os.listdir(self.dataset_path)
-
         self.data = []
 
         for fold_name in self.folds:

@@ -3,8 +3,933 @@
   <component name="ChangeListManager">
     <list default="true" id="6aefb6f5-4148-464a-bb17-cacc434cfb57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA_AUGMENTATION.py" beforeDir="false" afterPath="$PROJECT_DIR$/DATA_AUGMENTATION.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MAIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t.py" beforeDir="false" afterPath="$PROJECT_DIR$/t.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAKE-LABELS.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAKE-LABELS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TRAINING-FILE.py" beforeDir="false" afterPath="$PROJECT_DIR$/TRAINING-FILE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/1.website-copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/10.dhm_01429408.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/100.1920px-The_Presidents_House_by_George_Munger_1814-1815_-_Crop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/101.life-among-the-ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/102.007502161.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/103.LB-Post-war-City-End-Of-The-World-Ruins-After-The-Explosion-Vinyl-Photography-Background-Backdrop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/104.cc70f7106bb0845ffd7492412e5a07ac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/105.___9155897_orig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/106.640321nuremberg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/107.256316-gazaattack13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/108.9b61574fde9b410eb178cc9f0a6c9d19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/109.58f71906f5ba741b4869c75d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/11.Mosul_in_ruins_after_war.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/110.berlinParliament.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/111.main_900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/112.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/113.9780739180747.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/114.100909193-ruins-of-industrial-building-interior-after-disaster-or-war-or-earthquake-collapsed-ceiling-bunch-of.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/115.dhm_0729406.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/116.GBR_Coventry_JPEG_img-08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/117.city-ruins-after-war-footage-019261063_prevstill.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/118.ruins-of-ypres-after-world-war-ii-belgium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/119.cold_war_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/12.world-war-2-destruction-and-post-war-reconstruction-in-caen-france-KWD5F7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/120.gettyimages-3400693.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/121.moerder-sind-unter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/122.post-war-period-misery-and-hardship-germany-food-shortage-gardening-DARWJ0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/123.306686097_b344631d41_z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/124.slide_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/125.ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/126.D378_31_172_0004_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/127.Park_Hill_facade-1-350x341@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/128.483362967-1024x682.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/129.Charleston_ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/13.cold-war-soviet-ruins-photographs-abandoned-places-david-de-rueda-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/130.ruins1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/131.917xih-FpdL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/132.WOOSUNG-CHINA-Ruins-after-War-Japanese-Forces.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/133.500_F_210813138_9g2K2g8SGe8ryzixpNILL4lr5PtHC9MB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/134.c7214d943c7343f9976b84fb565b41e3_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/135.maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/136.gaza-living-ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/137.methode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2Fb7f8a2dc-8571-11e6-9cfd-8b202ba81e6d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/138.Ruinsofnamsos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/139._4875431_orig_1510067793.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/14.battle_bombtokyo102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/140.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/141.636034417592066353-Postwar-Photos-of-Week-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/142.635653278531027304-EPA-MIDEAST-ISRAEL-PALESTINIANS-GAZA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/143.SCAN-NOP-0044262913887230-1000x1000.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/144.400_F_196164705_ltkHsU1hIDWMdExwuD3a2QFp92jJydga.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/145.62408.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/146.20090521184829444.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/147.Utah-Ghost-Towns-Cover-Balzotti-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/148.pww_art.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/149.3000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/150.roman-ruins-cvr-0136-20-pinup-magazine-1000x667-q60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/151.Eerie-photos-of-abandoned-Cold-War-%E2%80%98ruins%E2%80%99-show-rows-of.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/152.3-marawi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/153.pah-12487570.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/154.cold-war-soviet-ruins-photographs-abandoned-places-david-de-rueda-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/155.DSC00240-c38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/156.rex-hsu-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/157.9780892819058_4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/158.mezzanine_606.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/159.saddam-statue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/16.D8H_9727.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/160.ruins-buildings-after-war-ukrain-450w-1044900976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/161.5788487.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/162.Cold-War-06-zimna_wojna_fotosy149-1-300x225.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/163.9a58558bb5344879a4987d399e049a7b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/164.article-2276944-007853D400000258-507_634x620.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/165._101667015_mediaitem101667011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/166.348744555-debris-bomb-damage-war-damage-postwar-period.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/167.54671727cd941.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/168.x1080-pYa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/169.2014-09-12T061206Z_1_LYNXMPEA8B06Y_RTROPTP_4_CNEWS-US-MIDEAST-GAZA-RECONSTRUCTION.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/17.00750212.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/170.ruins-composite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/171.4003047309_5f7a09262c_z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/172.51s9dw-FyjL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/173.untitled4-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/174.depositphotos_61798239-stock-photo-old-ruins-interior.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/176.postwar-period-destroyed-cities-munich-germany-ruin-of-the-national-F0KY8D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/177.WilsoninLeuven750.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/178.atlanta_roundhouse_ruin3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/179.PTHF77KOBBETJGNXXXB6QYZZOQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/18.dresden_bombed_1945_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/180.1904_EC_ColdWar-1024x576.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/181.56948.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/182.747560._UY630_SR1200,630_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/183.MBWNN3QVBYI6TEFICNX2IS4AXI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/184.4f497e3972e83.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/185.D378_31_173_0004_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/186.The-ruins-of-Mogadishu-ca-001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/187.007502151.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/188.old-ruins-interior-stock-photo_csp24307528.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/189.U6a3464_q9w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/19.s-l640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/191.Man-of-Steel-the-post-war-ruins_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/192.rex-hsu-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/193.ed3a6c895b403b95cd313d8d4404c690.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/194.55a97bc785ffb.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/195.Postwar+Government+and+Politics.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/196.art-110-postwar-to-postmodern-2-638.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/197.101594310-ruins-of-industrial-building-interior-after-disaster-or-war-or-earthquake-dark-creepy-tunnel-or-corr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/198.schurz-ruins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/2.richmond3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/20.roman-ruins-cvr-02-pinup-magazine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/201.1048500270.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/202.9783837621839.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/203.9780230608252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/204.ruins-gdansk-post-war-granary-building-granary-island-old-town-poland-68639519.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/205.5z8LDc5XIxP57cUCHIsIkYFmVZf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/206.344434e06b45f289dd2ce69f53a02739.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/207.9780989996907_p0_v1_s550x406.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/208.10559760_10153207906068872_7004453177742092847_n-620x465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/209.sonys-best-known-product-the-walkman-music-player-136397959046302601-150506171209.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/21.post-war-period-destroyed-cities-berlin-siemensstadt-broadcast-plant-DB3GWN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/210.-9JzAx8DV7X0A279.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/211.4256731320_f96b36e8d0_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/212.Lost-Futures.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/213.1060881019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/214.567911375-bucket-brigade-truemmerfrau-cobblestone-stone-reconstruction-rebuilding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/215.ls1919_58_sup_breaking-habits.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/216.cold-war.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/217.sfs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/218.coldwar_zimnawojna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/219.Downtown_Pittsburgh_from_Duquesne_Incline_in_the_morning_small-400x267.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/22.battle_bombtokyo105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/220.Dutch-1024x849.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/221.25092224821_a838c098e1_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/222.Warsaw+after+the+second+world+war.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/223.c_AS20180815002854_comm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/224.maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/225.Mosul-postwar-camp-azure-magazine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/226.25ALDOUS-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/227.2014-08-04T092930Z_1_LYNXMPEA730A5_RTROPTP_2_MIDEAST-GAZA.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/228.roman-ruins-cvr-0151-25a-pinupmagazine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/229.Post-war-Shinjuku-v01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/23.roman-ruins-cvr-0141-30-pinupmagazine-1000x675-q60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/230.methode%2Ftimes%2Fprodmigration%2Fweb%2Fbin%2F5ef04351-6103-390a-b7eb-38313e4c10f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/231.open-uri20170831-22220-bucq34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/232.165327692002202.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/233.2012.385_01_H02-Large-TIFF_4000-pixels-long.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/235.St_Florians_post_war_ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/236.ZERO-MITTERNACHTSBALL-IN-BONN-ZERO-IS-GOOD-FOR-YOU-1967_Q320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/237.Postwar-City-Ruins-5pc-Canvas-Art-Painting-HD-Cuadros-Decoracion-Wall-Home-Decor-For-Living-Room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/238.500px-Bundesarchiv_Bild_146-1982-028-14%2C_%22Badeleben%22_in_der_Nachkriegszeit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/239.image005-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/24.Berlin_rubble_1945_dbloc_sa.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/240.battle_bombtokyo101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/241.H71%20Dublin%20Ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/242.children-cry-ruins-post-war-footage-075300288_prevstill.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/243.D8H_6711.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/245.201412137591817734_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/246.videoblocks-europe-1940s-damaged-building-after-war-title-quotation-golden-eagle-on-gate-ruins-title_rczud3ocvb_thumbnail-small01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/247.s-l300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/248.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/249.events-post-war-era-destroyed-cities-berlin-lustgarten-marienkirche-DB3R79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/25.ruins-abandoned-residential-postwar-building-450w-690735034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/250.art2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/251.675377_404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/252.coldwarposter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/253.170px-Coventry_Cathedral_after_the_air_raid_in_1940.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/254.oup-31-final.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/255.SXSW_cover_photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/256.March-1024x454.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/257.grozny-chechnya-after-war-11-north-caucasus-wars1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/258.313eda8b297a562e538b3f9751f0477c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/259.2014-02-12T144407Z_86467881_GM1EA2C1QZK01_RTRMADP_3_SYRIA-CRISIS.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/26.300px-Caen_in_ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/260.8025071_orig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/261.640321Bauhaus-Dessau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/262.after-war.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/263.241440403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/264.iraq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/265.die-macht-der-nacht.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/266.ColdWar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/267.500_F_181419362_Wz13xMQfoFkonRTlYKLksXKggkOu5JTR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/268.424283._UY630_SR1200,630_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/269.DqXT-HdWoAASDM9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/27.51jHpuO8J%2BL._SX331_BO1,204,203,200_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/270.1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/271.rtr459zl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/272.syria-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/273.Cold-War_image-3-300x169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/274.Bunker-York_791728c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/275.762865.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/276.article-2568978-1BDD90E500000578-830_964x642.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/277.Ausstellungsdetail_Was-stehen-blieb_%C2%A9CJ_Foto-Anna-Fischer_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/278.medieval_eloi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/279.before-after-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/28.HENK-PEETERS-AKWAREL-Zeros-rocket-left-from-the-ruins-of-post-war.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/280.Photo%206%20Rude%20photo%20Berlin%20ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/281.french-colonial-ruin-muang-khoun-laos-ruins-era-building-villa-possibly-hospital-red-brickwork-overgrown-green-125469578.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/282.204068044-debris-war-damage-postwar-period-bad-condition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/283.eab4f7ca394b2f3e39e30c8ec79e9d98-300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/284.What+were+conditions+like+in+post+war+Europe+Give+examples..jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/286.Tiger-spread-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/287.gaza-ruins-war-crimes-israel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/288.ruins-house-after-war-450w-482731696.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/289.9780823234837.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/29.iraq-street.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/290.51KtVdSaQL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/291.Destruction_on_the_Western_Front_1914-1918_Q6213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/292.urereportcovershot-886x1091.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/294.Ruins%20of%20Modernity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/295.main_900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/296.untitled-19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/298.hofbraeuhaus451dmay45t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/299.vistaesterna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/3.dhm_03t29396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/30.post-war-period-destroyed-cities-germany-munich-ruins-around-saint-BB66XJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/300.www.globosapiens.net--poland--pomorskie--gdansk--id=5620.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/301.maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/302.680-mid-ride_003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/306.3000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/308.HEINZ-MACK-WITH-HIS-WORK-STELE-IN-THE-DESERT-OF-TUNESIA-1968_Q320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/309.rIMvAf86ilA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/31.s-l300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/310.Destructions_Reims_cath%C3%A9drale_1914.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/311.stock-photo-building-after-fire-dilapidated-ruins-168688781.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/312.20150716cnsto0012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/313.stock-photo-old-buildings-ruins-post-war-ruins-1385074568.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/315.aktc-afghanistan-afg003_800_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/316.ruins-city-ghost-town-war_cg5p3981536c_th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/317.large_000000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/319.070411-khalil-ajami.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/32.2a195126cf7b12cfe4dbf81e568cb0af.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/320.9781845206215.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/321.717765b6-7a3f-47f1-a7f1-5be96cc155a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/322.videoblocks-1940s-united-states-building-in-ruins-families-wave-at-each-other-after-war-men-shake-hands-women-kiss-on-cheek_rfgbwdmlnx_thumbnail-small01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/323.maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/324.esy-001307371.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/325.D8H_6744.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/326.after-war-house-ruins-snow-donbas-donetsk-ukraine-stock-photography_csp36528700.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/327.32ed9b4ebf683cc815b91665af6c0a6a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/328.Berghofaerial.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/329.dhm_04t29398.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/33.oaoink9ykjqubzz6f2k1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/330.p0576bvx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/331.KoreaWar-slide-OG5O-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/332.005307682_2-540b6439f7e3ad26ee51789bb80a29cb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/333.powerpoint-templates-s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/334.back-from-the-ruins-rt-visits-syrian-sites-rebuilt-after-35593946.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/335.3825195812_9ecf3e7857_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/336.ls1919_57_sup_-the-chaperone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/338.ruins-reconstruction-in-post-war-vienna-author-erich-lessing-b-1923-location-townscape-vienna-austria-P1EDRY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/339.tumblr_nv0tn83Jih1tzeqovo1_1280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/34.Alepporuins.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/340.s-l225.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/341.artist.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/342.The+Aftermath+4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/343.Photo375374.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/344.coldwar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/345.sumorok-25-1493064196.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/346.New-8x10-World-War-I-Photo-Post-War-Aerial.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/348.guatemala.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/349.Cold-War-2-Hi-res-e1549651906579.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/35.p06pjfw6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/350.Gao+Jianfu,+City+in+Ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/351.gallery_medium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/352.400_F_222586107_vEqlyP6TGHOlOl4NdFc8ex3f1AGTv19h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/353.0e5a6712-10b6-4268-ba1f-fdbb0106590c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/354.2013-02-08-2SlavickMovies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/355.slide_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/357.serg-souleiman-heratics-of-dune-ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/358.darwin-darwin-town-hall-ruins-town-hall-cyclone-tr41.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/359.nagasaki2-400x262-1558432674232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/36.5350787521_8882cf58f5_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/360.2019-05-15-syria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/363.richmond-ruins-after-civil-war-main-street-and-14th-streets-1865.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/364.screenshot_9_50028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/365.904167463-debris-bomb-damage-war-damage-postwar-period.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/366.war-house-ruins-snow-donbas-donetsk-ukraine-67468061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/367.IMG_0224-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/368.17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/37.28sqkwvigkq21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/370.main_900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/373.wwii-germany-post-war-entertainment-berlin-germany-shutterstock-editorial-7418277a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/374.220px-Air_Raid_Damage_PL4511A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/375.xberghof-ruins-2-hoffmann.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/377.x1080-PZB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/378.god_of_war_ascension_poseidon-HD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/379.t300-protectedimage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/38.28fd4b412c414fe693e19724998cbf3a_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/380.2019-05-20T234914Z_1_LYNXNPEF4J1LN_RTROPTP_2_PHILIPPINES-SECURITY-MARAWI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/381.item_XL_16061135_22398797.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/382.3411791291_5a0afded62_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/383.61bugkFI14L._SX425_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/384.I0000Bn9CfpMxaLs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/385.Rising%20from%20the%20Ruins_thumb_standard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/386.Yoneyama-Book-Cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/387.cold-war-soviet-ruins-photographs-abandoned-places-david-de-rueda-thumb640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/388.mywpedit_image_1329666162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/389.Hitler's_Berghof.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/39.hqdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/390.postwar-japan-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/391.kosovo47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/392.-HuqtupgGzg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/393.20171025-marawi-aftermath-ruins-fsj-14_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/395.neelon.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/396.9781632865519.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/397.2014-09-12T064732Z_1_LYNXMPEA8B08H_RTROPTP_2_MIDEAST-GAZA.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/398.alamo_ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/4.germany-year-zero-1948-002-edmund-meschke-streets-of-berlin-00o-21z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/40.battle_bombtokyo118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/400.GERMANY-BERLIN-WW2-ruins-post-war-7-small-real.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/401.5810001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/402.Dp3FklsWoAAYZNP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/403.roman-ruins-cvr-0141-21-pinup-magazine-677x1000-q60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/406.5842023641_7a8231d210_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/407.dhm_0929404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/409.440762A600000578-4864986-image-a-36_1504867944320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/41.D8I_3730.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/410.anselm-kiefer-gallery-11-2017-0004-aurora.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/411.page_1_thumb_large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/412.bgaden4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/413.Stalingrad-15mm-Ruin-1-front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/414.1503SA4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/415.2-+Agdam+After+war+ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/416.1408583653352_wps_2_Rafah_Palestinian_Territo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/417.8.-Darmstadt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/418.cold-war-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/419.slide_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/42.4402355889_261597a9e8_z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/420.soldier-being-shot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/421.4d5cf050a1a4ed1817bd453f4557c713.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/422.cold-war-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/423.war-house-ruins-snow-donbas-donetsk-ukraine-67468086.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/424.984821401-truemmerfrau-stonemason-reconstruction-rebuilding-shovelling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/425.The+Aftermath+11.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/426.main_900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/427.ruins-house-after-war-syria-450w-1191478915.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/429.building-after-war-in-vukovar-croatia-stock-photos_csp10679739.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/430.220px-Ruins_of_the_Reichstag_in_Berlin%2C_3_June_1945._BU8573.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/431.1018316866.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/432.x1080-rHJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/433.IMH5arfE7p85ihszypizOJnao1_400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/434.iraq-10-years-after-invasion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/435.Gaza-aftermath-Haaretz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/436.buhlert200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/437.29772167_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/438.sierraleone_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/44.1060880995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/440.we5911108cjpg-74cb98558ecca162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/441.KoreaWar-slide-2P56-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/442.81854118-pile-of-garbage-trash-ruins-and-rotten-tires-abandoned-building-after-war-or-earthquake-or-other-nat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/443.roman-ruins-cvr-014321-pinup-magazine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/444.D8J_1252-c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/445.240_F_197921824_wsVFhueB12bYPcR0mClireF6hO7vJcM6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/446.freikorpsdenkmal9mai42t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/447.main_900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/448.postwar-period-cities-berlin-germany-ruins-of-the-reich-chancellery-F0ER1D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/45.Gaza_boy_AFP_360x270.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/450.Di-CxzMW4AA2ST6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/451.hqdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/452.823001987-demolition-war-damage-postwar-period-bad-condition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/453.Russian-Ukrainian-Soviet-oil-painting-architecture-old-house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/455.x720-vAH.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/456.2c161131b460897e8febb5294d31be37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/457.screenshot_5_49276.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/458.cold-war-soviet-ruins-photographs-abandoned-places-david-de-rueda-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/459.grozny-chechnya-after-war-chechens-north-caucasus-wars1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/46.41l0TwNS6RL._SX327_BO1,204,203,200_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/460.after-war-house-ruins-snow-donbas-donetsk-ukraine-stock-photo_csp36530040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/461.slide_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/462.7416487256_3a26c0ff7c_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/463.d928a9bd86594dd61c40b8b6ec9eb2e9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/464.roman-ruins-cvr-6-03-2018-138-9a-pinup-magazine-1000x667-q60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/465.KoreaWar-slide-KG60-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/466.stock-photo-last-post-war-remains-in-gdansk-danzig-poland-view-through-ruins-to-the-old-town-granary-island-593458730.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/467.Coventry_Cathedral_Ruins_with_Rainbow_edit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/468.berghof45gi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/469.life-in-post-war-vienna-nine-years-after-the-end-of-world-war-ii-ruins-are-still-being-repaired-vienna1954-location-townscape-vienna-austria-P1FYDW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/47.roman-ruins-cvr-0141-34-pinup-magazine-1000x675-q60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/470.3rdman3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/471.war-zone-syria-destroyed-city-homs-city-homs-war-100286585.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/472.main_1200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/473.570249173-dem-deutschen-volke-firewood-reichstag-collecting.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/474.WW1-Reims-France-BW-Postcard-Ruins-of-St.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/475.2.+Note+3+political+problems+postwar+gov%E2%80%99ts+faced..jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/476.100088d20bd128bde12f77363acaa75d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/477.iraqq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/478.Contemporary-architecture-in-Sarajevo-photo-Erna-Husukic_Q320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/479.Screen%20Shot%202017-09-10%20at%2010.13.52%20AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/48.slide_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/480.hqdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/481.ruins-dubrovnik-after-war-90s-450w-52878595.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/482.KoreaWar-slide-8PXV-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/483.476371109-kaiser-wilhelm-memorial-church-war-damage-postwar-period-bad-condition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/484.war-zone-syria-destroyed-city-homs-city-homs-war-100286627.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/485.220px-Saint-L%C3%B4_-_Ancienne_affiche_Capitales_des_Ruines.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/486.cold-war-movies-free-download-stream-2-638.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/487.Hammelburg1933.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/488.Europe+in+Ruins+Many+major+cities+in+Europe+were+destroyed%3A+London%2C+Warsaw%2C+Berlin.+Many+people+had+no+water%2C+no+electricity%2C+and+little+food..jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/489.240_F_261677568_CFFqchTCMyA1EF3x2OToNngpnniEF1LI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/49.1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/490.00-lugansk-pr-war-damage-060815.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/491.KoreaWar-slide-RVZ4-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/492.8952d15f24fe47cfa97b4d20fc20e030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/493.stock-photo-old-world-abandoned-country-house-trash-ruins-abandoned-room-bombed-house-house-after-war-1088850629.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/494.Screen%20Shot%202017-09-10%20at%2010.17.31%20AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/495.369c82d3dee13afc8e1bda9570a6c38c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/496.Postwar+Europe+Europe+in+Ruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/497.hqdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/498.vogelsangsportlers2t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/499.JESUS-RAFHAEL-SOTO-BLUE-BLACK-AND-SILVER-RELATIONS-Distanced-from-their-origins-and-the_Q320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/5.Second-world-war-A-homele-001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/50._1555901_orig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/500.81AuCl-KzIL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/501.944380727-debris-bomb-damage-war-damage-postwar-period.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/502.module-one-cold-war-post-war-2-638.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/503.10-Perrotta-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/504.Reconstruction-of-the-painted-ceiling-and-timber-frame-roof-and-bimah-readers-platform_Q320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/505.aschaffenburghjheim1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/506.chapter-32-30-638.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/507.Walls_of_Troy_%282%29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/508.bjr-cmack-(05).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/509.Still-photos-from-the-Nagiso-museum-displays-show-the-varieties-of-theatrical-and-other_Q320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/51.Second-world-war-The-ruin-001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/510.postwar-world-8-728.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/511.tunnel14b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/512.goeringbgaden9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/513.KoreaWar-slide-A97B-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/514.vogelsangsportlersorig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/515.KoreaWar-slide-DVVX-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/516.phic_boysbathinwwiiruins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/52.dhm_02t29394.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/53.RTS1M012-870.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/54.38cad5db19d046bf6e687424dd5d3d7f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/55.last-post-war-remains-gdansk-danzig-poland-view-ruins-to-old-town-medievl-german-polish-city-biggest-86192058.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/56.5307311524_defc4204cd_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/57.powrot-do-domu_ac6e6990-a1f1-11e7-ab18-a47b6e18222b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/58.post_war_ruins_by_bearchipsandships123_d8j4bzt-250t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/59.45091067594_db50ee3351_z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/6.666x405-666x381.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/60.007502181.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/61._8725384_orig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/62.Churchill_CCathedral_H_14250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/63.ibr-4823330.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/64.post-war-period-destroyed-cities-germany-cologne-cologne-cathedral-CPG5R9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/65.konigsbergruinsww2s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/66.100909200-ruins-of-industrial-building-interior-after-disaster-or-war-or-earthquake-inside-huge-warehouse-pill.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/67.AKG3006269.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/68.6843696150_c74a0f2e1d_z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/69.1945-berlin-postwar-period-ruin-footage-077837055_iconl.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/7.15835181413_daacfd2cc6_h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/70.italy-011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/71.pdf-download-men-among-the-ruins-postwar-reflections-of-a-radical-1-638.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/72.IMG_20140901_134341.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/73.last-post-war-remains-gdansk-danzig-poland-view-ruins-to-old-town-wyspa-spichrzow-speicherinsel-disappearing-now-95266665.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/74.ere-hbdgerm-cs001-h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/75.main_900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/76.Post-War-Berlin-July-1945-resize-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/77.roman-ruins-cvr-0151-17a-pinupmagazine-1000x675-q60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/78.Civilizational-Collapse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/79.500_F_153334376_NyOmsSvYH0G9euBPEJWUkSMxkMBulxQy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/8.battle_bombtokyo104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/80.merlin_148186281_36da3ddb-b155-432f-a3e3-54a01b7ee085-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/81.The-post-war-destruction-in-Sheffield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/82.2843BA9600000578-0-image-a-149_1430685974181.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/83.AKG3006270.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/84.cold-war-soviet-ruins-photographs-abandoned-places-david-de-rueda-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/85.JN43NG3D2M75LLPSCLKEZ7ZZJY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/86.Kaiser-Wilhelm-Memorial-Church-and-surrounding-ruins-in-Berlin-in-summer-1945.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/87.the-war-in-egypt-after-the-burning-of-alexandria-ruins-egyptian-school.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/88.80140100982900L.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/89.postwarberlin.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/9.postwar-period-destroyed-cities-hamburg-germany-ruins-at-the-harbor-DARY90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/91.Fotothek_df_ps_0000010_Blick_vom_Rathausturm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/92.large_000000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/93.pdf-download-men-among-the-ruins-postwar-reflections-of-a-radical-4-638.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/94.afterwarkaliningrad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/95.Vilna_ghetto_ruins_postwar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/96.DSC02661_Fotor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/97.world_08_temp-1407223054-53e0850e-620x348.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/98.55031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Post-war-ruins/99.Screen%20Shot%202017-09-09%20at%202.16.06%20PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/1.113_Dublin.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/10._89832545_89832544.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/101.ukrainian-famine-gettyimages-170981325-feature.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/102.2I6D4TRL5VEHZDBGFKUN3IJ2PQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/103.Yemen-Houthi-withdraw-Hodeidah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/104.ss-famine-630.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/105._89832543_89832542.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/106.madras_famine_1877.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/107.3f55d1a081d643d5b58b81c6404f1481_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/108.somalia_famine_1_AP110726118117.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/109.My-Famine-Food-Storage-Menu-890x395_c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/11.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/110.FamineVictimsCharlesBarbantPrintCollectorGettyImages-57a9c9505f9b58974a22d14b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/111.INDIA_-_Drought.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/112.D200-0852-96-850x567.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/113.f30_postevent_en.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/114.BengalFamineNov211943KeystoneHultonGetty-56a042155f9b58eba4af909a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/115.famine_africa_global_poverty_international_aid_borgen_project_opt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/116.irish-famine-4-390x285.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/117.1209MIRSKY-jumbo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/118.FamineFeatureMain_large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/119.170307150149-01-somalia-famine-united-nations-large-169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/12.southsudan_famine_QF2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/120.142_UNI41057.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/121.SSD_20160505_WFP-Jonathan_Dumont_6413.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/122.lib-what-is-famine-c42fe55a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/123.Soil-after-drought.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/124.no-nb_blds_01867-besk%C3%A5ret-1200x1278.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/126.food.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/127.IndiaFamine1899HultonGetty-56a041df3df78cafdaa0b569.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/128.hac2017_famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/129.file-20170919-22657-168y80h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/13.180117_famines_book_lg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/130.shutterstock_563039653-390x285.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/131.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/132.170310-somalia-drought-displaced-7p_2_f5eee111c869ef2521b66dd31ebb7185.fit-760w.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/133.africa-famine-feature.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/134.4211.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/135.23famine1-facebookJumbo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/136.victoria-s2-historical-e4-01-3200x1800-1-e1517842476371.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/137.PANews_P-1fff1f02-9de8-4238-a772-8e3747d3e79e_I1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/138.featured-skull.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/139.a3284138943_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/14.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/140.b-famine-a-20180925-870x580.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/141.171819-004-51343291.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/142.YEM_20180722_WFP-Fares_Khoailed_4129.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/143.Famine-Corn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/144.cropped_1-Irish-settlers-potato-harvest-Illustrated-Australian-News-State-Library-of-Victoria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/145.121210_r22921_g2048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/146.woman-in-foodline-16-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/147.2017-National-Famine-Walk-Boat-page-header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/148.africa-40-hour-famine-2019-ambassadors.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/149.yemen-crop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/15.342.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/150.p0745x1v.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/151.merlin_151284069_5fe50ef1-0137-4637-8f51-859641ce3c51-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/152.rts16wpc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/153.cropped_ft3-famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/154.165px-MotherWithShredsOfClothingAndChildCalcutta1943.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/155.GolodomorKharkiv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/156.famine_hero-700x450.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/157.feb_famine_south_sudan1180x767.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/158.171812-004-6FF178B4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/159.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/16.Facing-Famine-Crisis-in-Yemen-1024x674.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/161.415cbd0ffb9c45bcabe6034e7d529a00_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/162.A1A2EC68-5005-46E0-8FAE-FBE1BC862519_cx3_cy2_cw95_w1023_r1_s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/163.yemen-famine1-ai-used-to-stop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/164.maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/165.16858lpr_Nigeria_sorghum_1_a.2e16d0ba.fill-1180x738-c100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/166.southsudan_famine_QF3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/167.ssudan-famine2_wide-af69f6e113ac3222b3921fbad7548a317d83d58e-s800-c85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/168.sud-soudan-famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/169.33110237794_e9023e33dd_z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/17.KW42XKWURU4SPDFGMH24KJ5NEI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/170.bengal-famine-man-drink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/171.splashphoto_1_2_2_4_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/172.sheeran.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/173.J7XVDKY6VNDIZA5L4XOGCHPBQ4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/174.large_Y9nlVftaU0lNGJ4MvimBj6jOdwi1E2jazuSvhPTMz9U.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/175.US-Civil-War-Union--300x270.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/176.Rethink-Famine-Blog-Hero-Mobile-Image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/177.mother-children-The-Great-Famine-Skibbereen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/178.778.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/179.20131009113026baby.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/18.18HARI-jumbo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/180.58d82d38c46188ce7e8b4572.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/181.somalia_refugee009_16x9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/182.droughtfamine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/183.great_leap_wide-2b0b4240035ce24f26280a3d485c1210aa440df3-s800-c85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/184._94739023_sudan2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/185.Famine-Family.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/186.resized_FT5S_Sean_Sexton_Irish_Famine_no_date.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/187.07770-6_301.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/189.historical-collection9-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/19.ae_famine_t800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/190.66674scr-graves_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/191.Al-Sabah-training-south-sudan-630px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/192.image36047f30-de07-4ce6-99b1-3f0d54be4bed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/193.famine3-box.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/194.hqdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/195.cropped_MI_Tim_Pat_Coogan_the_Famine_Plot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/196.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/197.famine-somalia-655453420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/198.Dead-goats-can-be-seen-at-the-side-of-the-road-edit-605x340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/199.SouthSudan1998-e1400754366784.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/2.India-famine-family-crop-420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/20.170px-Famine_in_India_Natives_Waiting_for_Relief_in_Bangalore.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/200.SSD_REACH_Picture_Stefanie_GLINSKI-700x450.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/201.Yemens-Struggle-with-Massive-Famine-After-Years-of-Violence.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/202.B3-CG142_Camero_P_20181101153936.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/203.somalia-famine-8-may-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/204.2017-National-Famine-Walk-Boat-thumb-350x250.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/205.famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/206.famine-bengal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/207.famine-sculptures.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/208.famine2018_feat-320x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/209.16somalia-jumbo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/21.1513307013890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/210.The%20Famine%20of%20Mount%20Lebanon%20from%20BBC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/211.Blog-4-Famines-6-Nigeria_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/212.Famine-Funeral-1140-1024x543.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/213.ethiopia-630.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/214.Yemen-Houthi-forces-Saleef-port.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/215.170503_ntl_africa_1252_16x9_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/216.rsz20170403_wswanson_somalia_015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/217.Bob-Geldof-001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/218.logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/219.0318-na-famine-aid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/22._89832812_89832811.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/220.awaiting-government-support.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/221.Passenger-on-famine-ship-title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/222.black-47-screen-grab-390x285.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/223.774b1e71c73c4c779b095379f354c792_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/224.rsz_southsudan_famine_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/225.4999517191_5c02fcd58d_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/227.120403104752-famine-story-top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/228.Irish-Famine-Memorial-b55f7e795056a36_b55f7f5b-5056-a36a-096ba510cf56f3a8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/229.cropped_kerry-dingle-famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/23.screen_shot_2016-02-09_at_4.47.48_pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/230.africa%20newa%20aretivle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/231.171551-049-71DD1888.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/232.5_facts_-_famine_1180x405.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/233.3500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/234.Irish-Famine-Eviction-Project.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/235.Graphic2-1877.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/236.burning-house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/237.soup-kitchen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/239.famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/24.cropped_mi-new-famine-children.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/240.tour_img-1287522-148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/241.220px-GrainFamineMadras.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/242.nuclearfamine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/243.image1170x530cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/244.121131230.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/245.li-somali-women-aid-rtr2p2z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/246.dokoupil-famine-2-2017-3-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/247.qanda_photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/248.maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/249.Famine-Action-Mechanism-530x354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/25.ethiopia_in_famine_eth8405.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/250.somalia_ea_143911_slide-2855c28c176fc1fced6ffaf31dc66de5bc63a8fb-s800-c85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/251.Irish-Famine-Eviction-Project.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/251.yourstory-famine-conflict-africa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/252.3500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/253.Graphic2-1877.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/254.burning-house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/255.soup-kitchen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/256.famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/258.nuclearfamine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/259.121131230.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/26.bengalfamine-kTUH--621x414@LiveMint.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/260.li-somali-women-aid-rtr2p2z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/261.dokoupil-famine-2-2017-3-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/262.21somalia-jumbo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/263.qanda_photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/264.maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/265.National-Famine-Commemoration-MX-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/266.dublin-famine-tour.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/267.irish-famine-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/268.concern-south-sudan-famine-risk-header-2-400x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/269.220px-GrainFamineMadras.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/27.file-20181101-83644-8krp7y.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/270.famine-yemen-750x354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/271.somalia_ea_143911_slide-2855c28c176fc1fced6ffaf31dc66de5bc63a8fb-s800-c85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/272.Famine-Action-Mechanism-530x354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/273.famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/274.yourstory-famine-conflict-africa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/275.sculpture_dedication.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/276.crop-drought-somalia-800x400_news_featured.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/277.M%C3%A4nts%C3%A4l%C3%A4n%20muistomerkki.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/278.James-Mahony-famine-fb4ab39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/279.boygathersgrass.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/28.b89eca31-ab31-481c-9f6b-14493282850f-2060x1236.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/280.gettyimages-632768652.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/281.A-FAMINE-PORTRAIT-01-BRIDGET-770x439_c1-770x439_c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/282.32803581590_1aa3509dc4_o_opt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/283.Day-of-Prayer-To-End-Famine-Feature.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/284.mainMediaSize=600x325_type=image_publish=true__image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/285.Emigrants-300x270.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/286.Bengal+famine+22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/287.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/288.Humanitarian-agencies-urge-US-to-act-to-end-Yemen-famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/289.wfp1_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/29.Famine+with+credit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/290.Ferguson_South_Sudan_0003.0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/291._89832814_89832813.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/292.NationalFamine2019_Launch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/293.cropped_Irish-famine-memorial-Dublin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/294.soudan-sud-famine-web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/295.Ballywhoriskey%20Famine%20Village%20-%20Homesteads%20under%20constant%20Threat%20of%20Eviction%20in%20Fanad%20from%20the%20mid%201800%27s..PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/296.irishfamine3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/297.181015115821-yemen-port-airstrike-famine-1-large-169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/298.113_Dublin.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/3.south-sudan-sudan-famine-hunger-starvation-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/30.Famine_Refugees_Hunger_Representational_Image_Pixabay_3x2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/300.S.Sudan-famine-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/301.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/302.3BB6B56200000578-0-image-a-38_1483101556730.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/303.taoiseach-to-visit-native-american-tribe-that-donated-money-during-irish-famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/304.p31_FamilyAfter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/305.thp-cottage-begins.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/306.Great-Famine-archaeology-1-Lisaroo-open-day-673.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/307.ASylum--300x270.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/308.Demographic-Impact-of-China%E2%80%99s-Great-Leap-Forward-Famine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/309.7500695742_18d508c273_z-530x354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/31.ogb_106120_somaliland_muna_main_picture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/310.Irish-Famine-Memorial-Dublin1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/311.171219032905-silent-starvation-yemen-famine-ward-pkg-00020023-large-169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/312.thp-tullig.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/313.The_Famine_in_Bengal-_Bullock_Hackeries_for_Carrying_Grain__from_the_Illustrated_London_News_1874-768x503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/314.Screenshot%202019-02-04%20at%2012.20.37%201_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/315.once-famine-stricken-ethiopia-has-many-lessons-for-a-country-like-india.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/316.Study-shows-metabolic-effects-of-famine-on-future-generations.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/317.348s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/318.figure01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/319.Famine-book-cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/32.faminedrought_june16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/320.somalia-famine-02-gty-rc-171012_4x3_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/321.SSD_201612_WFP_Cagri%20Ilban_4685_res.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/322.famine-sculpture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/323.file-20180813-2894-1jpj1zh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/324.2017-National-Famine-Walk-arrives-Dublin-32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/325.IndiaFamineCartoonHultonGetty-56a041e15f9b58eba4af8fc7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/326.Somalia-famine-007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/327.MI-Black-47-Great-Hunger-Irish-famine-Ireland.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/328.40-hour-famine-2018-backpacks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/329.ogb_105083_baby_famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/33.Screen-Shot-2016-09-23-at-7.59.27-AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/330.d3c8016a84b94291bc94671971493863_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/331.devotional_spiritual_famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/332.Chronicles-of-the-Great-Irish-Famine-1-1170x650.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/333.060217_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/334.Stop-Famine-UN044809-fb-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/335.indian-farmer-drought.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/336.FR%20NW%20PKG%20F24%20KENYA%20FAMINE%20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/337.8D438E83B08D06338FFD39941A385B30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/338.20170408_BLP505.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/339.famine-hut.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/34.1943-bengal-famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/340.Rice-Price-during-the-famine-in-Bangladesh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/341.famine-starvation-hunger-food-south-sudan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/342.3500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/343.A-FAMINE-PORTRAIT-01-PAT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/344.02_18_1847.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/345.800.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/346.the-great-famine-9c7ef83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/347.the_illustrated_london_news_1874-64_famine_in_india.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/348.merlin_147266670_69bff3f6-6bf3-4b15-b2f0-4d70b973ae82-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/349.stop-famine-together-2017-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/35.JG5GIVFX44I6RLSPFQKDTSLNPE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/350.IrishPotatomain.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/351.3136988_sq-83df7cdf8dc93ce1d396a5530a0bc319e6e1d77b-s800-c85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/352.famine-dvd-pic_opt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/353.113_425_2519_2946.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/354.11.-35-years-Afri_12-88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/355.Famines-by-continent-and-ME-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/356.photo-famine-a-optimised.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/357.Beating-Famine-40-250x250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/358.3BB6B56900000578-0-image-a-40_1483101618214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/359.NFCHutGroupPhoto.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/36._79288146_famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/360.famine23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/361.north-korea-famine-2017-kim-jong-un-rice-war-nuclear-bomb-613764.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/362.Global%20Warming_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/363.maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/364.werner-bischof-famine-in-india,-state-of-bihar,-april-1951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/365.161130111312-sudan-internally-displaced-people-super-tease.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/366.irish-potato-famine-stock-art.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/367.1550435098632.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/368.171208-kim-jong-un-0535_2732d0cbe8d537435c1d7b947ebd70a3.fit-760w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/369.334x334_YEM_20170724_WFP-Marco_Frattini_1685.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/37.SSD_20170923_WFP-Lara_Atanasijevic_0045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/370.Front-cover-for-web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/371.gettyimages-652834186_custom-9bf63b8e3a164756b0ac4c50f41c9251847aeafe-s800-c85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/372.S1-CN674_NKFOOD_M_20190516125934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/373.13904ibc1c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/374.famine-cranes-medium-box.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/375.Mayo-Famine-girl-Ballina.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/376._94742496_sudanreuters2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/377.Famine_website_image_2-950x374.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/378.ssudan-crop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/379.pic%5CS%5CT%5CStarving%20peasants%20on%20city%20streets%20(1933).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/38.bengal-famine-of-1943-caused-by-british-policy-failure-not-drought-study.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/380.holomodor-katliami_764510-1728x800_c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/39.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/4.gettyimages-578020214-50_custom-38a8afa88fd34e224b6cd60d369752f9c08b2cb8-s800-c85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/40.Engraving-FamineRelief-China.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/41.famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/42.140317-crop-climate-change.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/43.dublin-famine-memorial-by-rowan-gillespie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/44.2045965034001_4552517665001_rexfeatures-112732e-October-23-video-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/45.2630.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/46.temp-img-famine-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/47.uvlmhamjt5cioxap3fgn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/48.190329115336-02-churchill-bengal-famine-large-169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/49.8299810-3x2-700x467.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/5.Source-Famine-Migration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/50.gettyimages-647028514_custom-5e356bfe97ba46638fd74b9b2deff1e9454009d4-s800-c85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/51.What-Causes-Famine-in-Africa-530x350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/52.e3072da6a09546de9a5102f9a44ff6ad_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/53._78494711_lebanon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/54.starving-family.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/55.220px-Soviet_famine_children.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/56.famine-sysk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/57.cropped_tump-children-irish-famine.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/58.Irish_potato_famine_Bridget_O%27Donnel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/59.famine-un-ap-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/6.madras_famine_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/60.yourstory-Bengal-famine-featured.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/61.yemen-famine-unicef-0311.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/62.famine-memorial-dublin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/63.Maradi_aidecentre_Niger9aug2005_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/64.1518811150.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/65.UN043944-768x432.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/66.Famine-1200-1024x576.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/67.13mohamed-inyt-articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/68.image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/69.Exp_Famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/7.120223013818-file-somalia-famine-1992-story-top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/70.Bengal_famine_1943_photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/71.famine-1_wide-c25a20e7f2400e33694f6272745d6d190697289d-s800-c85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/72.Famine-death-rate-since-1860s-revised.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/73.Elderly_woman_in_south_sudan.2e16d0ba.fill-1180x738-c100_CJDUbkA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/74.famine-550x342.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/75.245-Famine-in-Africa-millions-of-people-starving.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/76.5b0a6dd6-5302-492f-810f-cf7bbc980599.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/77.Famine_1971200b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/78.0fa167257c3d4a84a6822951ef0e6a1c_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/79.USAID%20photo%201.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/8.153623-004-21C725FE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/80.northeast-nigeria-1140x684.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/81.ukrainian-famine-gettyimages-170982794.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/82.GettyImages-463985019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/83.nigeria_famine_QF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/84.1_Irish-Famine-Eviction-Give-us-some-food.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/86.sudan-famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/87.cropped_irish_famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/88.great-flood-famine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/89.pgyml9dfcdgbd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/9.south-sudan-women-water-borehole-ogb-105226_orig_c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/90.jpeg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/91.90254380_90254380-390x285.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/92.irish-famine-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/93.cbd4db9636984089b9eeb9ecc09ca9be_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/94.famine-epa-d.kurokawa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/96.irish-famine-ship-farewell.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/97.famine-yemen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/98.greatfaminechildren.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/famine/99.image1170x530cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59438674_1028778100665707_137044886700861241_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59577120_2361925717468473_4053966216130717362_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59578966_1337942719692679_7982438557712563665_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59617190_464258207679447_2902296583169728734_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59667642_2301258486812450_6883556837420275847_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59723368_138707490530268_4115504452539610250_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59765934_330172984338237_998381683833714388_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59768553_349220942400031_1638197044737764092_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59770207_356466765005710_2708193680776686358_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59789000_2304397143156185_3692024949092050185_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59793455_142741816884923_2923533648395571460_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59817680_612519085896318_2570072315239533829_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59822752_424565221454066_7366496808802503220_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59836123_442961583185267_9088809272431780034_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59850078_297972231083556_7967506632284209360_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59862949_1078262332359260_5794333436122357279_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59879371_294567841493937_3176188444957522022_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59881847_669515300143708_7149043464588865628_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59915347_452056572272663_6263719779705027694_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59918909_2137527343205860_2225579993904225162_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59930920_325318378146831_6733875943799402215_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59935235_344750342897211_3464487551427061940_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59942653_684179295350437_7891042196735458004_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59942887_382965725656660_7432079522439728126_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59946466_479667256106485_4078077780194639583_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/59949803_636292030116581_3265445569765482494_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60005874_122636208940306_5974616631106863992_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60022036_470498033700125_7927320989195475788_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60024596_820492358307442_1075025022824775338_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60031418_1260888320728443_2868083647656132651_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60032081_2340928652649531_52071487950914186_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60052633_117976892754946_2633348930676104226_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60080344_144142823375111_6197545346956011359_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60085352_139279853848987_3733744388159513714_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60097661_855863561438857_2808413615786185432_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60102010_162606544768730_3265034286764873760_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60117004_2776390175710997_5228238167386750641_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60150442_678152529293458_116655089396780213_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60157210_432133957333693_7571011014570795318_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60163227_343553206357960_5933042656463610267_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60165895_585854321902388_1052304874273953860_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60362889_385984015343807_1460855355549721691_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60419120_450715419013040_6995395093673128587_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60441259_334355220552748_8638840211607512107_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60451364_362728434658918_2947564554637831422_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60473610_171047293912652_2054671389635897820_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60526314_1493767514093542_4898926554215862727_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60647662_2056929291278091_2331272695836775500_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60648639_2120202628281733_6104860347872549558_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60662546_615425082292421_5301989913003049568_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60678747_105895277228748_793914899471293825_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60681658_2011810475794831_6538037877637318586_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60706566_3761593567200042_2172648868916017760_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60722861_2108397089463387_2926659249096339073_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60724647_168483864165661_3174795660382159634_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60731625_2075488995882964_9210470308691641377_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60808760_670084413451406_2063765390531904740_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60823118_2084903291607090_1597560335454779141_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60841373_2222031398125633_8350314953220325070_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60849112_1132666360269993_8173935231737464990_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60874027_662158630872781_1277190614218707390_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60883796_2362135363838862_5152860992691304220_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/60919790_1034202453635310_34030398204069420_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/61059567_2310718419196529_5494930526372873708_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/61250950_426608367893547_2534928513652911598_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/61346388_614985705671572_956368030973829158_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/others/61423803_895811904096472_2132911020232503731_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net.tar" beforeDir="false" afterPath="$PROJECT_DIR$/net.tar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,40 +939,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MAIN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="84" column="42" lean-forward="true" selection-end-line="103" />
+            <state relative-caret-position="406">
+              <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/t.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/blood/6.300px-Bleeding_finger.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -56,27 +964,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/blood/124.maxresdefault.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="-899">
+              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MYRESNET.py">
+        <entry file="file://$PROJECT_DIR$/log/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+            <state relative-caret-position="-169">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DATA_AUGMENTATION.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="145" column="64" selection-start-line="145" selection-start-column="64" selection-end-line="145" selection-end-column="64" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/train.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-229">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -104,14 +1028,14 @@
         <option value="$PROJECT_DIR$/INSTAGRAM-SPIDER.py" />
         <option value="$USER_HOME$/anaconda3/lib/python3.7/site-packages/instagram_scraper/app.py" />
         <option value="$PROJECT_DIR$/data/DATA_AUGMENTATION.py" />
-        <option value="$PROJECT_DIR$/DATA_AUGMENTATION.py" />
         <option value="$PROJECT_DIR$/log/test.txt" />
         <option value="$PROJECT_DIR$/log/train.txt" />
+        <option value="$PROJECT_DIR$/MYRESNET.py" />
+        <option value="$PROJECT_DIR$/t.py" />
         <option value="$PROJECT_DIR$/MAKE-LABELS.py" />
         <option value="$PROJECT_DIR$/TRAINING-FILE.py" />
-        <option value="$PROJECT_DIR$/MYRESNET.py" />
+        <option value="$PROJECT_DIR$/DATA_AUGMENTATION.py" />
         <option value="$PROJECT_DIR$/MAIN.py" />
-        <option value="$PROJECT_DIR$/t.py" />
       </list>
     </option>
   </component>
@@ -143,12 +1067,6 @@
             <path>
               <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="blood" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -162,10 +1080,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -181,7 +1100,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.t (1)">
+  <component name="RunManager" selected="Python.MAIN">
+    <configuration name="DATA_AUGMENTATION" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="unsuitable-picture-recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DATA_AUGMENTATION.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MAIN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="unsuitable-picture-recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,27 +1156,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MAKE-LABELS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MYRESNET" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="unsuitable-picture-recognition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MYRESNET.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,11 +1208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.t (1)" />
         <item itemvalue="Python.MAIN" />
+        <item itemvalue="Python.DATA_AUGMENTATION" />
         <item itemvalue="Python.TRAINING-FILE" />
-        <item itemvalue="Python.MYRESNET" />
         <item itemvalue="Python.MAKE-LABELS" />
+        <item itemvalue="Python.t (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -334,11 +1253,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/instagram/17661868_198252917342225_2803515412560478208_n.jpg" />
-    <entry file="file://$PROJECT_DIR$/data/instagram/17596578_612701535581188_3147003562337239040_n.jpg" />
-    <entry file="file://$PROJECT_DIR$/data/instagram/17596563_1868512240084888_3788162752799834112_n.jpg" />
-    <entry file="file://$PROJECT_DIR$/data/instagram/17596357_1478903378847057_5885574765824966656_n.jpg" />
-    <entry file="file://$PROJECT_DIR$/data/instagram/17596136_397466217286099_4654424391881326592_n.jpg" />
     <entry file="file://$PROJECT_DIR$/data/instagram/17595962_1911817759055886_6225942127939944448_n.jpg" />
     <entry file="file://$PROJECT_DIR$/data/instagram/17595891_696845603853241_4218481702349045760_n.jpg" />
     <entry file="file://$PROJECT_DIR$/data/others/43709190_140315327114095_3174322383242653871_n.jpg" />
@@ -363,33 +1277,6 @@
           <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DATA_AUGMENTATION.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/train.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/famine/2.India-famine-family-crop-420.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/famine/3.south-sudan-sudan-famine-hunger-starvation-min.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/garbage/7.garbage.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -445,25 +1332,8 @@
     <entry file="file://$PROJECT_DIR$/data/others/57156329_2215386805215313_8571185244082342751_n.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/blood/124.maxresdefault.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MYRESNET.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -475,23 +1345,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/blood/2.220-blood-girl_1001139f.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/blood/1.accident-arm-bleeding-blood-bloody-body-cut-gash-health-care-injured-D9ENMR.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="84" column="42" lean-forward="true" selection-end-line="103" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/blood/1.cut_wrist_prosthetic__68650.1361370904.1280.1280.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/blood/3.Cut_Throat__2_6_1024x1024.JPG">
@@ -505,8 +1359,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/t.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+        <state relative-caret-position="31">
+          <caret line="62" column="10" lean-forward="true" selection-end-line="93" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blood/7.cut_wrist_by_fxjaguar-d71j84h.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blood/2.220-blood-girl_1001139f.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blood/3.83938332-hand-full-of-blood-and-wrist-cut-on-white-fabric-represent-feeling-hurt-bad-relationship-concept-.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blood/6.wrist-cut-644x362.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blood/3.2013717145023115189_8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/famine/2.India-famine-family-crop-420.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/famine/3.south-sudan-sudan-famine-hunger-starvation-min.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blood/1.cut_wrist_prosthetic__68650.1361370904.1280.1280.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="938" column="87" lean-forward="true" selection-start-line="938" selection-end-line="938" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TRAINING-FILE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-899">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATA_AUGMENTATION.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="145" column="64" selection-start-line="145" selection-start-column="64" selection-end-line="145" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAIN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

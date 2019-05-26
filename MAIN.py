@@ -7,13 +7,13 @@ import cv2 as cv
 
 
 
-IMG_PATH = './data/blood/1.accident-arm-bleeding-blood-bloody-body-cut-gash-health-care-injured-D9ENMR.jpg'
+IMG_PATH = './data/garbage/2.img_3492.jpg'
 MODEL_PATH = './net.tar'
-SALIENCY_TH = 0.001
+SALIENCY_TH = 0.0005
 RED_TH = 128
 BLUE_TH = 64
 GREEN_TH = 64
-IMAGE_SIZE = 32
+IMAGE_SIZE = 64
 
 
 class main():
@@ -37,7 +37,7 @@ class main():
         data = data.to(self.device)
         # print(data)
         output = self.net(data)
-        # print(output)
+        print(output)
         _, predicted = torch.max(output.data, 1)
         # print(predicted)
         # total += labels.size(0)
@@ -69,35 +69,30 @@ class main():
         saliency = self.getSaliency()
         img = cv.imread(self.img_path)
         h,w,_ = img.shape
-        print(h,w)
-        # print(img.shape)
-        b, g, r = cv.split(img)
-        grad_points = np.array(np.where(saliency > SALIENCY_TH))
-        # print(grad_points)
-        red_points = np.array(np.where(r > RED_TH)).T
-        blue_points = np.array(np.where(b < BLUE_TH)).T
-        green_points = np.array(np.where(b < GREEN_TH)).T
-        grad_points = grad_points.T
+        grad_points = np.where(saliency > SALIENCY_TH)
         self.blur_points = []
-        filter = np.ones((IMAGE_SIZE, IMAGE_SIZE, 3),dtype = np.uint8)
-        for i in grad_points:
-            if i in red_points and i in blue_points and i in grad_points:
-                filter[i[0],i[1],:] = [0,0,0]
-                self.blur_points.append(i)
-        # print(red_points)
-
+        filter = np.ones((IMAGE_SIZE, IMAGE_SIZE,3),dtype = np.uint8)
+        filter[grad_points] = [0,0,0]
         origin = cv.imread(self.img_path)
-        origin = cv.resize(origin, (500, 500))
+        # origin = cv.resize(origin, (500, 500))
         filter = cv.resize(filter,(w,h))
-        # print(img.type)
+        b,g,r = cv.split(origin)
+        blue_points = np.where(b > BLUE_TH)
+        green_points = np.where(g > GREEN_TH)
+        filter[blue_points] = [1,1,1]
+        filter[green_points] = [1,1,1]
         img *= filter
-        img = cv.resize(img,(500,500))
-        cv.imshow("test",img)
-        cv.imshow("t",origin)
+        cv.imshow("blur",img)
+        cv.imshow("origin",origin)
         cv.waitKey()
 
 
+    def mainFunc(self):
+        label = self.predict()[0]
+        print(label)
+        if label == 2:
+            self.getBlur()
+
 if __name__ == '__main__':
     t = main(IMG_PATH,MODEL_PATH)
-    print(t.predict())
-    t.getBlur()
+    t.mainFunc()
