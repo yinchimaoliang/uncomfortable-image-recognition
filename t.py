@@ -48,17 +48,19 @@ class main():
             transforms.ToTensor(),
             transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
         ])
-        self.train_set = MyDataset(IMG_PATH, transforms=self.transform)
-        self.train_loader = torch.utils.data.DataLoader(self.train_set, batch_size=BATCH_SIZE, shuffle=True)
         self.blur_points = []
         # print(self.img.shape)
     def predict(self):
-        for i, data in enumerate(self.train_loader):
-            data = data.to(self.device)
-            output = self.net(data)
-            _, predicted = torch.max(output.data, 1)
-            # total += labels.size(0)
-            predicted = predicted.cpu().numpy()
+        data = self.transform(self.img)
+        data = torch.unsqueeze(data,0)
+        data = data.to(self.device)
+        # print(data)
+        output = self.net(data)
+        # print(output)
+        _, predicted = torch.max(output.data, 1)
+        # print(predicted)
+        # total += labels.size(0)
+        predicted = predicted.cpu().numpy()
         return predicted
 
     def getSaliency(self):
@@ -98,4 +100,4 @@ class main():
 if __name__ == '__main__':
     t = main(IMG_PATH,MODEL_PATH)
     print(t.predict())
-    t.getBlur()
+    # t.getBlur()

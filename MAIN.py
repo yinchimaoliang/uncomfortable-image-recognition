@@ -1,19 +1,14 @@
 import torch
-import torch
-import torch.nn as nn
-import torch.optim as optim
 import torchvision.transforms as transforms
-import argparse
-from MYRESNET import ResNet18
 from torch.utils.data import Dataset
-import cv2 as cv
-import numpy as np
 from PIL import Image
 
 
-IMG_PATH = './data/others/59315584_332882004061973_8733823118118270299_n.jpg'
+IMG_PATH = './data/blood/1.accident-arm-bleeding-blood-bloody-body-cut-gash-health-care-injured-D9ENMR.jpg'
 MODEL_PATH = './net.tar'
 BATCH_SIZE = 40
+TH = 0.001
+IMAGE_SIZE = 32
 
 class MyDataset(Dataset):
     def __init__(self,img_path,transforms):
@@ -23,7 +18,7 @@ class MyDataset(Dataset):
     def __getitem__(self, index):
         img = Image.open(self.img_path)
         img = img.convert('RGB')
-        img = img.resize((32,32))
+        img = img.resize((IMAGE_SIZE,IMAGE_SIZE))
         img = self.transforms(img)
         return img
 
@@ -47,46 +42,54 @@ class main():
             transforms.ToTensor(),
             transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
         ])
-        self.train_set = MyDataset(IMG_PATH, transforms=self.transform)
-        self.train_loader = torch.utils.data.DataLoader(self.train_set, batch_size=BATCH_SIZE, shuffle=True)
+        self.blur_points = []
         # print(self.img.shape)
     def predict(self):
-        for i, data in enumerate(self.train_loader):
-            data = data.to(self.device)
-        # img = torch.tensor([self.img]).type('torch.FloatTensor').cuda()
-            output = self.net(data)
-            print(output)
-            _, predicted = torch.max(output.data, 1)
-            # total += labels.size(0)
-            predicted = predicted.cpu().numpy()
+        data = self.transform(self.img)
+        data = torch.unsqueeze(data,0)
+        data = data.to(self.device)
+        # print(data)
+        output = self.net(data)
+        # print(output)
+        _, predicted = torch.max(output.data, 1)
+        # print(predicted)
+        # total += labels.size(0)
+        predicted = predicted.cpu().numpy()
         return predicted
 
-    def compute_saliency_maps(X, y, model):
-        # Forward pass
-        scores = model(X)
-
-        # Correct class scores
-        scores = scores.gather(1, y.view(-1, 1)).squeeze()
-
-        # Backward pass
-        # Note: scores is a tensor here, need to supply initial gradients of same tensor shape as scores.
-        scores.backward(torch.ones(scores.size()))
-
-        saliency = X.grad
+    def getSaliency(self):
+        data = self.transform(self.img)
+        data = torch.unsqueeze(data, 0)
+        data = data.to(self.device)
+        data.requires_grad_()
+    # img = torch.tensor([self.img]).type('torch.FloatTensor').cuda()
+        output = self.net(data)
+        print(output)
+        _, predicted = torch.max(output.data, 1)
+        # total += labels.size(0)
+        predicted = predicted.cpu().numpy()
+        output = output.gather(1, torch.LongTensor(predicted).to(self.device).view(-1, 1)).squeeze()
+        output.backward(gradient = torch.Tensor([1.0]).to(self.device))
+        saliency = data.grad
 
         # Convert 3d to 1d
         saliency = saliency.abs()
         saliency, _ = torch.max(saliency, dim=1)
-        ##############################################################################
-        #                             END OF YOUR CODE                               #
-        ##############################################################################
         return saliency
 
 
-    def mainFunc(self):
-        print(self.img)
+    def getBlur(self):
+        saliency = self.getSaliency()
+        print(saliency.size())
+        for row in range(len(saliency[0])):
+            for col in range(len(saliency[0][row])):
+                if saliency[0][row][col].data.cpu().numpy() > TH:
+                    self.blur_points.append([row,col])
+
+        print(self.blur_points)
 
 
 if __name__ == '__main__':
     t = main(IMG_PATH,MODEL_PATH)
     print(t.predict())
+    t.getBlur()
