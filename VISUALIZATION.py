@@ -19,15 +19,23 @@ class main():
             lines = f.readlines()
             for line in lines:
                 epoch,rate = line.split(':')
-                self.train_log.append(rate[:-2])
+                self.train_log.append(float(rate[:-2]))
 
         with open(self.test_file,'r') as f:
             lines = f.readlines()
             for line in lines:
                 epoch,rate = line.split(':')
-                self.test_log.append(rate[:-2])
+                self.test_log.append(float(rate[:-2]))
 
-        # print(self.train_log,self.test_log)
+
+
+    def drawData(self):
+        x_label = [i + 1 for i in range(len(self.test_log))]
+
+        plt.plot(x_label,self.train_log,'r',label = 'train')
+        plt.plot(x_label,self.test_log,'g',label = 'test')
+        plt.legend()
+        plt.show()
 
 
 
@@ -36,6 +44,7 @@ class main():
 
     def mainFunc(self):
         self.getData()
+        self.drawData()
 
 
 

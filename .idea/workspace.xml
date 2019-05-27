@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aefb6f5-4148-464a-bb17-cacc434cfb57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VISUALIZATION.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VISUALIZATION.py" beforeDir="false" afterPath="$PROJECT_DIR$/VISUALIZATION.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/train.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +17,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/train.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-694">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="180">
+              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log/train.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VISUALIZATION.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="480">
+              <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -62,8 +64,6 @@
         <option value="$PROJECT_DIR$/INSTAGRAM-SPIDER.py" />
         <option value="$USER_HOME$/anaconda3/lib/python3.7/site-packages/instagram_scraper/app.py" />
         <option value="$PROJECT_DIR$/data/DATA_AUGMENTATION.py" />
-        <option value="$PROJECT_DIR$/log/test.txt" />
-        <option value="$PROJECT_DIR$/log/train.txt" />
         <option value="$PROJECT_DIR$/MYRESNET.py" />
         <option value="$PROJECT_DIR$/t.py" />
         <option value="$PROJECT_DIR$/MAKE-LABELS.py" />
@@ -71,6 +71,8 @@
         <option value="$PROJECT_DIR$/TRAINING-FILE.py" />
         <option value="$PROJECT_DIR$/DATA_AUGMENTATION.py" />
         <option value="$PROJECT_DIR$/VISUALIZATION.py" />
+        <option value="$PROJECT_DIR$/log/test.txt" />
+        <option value="$PROJECT_DIR$/log/train.txt" />
       </list>
     </option>
   </component>
@@ -92,6 +94,11 @@
             <path>
               <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,12 +265,12 @@
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959038" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -436,24 +443,24 @@
     <entry file="file://$PROJECT_DIR$/data/processed/blood/89.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/VISUALIZATION.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/log/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/train.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-694">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VISUALIZATION.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
