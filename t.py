@@ -8,7 +8,7 @@ import cv2 as cv
 
 
 IMG_PATH = './data/blood/6.300px-Bleeding_finger.jpg'
-MODEL_PATH = './net.tar'
+MODEL_PATH = './net_3classes.tar'
 SALIENCY_TH = 0.0005
 RED_TH = 128
 BLUE_TH = 64

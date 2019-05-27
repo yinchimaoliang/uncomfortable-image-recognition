@@ -16,10 +16,11 @@ TRAIN_PATH = './data/train.txt'
 TEST_PATH = './data/test.txt'
 TRAIN_LOG_PATH = './log/train.txt'
 TEST_LOG_PATH = './log/test.txt'
+MODEL_PATH = './net.tar'
 BATCH_SIZE = 40
 LR = 0.1
 EPOCH = 30
-CLASS_NUM = 3
+CLASS_NUM = 5
 IMAGE_SIZE = 64
 
 
@@ -128,7 +129,7 @@ class MAIN():
 
     def mainFunc(self):
         self.train()
-        torch.save(self.net, "./net.tar")
+        torch.save(self.net, MODEL_PATH)
 
 if __name__ == '__main__':
     t = MAIN(TRAIN_PATH,TEST_PATH)

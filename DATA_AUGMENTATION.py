@@ -4,13 +4,14 @@ from PIL import Image, ImageEnhance, ImageOps, ImageFile
 import random
 import numpy as np
 
-FOLD_ROOT = './data/others'
+FOLD_ROOT = './data/blood'
+OUTPUT_ROOT = './data/processed/blood'
 #操作类型
 #旋转
 OPERATION_ROTATION = True
 ROTATION_NUM = 5
 #颜色
-OPERATION_COLOR = True
+OPERATION_COLOR = False
 COLOR_NUM = 5
 #高斯噪声
 OPERATION_NOISY = True
@@ -22,6 +23,7 @@ class main():
     def __init__(self,root):
         self.root = root
         self.img_paths = [FOLD_ROOT + '/' + i for i in os.listdir(FOLD_ROOT)]
+        self.img_paths = self.img_paths
         self.crop_image = lambda img, x0, y0, w, h: img[y0:y0 + h, x0:x0 + w]
     def deleteFile(self):
         delete_list = random.sample(self.img_paths,int(DELETE_SCALE * len(self.img_paths)))
@@ -91,7 +93,22 @@ class main():
         val_mult = 1 + np.random.uniform(-val_vari, val_vari)
         return self.hsv_transform(img, hue_delta, sat_mult, val_mult)
 
-
+    def salt(self,img):
+        # 循环添加n个椒盐
+        n = img.shape[1] * img.shape[0] // 50
+        for k in range(n):
+            # 随机选择椒盐的坐标
+            i = int(np.random.random() * img.shape[1])
+            j = int(np.random.random() * img.shape[0])
+            # 如果是灰度图
+            if img.ndim == 2:
+                img[j, i] = 255
+            # 如果是RBG图片
+            elif img.ndim == 3:
+                img[j, i, 0] = 255
+                img[j, i, 1] = 255
+                img[j, i, 2] = 255
+        return img
 
     def noiseing(self,img):
         param = 30
@@ -139,13 +156,34 @@ class main():
 
 
     def dataAugmentation(self):
+        count = 0
         for img_path in self.img_paths:
             img = cv.imread(img_path)
+            print(img_path)
             if OPERATION_ROTATION:
                 for i in range(ROTATION_NUM):
-                    img_handled = self.addGaussianNoise(img,0.5)
-        cv.imshow("test",img)
-        cv.waitKey()
+                    # img_processed = self.addGaussianNoise(img,0.5)
+                    img_processed = self.random_rotate(img,90,1)
+                    cv.imwrite(OUTPUT_ROOT + '/' + str(count) + ".jpg",img_processed)
+                    count += 1
+                    print("finish %d images" % count)
+
+            if OPERATION_COLOR:
+                for i in range(COLOR_NUM):
+                    img_processed = self.random_hsv_transform(img,1,1,1)
+                    cv.imwrite(OUTPUT_ROOT + '/' + str(count) + ".jpg", img_processed)
+                    count += 1
+                    print("finish %d images" % count)
+
+            if OPERATION_ROTATION:
+                for i in range(NOISY_NUM):
+                    img_processed = self.salt(img)
+                    cv.imwrite(OUTPUT_ROOT + '/' + str(count) + ".jpg", img_processed)
+                    count += 1
+                    print("finish %d images" % count)
+
+        # cv.imshow("test",img)
+        # cv.waitKey()
 
 
     def mainFunc(self):

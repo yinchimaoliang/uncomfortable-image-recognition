@@ -8,7 +8,7 @@ import cv2 as cv
 
 
 IMG_PATH = './data/garbage/2.img_3492.jpg'
-MODEL_PATH = './net.tar'
+MODEL_PATH = './net_3classes.tar'
 SALIENCY_TH = 0.0005
 RED_TH = 128
 BLUE_TH = 64
