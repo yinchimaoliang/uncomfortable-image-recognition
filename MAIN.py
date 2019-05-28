@@ -7,7 +7,7 @@ import cv2 as cv
 
 
 
-IMG_PATH = './data/blood/47.99431d1256182347-several-different-pictures-people-cut-throat-patho8d.jpg'
+IMG_PATH = './data/origin/others/56852972_505218246681185_9146284481805262836_n.jpg'
 MODEL_PATH = './net.tar'
 SALIENCY_TH = 0.0005
 RED_TH = 128
@@ -90,7 +90,7 @@ class main():
     def mainFunc(self):
         label = self.predict()[0]
         print(label)
-        if label == 2:
+        if label == 0:
             self.getBlur()
 
 if __name__ == '__main__':

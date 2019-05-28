@@ -4,15 +4,15 @@ from PIL import Image, ImageEnhance, ImageOps, ImageFile
 import random
 import numpy as np
 
-FOLD_ROOT = './data/origin/Post-war-ruins'
-OUTPUT_ROOT = './data/processed/Post-war-ruins'
+FOLD_ROOT = './data/origin/famine'
+OUTPUT_ROOT = './data/processed/famine'
 #操作类型
 #旋转
 OPERATION_ROTATION = True
-ROTATION_NUM = 3
+ROTATION_NUM = 4
 #颜色
 OPERATION_COLOR = True
-COLOR_NUM = 3
+COLOR_NUM = 4
 #高斯噪声
 OPERATION_NOISY = True
 NOISY_NUM = 4
