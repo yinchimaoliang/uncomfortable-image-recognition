@@ -7,8 +7,8 @@ import cv2 as cv
 
 
 
-IMG_PATH = './data/garbage/2.img_3492.jpg'
-MODEL_PATH = './net_3classes.tar'
+IMG_PATH = './data/blood/47.99431d1256182347-several-different-pictures-people-cut-throat-patho8d.jpg'
+MODEL_PATH = './net.tar'
 SALIENCY_TH = 0.0005
 RED_TH = 128
 BLUE_TH = 64

@@ -4,20 +4,22 @@ from PIL import Image, ImageEnhance, ImageOps, ImageFile
 import random
 import numpy as np
 
-FOLD_ROOT = './data/blood'
-OUTPUT_ROOT = './data/processed/blood'
+FOLD_ROOT = './data/origin/Post-war-ruins'
+OUTPUT_ROOT = './data/processed/Post-war-ruins'
 #操作类型
 #旋转
 OPERATION_ROTATION = True
-ROTATION_NUM = 5
+ROTATION_NUM = 3
 #颜色
-OPERATION_COLOR = False
-COLOR_NUM = 5
+OPERATION_COLOR = True
+COLOR_NUM = 3
 #高斯噪声
 OPERATION_NOISY = True
-NOISY_NUM = 5
+NOISY_NUM = 4
 #随机删除比例
 DELETE_SCALE = 0.9
+
+IMAGE_SIZE = 64
 
 class main():
     def __init__(self,root):
@@ -164,6 +166,7 @@ class main():
                 for i in range(ROTATION_NUM):
                     # img_processed = self.addGaussianNoise(img,0.5)
                     img_processed = self.random_rotate(img,90,1)
+                    img_processed = cv.resize(img_processed,(IMAGE_SIZE,IMAGE_SIZE))
                     cv.imwrite(OUTPUT_ROOT + '/' + str(count) + ".jpg",img_processed)
                     count += 1
                     print("finish %d images" % count)
@@ -171,6 +174,7 @@ class main():
             if OPERATION_COLOR:
                 for i in range(COLOR_NUM):
                     img_processed = self.random_hsv_transform(img,1,1,1)
+                    img_processed = cv.resize(img_processed, (IMAGE_SIZE, IMAGE_SIZE))
                     cv.imwrite(OUTPUT_ROOT + '/' + str(count) + ".jpg", img_processed)
                     count += 1
                     print("finish %d images" % count)
@@ -178,6 +182,7 @@ class main():
             if OPERATION_ROTATION:
                 for i in range(NOISY_NUM):
                     img_processed = self.salt(img)
+                    img_processed = cv.resize(img_processed, (IMAGE_SIZE, IMAGE_SIZE))
                     cv.imwrite(OUTPUT_ROOT + '/' + str(count) + ".jpg", img_processed)
                     count += 1
                     print("finish %d images" % count)
