@@ -7,7 +7,7 @@ import cv2 as cv
 
 
 
-IMG_PATH = './data/origin/others/56852972_505218246681185_9146284481805262836_n.jpg'
+IMG_PATH = './data/origin/blood/2.220-blood-girl_1001139f.jpg'
 MODEL_PATH = './net.tar'
 SALIENCY_TH = 0.0005
 RED_TH = 128

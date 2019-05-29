@@ -4,20 +4,20 @@ from PIL import Image, ImageEnhance, ImageOps, ImageFile
 import random
 import numpy as np
 
-FOLD_ROOT = './data/origin/famine'
-OUTPUT_ROOT = './data/processed/famine'
+FOLD_ROOT = './data/origin/others'
+OUTPUT_ROOT = './data/processed/Post-war-ruins'
 #操作类型
 #旋转
-OPERATION_ROTATION = True
+OPERATION_ROTATION = False
 ROTATION_NUM = 4
 #颜色
-OPERATION_COLOR = True
+OPERATION_COLOR = False
 COLOR_NUM = 4
 #高斯噪声
 OPERATION_NOISY = True
-NOISY_NUM = 4
+NOISY_NUM = 1
 #随机删除比例
-DELETE_SCALE = 0.9
+DELETE_SCALE = 0.8
 
 IMAGE_SIZE = 64
 
@@ -179,7 +179,7 @@ class main():
                     count += 1
                     print("finish %d images" % count)
 
-            if OPERATION_ROTATION:
+            if OPERATION_NOISY:
                 for i in range(NOISY_NUM):
                     img_processed = self.salt(img)
                     img_processed = cv.resize(img_processed, (IMAGE_SIZE, IMAGE_SIZE))
@@ -192,9 +192,9 @@ class main():
 
 
     def mainFunc(self):
-        self.dataAugmentation()
+        # self.dataAugmentation()
         # self.compressImages()
-        # self.deleteFile()
+        self.deleteFile()
 
 
 
