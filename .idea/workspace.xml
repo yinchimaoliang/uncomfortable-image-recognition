@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aefb6f5-4148-464a-bb17-cacc434cfb57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log/train_after_data_augmentation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA_AUGMENTATION.py" beforeDir="false" afterPath="$PROJECT_DIR$/DATA_AUGMENTATION.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MAIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/test_after_data_augmentation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/train.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="135">
+              <caret line="9" column="80" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="80" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -32,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MAIN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="1425">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -160,29 +155,6 @@
             <path>
               <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="origin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="origin" type="462c0819:PsiDirectoryNode" />
-              <item name="blood" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unsuitable-picture-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unsuitable-picture-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,14 +320,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959038" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49918076" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918076" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -564,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MAKE-LABELS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="135">
+          <caret line="9" column="80" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="80" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -574,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MAIN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="1425">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

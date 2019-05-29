@@ -6,7 +6,7 @@ import numpy as np
 import cv2 as cv
 
 
-
+DIC = ["blood","famine","garbage","Post-war-ruins","others"]
 IMG_PATH = './data/origin/blood/2.220-blood-girl_1001139f.jpg'
 MODEL_PATH = './net.tar'
 SALIENCY_TH = 0.0005
@@ -37,12 +37,11 @@ class main():
         data = data.to(self.device)
         # print(data)
         output = self.net(data)
-        print(output)
-        _, predicted = torch.max(output.data, 1)
-        # print(predicted)
-        # total += labels.size(0)
-        predicted = predicted.cpu().numpy()
-        return predicted
+        m = output.cpu().data.numpy()[0]
+        m_exp = np.exp(m)
+        m_exp_row_sum = m_exp.sum(axis=0)
+        softmax = m_exp / m_exp_row_sum
+        return softmax
 
     def getSaliency(self):
         data = self.transform(self.img)
@@ -51,7 +50,6 @@ class main():
         data.requires_grad_()
     # img = torch.tensor([self.img]).type('torch.FloatTensor').cuda()
         output = self.net(data)
-        print(output)
         _, predicted = torch.max(output.data, 1)
         # total += labels.size(0)
         predicted = predicted.cpu().numpy()
@@ -88,8 +86,11 @@ class main():
 
 
     def mainFunc(self):
-        label = self.predict()[0]
-        print(label)
+        predict = self.predict()
+        label = np.argmax(predict,0)
+        for i in range(len(predict)):
+            print("%s类的概率为:%.5f%%" % (DIC[i],predict[i] * 100))
+        # print(label)
         if label == 0:
             self.getBlur()
 
