@@ -4,7 +4,7 @@ import torch.optim as optim
 import torchvision
 import torchvision.transforms as transforms
 import argparse
-from MYRESNET import ResNet18
+from MYRESNET import ResNet34
 from torch.utils.data import Dataset
 import cv2
 import numpy as np
@@ -62,7 +62,7 @@ class MAIN():
         self.train_loader = torch.utils.data.DataLoader(self.train_set,batch_size = BATCH_SIZE,shuffle = True)
         self.test_set = MyDataset(test_path,transforms = self.transform)
         self.test_loader = torch.utils.data.DataLoader(self.test_set,batch_size = BATCH_SIZE,shuffle = True)
-        self.net = ResNet18(num_classes = CLASS_NUM).to(self.device)
+        self.net = ResNet34(num_classes = CLASS_NUM).to(self.device)
         self.criterion = nn.CrossEntropyLoss()
         self.optimizer = optim.SGD(self.net.parameters(),lr = LR,momentum = 0.9,weight_decay = 5e-4)
         print(len(self.train_loader))

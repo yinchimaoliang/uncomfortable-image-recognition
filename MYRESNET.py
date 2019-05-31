@@ -34,10 +34,10 @@ class ResNet(nn.Module):
             nn.BatchNorm2d(64),
             nn.ReLU(),
         )
-        self.layer1 = self.make_layer(ResidualBlock, 64,  2, stride=1)
-        self.layer2 = self.make_layer(ResidualBlock, 128, 2, stride=2)
-        self.layer3 = self.make_layer(ResidualBlock, 256, 2, stride=2)
-        self.layer4 = self.make_layer(ResidualBlock, 512, 2, stride=2)
+        self.layer1 = self.make_layer(ResidualBlock, 64,  3, stride=1)
+        self.layer2 = self.make_layer(ResidualBlock, 128, 4, stride=2)
+        self.layer3 = self.make_layer(ResidualBlock, 256, 6, stride=2)
+        self.layer4 = self.make_layer(ResidualBlock, 512, 3, stride=2)
         self.fc = nn.Linear(2048, num_classes)
 
     def make_layer(self, block, channels, num_blocks, stride):
@@ -60,5 +60,5 @@ class ResNet(nn.Module):
         return out
 
 
-def ResNet18(num_classes):
+def ResNet34(num_classes):
     return ResNet(ResidualBlock,num_classes = num_classes)
