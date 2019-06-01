@@ -6,8 +6,8 @@ LOG_PATH = './log'
 
 class main():
     def __init__(self):
-        self.test_file = LOG_PATH + '/' + 'test_after_data_augmentation.txt'
-        self.train_file = LOG_PATH + '/' + 'train_after_data_augmentation.txt'
+        self.test_file = LOG_PATH + '/' + 'test.txt'
+        self.train_file = LOG_PATH + '/' + 'train.txt'
 
 
         self.train_log = []
@@ -32,6 +32,8 @@ class main():
     def drawData(self):
         x_label = [i + 1 for i in range(len(self.test_log))]
         plt.axis([0,30,0,100])
+        plt.xlabel("epoch")
+        plt.ylabel("accuracy")
         plt.plot(x_label,self.train_log,'r',label = 'train')
         plt.plot(x_label,self.test_log,'g',label = 'test')
         plt.legend()
