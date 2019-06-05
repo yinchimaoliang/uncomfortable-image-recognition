@@ -6,8 +6,8 @@ LOG_PATH = './log'
 
 class main():
     def __init__(self):
-        self.test_file = LOG_PATH + '/' + 'test.txt'
-        self.train_file = LOG_PATH + '/' + 'train.txt'
+        self.test_file = LOG_PATH + '/' + 'test_res34.txt'
+        self.train_file = LOG_PATH + '/' + 'train_res34.txt'
 
 
         self.train_log = []
